@@ -15,7 +15,7 @@ The project connects four experiments:
 
 The **energy bridge** is a central idea in the replay experiments. We order correctly classified source-training examples by predicted mixing free energy and retain examples with opposing reference labels around the first transition from the high-energy end. With a 20-example memory, the P2 strict bridge reached source AP 0.9518 at 150 target labels, compared with 0.7906 for its class-matched random control. Target performance and source retention trade off, and the smaller active-200 source pools gave a more mixed picture. A strict P3 bridge and its later downstream extension are reported separately.
 
-The accompanying **manuscript, Version 10**, develops the scientific questions, methods, results, and limitations.
+The [accompanying manuscript (PDF)](Mixture_Thermodynamics_Manuscript_Bundle/Mixture_Thermodynamics_Manuscript/Mixture_Thermodynamics_Manuscript_10.pdf) presents the scientific questions, methods, results, and limitations.
 
 ## Reproduce or explore
 
@@ -25,7 +25,15 @@ See **[REPRODUCE.md](REPRODUCE.md)** for the calculation sequence, verified comm
 - `data/structures/` contains starting molecular geometries; `calculations/` contains the generated surfaces and selected calculation records.
 - `results/ml/` retains the original P1–P4 organization, including datasets, splits, acquisition records, replay memories, selected models, and result tables.
 - [RUN_SETTINGS.json](RUN_SETTINGS.json) summarizes settings extracted from the original run records.
-- Larger checkpoint collections and detailed searches are assigned to GitHub Release archives; their download links will be added with the first release.
+### Additional scientific data — v1.0.0
+
+The [v1.0.0 GitHub Release](https://github.com/qdms91/mixture-thermodynamics-ml/releases/tag/v1.0.0) provides three supplementary archives:
+
+- [Additional trained models and fitting records](https://github.com/qdms91/mixture-thermodynamics-ml/releases/download/v1.0.0/models_and_fit_records_public.zip)
+- [Detailed reference calculations and stability searches](https://github.com/qdms91/mixture-thermodynamics-ml/releases/download/v1.0.0/reference_searches.zip)
+- [Detailed prediction datasets](https://github.com/qdms91/mixture-thermodynamics-ml/releases/download/v1.0.0/detailed_predictions.zip)
+
+The archives preserve the original project-relative directory structure. Extract the required files into the repository root. See [REPRODUCE.md](REPRODUCE.md) for the experimental workflows and reproduction instructions.
 
 The calculations use [openCOSMO-RS_py](https://github.com/TUHH-TVT/openCOSMO-RS_py), its [24a parameterization](https://www.sciencedirect.com/science/article/pii/S0378381224002255), and [ORCA](https://www.faccts.de/orca/). ORCA is needed when regenerating molecular surfaces. The Python calculations can start directly from the supplied surfaces.
 
