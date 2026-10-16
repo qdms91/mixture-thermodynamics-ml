@@ -1,0 +1,21 @@
+{
+  "selected_by_validation": {
+    "baseline": {
+      "id": "mean_excess",
+      "family": "baseline"
+    },
+    "boosting": {
+      "id": "boost_l31_r0.1",
+      "family": "boosting",
+      "max_leaf_nodes": 31,
+      "learning_rate": 0.1
+    },
+    "ridge": {
+      "id": "ridge_d4_a0.0001",
+      "family": "ridge",
+      "degree": 4,
+      "alpha": 0.0001
+    }
+  },
+  "preferred_family_by_validation": "ridge"
+}

@@ -1,0 +1,6 @@
+family,seed,eligible_examples,eligible_positives,eligible_negatives,status,tenth_positive_rank,tenth_positive_recipe_id,tenth_positive_g_mix_kJ_mol,excluded_negatives_before_tenth_positive,downstream_negatives_available,first_selected_negative_rank,last_selected_negative_rank,skipped_positives_during_negative_scan,equal_energy_across_boundary
+p3_active200,11,200,35,165,available,11,x_0.28_0.16_0.15_0.19_0.22,-2.478268665378082,1,164,20,41,20,False
+p3_active200,22,200,38,162,available,11,x_0.28_0.16_0.15_0.19_0.22,-2.478268665378082,1,161,15,43,22,False
+p3_active200,33,200,38,162,available,11,x_0.16_0.19_0.15_0.15_0.35,-2.4779144868831238,1,161,14,44,23,False
+p3_active200,44,200,37,163,available,11,x_0.28_0.15_0.16_0.19_0.22,-2.4946370302956318,1,162,12,42,21,False
+p3_active200,55,200,47,153,available,10,x_0.19_0.18_0.15_0.15_0.33,-2.449394778382893,0,153,12,52,32,False

@@ -1,0 +1,22 @@
+{
+  "protocol_sha256": "8466822cdb92ef06e57a01933ebe4b9ff8bd428b66d5876e27f33ee71127c300",
+  "stages": [
+    1,
+    2
+  ],
+  "evaluated_fits": 270,
+  "files_sha256": {
+    "paired_controls.csv": "56448b235d2eaa8142e719989b4ee7ff81907adc1e09ef9e83b8712d548911b8",
+    "frozen_thresholds.json": "fc8b2ddbe3968bccd5679463fb04988d1d7def40e0bf0a2c38e5a8fafb059c64",
+    "retention_target_AP.png": "2f46ffa178725ce05bc1014b21a2110693605b6e5897428623e86c23edc66982",
+    "pure_endpoint_predictions.csv": "809bd497877c37dbec70d7a67ae7e2a87a1742085620a0ef7ef670b3d958d18c",
+    "memory_summary.csv": "df7eb8e16c1a3467e04990cc0f011b0348c42977db5595b2fa15637806d9d080",
+    "test_predictions.csv": "70e3e4555378076f865c9f8b11d600003608385ffbf4929580f2edf8b41b66b2",
+    "costs.csv": "a08793d50c3f3471f45896840125411375e805b4ab4103b01ee1a2101692f89e",
+    "frozen_source_metrics.csv": "71e274a6e7d99970a23fadc1e50611c6d6d13b1cd207a28717fc07463b7d3534",
+    "paired_replay_minus_none.csv": "684b84dbe07dd45932fb2922c08f366be0493509e62f90d404482f6f3be7c2f9",
+    "metrics.csv": "1ea67627f486e956fa8983282cd2932e6ed2a9b6cf00a899c4f95235d08a23a4",
+    "summary.csv": "6dfc40c22912f30644ff480cd184e1376a56d1f192c3ddc443f60a1b7c292f8a",
+    "source_retention_changes.csv": "8d0137dc7dfcd8dafa4462784ca66428c72199b3fff9892d73734c9eda33bafe"
+  }
+}

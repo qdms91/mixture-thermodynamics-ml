@@ -1,0 +1,16 @@
+test_group,total,labelled,positives,needs_review
+binary_acetone_acetonitrile,21,21,0,0
+binary_acetone_benzene,21,21,0,0
+binary_acetonitrile_benzene,21,21,0,0
+binary_methanol_acetone,21,21,0,0
+binary_methanol_acetonitrile,21,21,0,0
+binary_methanol_benzene,21,21,0,0
+binary_water_acetone,21,21,0,0
+binary_water_acetonitrile,21,21,0,0
+binary_water_benzene,21,21,15,0
+binary_water_methanol,21,21,0,0
+broad_ood,40,40,10,0
+mild_ood,40,40,8,0
+named_ood,2,2,2,0
+off_grid_in_domain,40,40,3,0
+pure_reference_check,5,5,0,0

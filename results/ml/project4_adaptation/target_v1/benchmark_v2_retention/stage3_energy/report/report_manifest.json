@@ -1,0 +1,20 @@
+{
+  "protocol_sha256": "ed85a45aabb94c623e43e246f1bbc8ab3a10ff71554e52b6ed5dd9e8297f6c10",
+  "evaluated_fits": 552,
+  "files_sha256": {
+    "memory_overlap.csv": "e8d30957ac2a443fb875ec3a4594dfa01f5445c5587edfbd0c26b5093ab4db14",
+    "frozen_thresholds.json": "754b7789a6dacf3b1a7311b311a473bfbe18ed4dbf62952c6e752dec78a544fc",
+    "test_predictions.csv.gz": "6327d943f16b01aa264dc9390dccc7e7ca5ae06bd7b37caed5ee42f170797c9d",
+    "availability.csv": "254444b1cf3f86562c944b39d4250d8c90bbbe7434e688e664e6befd7f08bd53",
+    "pure_endpoint_predictions.csv": "b7c775cd5081110547084266ffa528787baba1004c8be703ee82ebc15deffe31",
+    "memory_summary.csv": "d30dc484be192f5e9985039997bedceb304e6e4cc9a6a73825ef6c06dfd482fc",
+    "costs.csv": "972fbd0148e058350a13847b11b53d22db56af0e6d24c59ab5d6932e47769653",
+    "frozen_source_metrics.csv": "870e969180c173bce61f199c7513245db5b2ea9c9d25e107bc41f9bcd4f5099c",
+    "metrics.csv": "c6911a3185ea034e5cc0319a866c6cf623f0f25b6316603de760e77f9b777601",
+    "summary.csv": "7d14f0ef2f12692aa2ff81c91fff4055cceb587e9da3fa3bba4ef5dabedcba85",
+    "energy_retention_AP.png": "542aebb48528ac8d409f461fbc12eb26ac50cb48ad8cf2baa17e642e45a9ab55",
+    "paired_comparisons.csv": "c700cbdb90bf324afee1e89faaf9917c0e8e4b10c40d26a1befbb02682258fdd",
+    "source_retention_changes.csv": "80fb10f956db62d2de4af519f9cfe4b4339e478c60e6c20e5ca874767cdcdf0c",
+    "paired_summary.csv": "12786e849a6e6ba4a13b2cf9c6db585382a0708a8f558c954656f9dd766f3369"
+  }
+}

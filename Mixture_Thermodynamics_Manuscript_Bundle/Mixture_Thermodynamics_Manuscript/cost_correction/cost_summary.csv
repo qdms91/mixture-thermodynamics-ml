@@ -1,0 +1,14 @@
+origin,policy,report_entries,new_committee_fits,reused_alias_entries,incremental_fit_seconds,historical_fit_seconds_unique_contribution
+bridge_extension_new,downstream_bridge_class_matched20,24,24,0,358.8276843789990345,0.0
+bridge_extension_new,downstream_energy_bridge20,30,30,0,416.3195960119978778,0.0
+stage3_control_reused,downstream_bridge_class_matched20,6,0,6,0,0
+stage3_metrics_reused,bridge_class_matched20,6,0,0,0,103.859688052005365
+stage3_metrics_reused,energy_bridge20,6,0,0,0,90.440889915000299
+stage3_metrics_reused,highest_g20,30,0,0,0,434.255873071000680
+stage3_metrics_reused,highest_g_class_matched20,30,0,0,0,465.4296177509750045
+stage3_metrics_reused,lowest_g20,30,0,0,0,439.6309405450010796
+stage3_metrics_reused,lowest_g_class_matched20,30,0,0,0,442.1756599630316569
+stage3_metrics_reused,none,30,0,0,0,396.261104771000148
+stage3_metrics_reused,random20,30,0,0,0,433.501468239010141
+stage3_metrics_reused,slowest20,30,0,0,0,481.866539535018093
+stage3_metrics_reused,time_class_matched20,30,0,0,0,429.1924895739648485

@@ -1,0 +1,7 @@
+method,measurement,seconds
+ridge,batch_seconds_per_recipe,6.758934035874396e-07
+ridge,median_single_recipe_seconds,0.00017799199849832803
+boosting,batch_seconds_per_recipe,1.1038762969505317e-05
+boosting,median_single_recipe_seconds,0.0014148139998724218
+cosmors,median_single_recipe_seconds,0.14025476000097115
+cosmors,reference_campaign_wall_seconds,13.765278652001143

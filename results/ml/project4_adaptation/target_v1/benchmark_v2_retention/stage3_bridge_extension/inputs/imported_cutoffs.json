@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__transfer__n60",
+    "model_sha256": "29f0aaf867f1a5ff4873f604d63f8339138c31642e47b26cfb5abb980d22d958",
+    "target_cutoff": 0.8400378448932323,
+    "source_cutoff": 0.2974442514102886
+  },
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__scratch__n60",
+    "model_sha256": "73031a62a7300b3b34e255a9837d837836388a61eb4a6b46cb7d8dd7cd4e02a1",
+    "target_cutoff": 0.35769254084341034,
+    "source_cutoff": 0.45586803145108884
+  },
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__transfer__n150",
+    "model_sha256": "eb98544dbdd99c675c69030cb23a12c3b0e821e0f8ebf7abe32922e05cd76aef",
+    "target_cutoff": 0.7111549988692817,
+    "source_cutoff": 0.682788133951512
+  },
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__scratch__n150",
+    "model_sha256": "f9be76872afb0ec4cd6f02e5b3a2161562b6987f1ba958b27995fe666186d628",
+    "target_cutoff": 0.725465516197171,
+    "source_cutoff": 0.32353711027136933
+  },
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__transfer__n300",
+    "model_sha256": "10a56f9dea88b6162a5faf0d0f2f408e3017221f7939417d8f0753ef4ff2e06a",
+    "target_cutoff": 0.1700813042912522,
+    "source_cutoff": 0.7417570579710003
+  },
+  {
+    "job_id": "p3_active200__s55__downstream_bridge_class_matched20__scratch__n300",
+    "model_sha256": "e59f6134cd5e13501884e298df7e296269f0c25a03dc84837b4e947ec36d2a37",
+    "target_cutoff": 0.8358996125224817,
+    "source_cutoff": 0.3509164603183496
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "final_fits_with_convergence_warning": 0,
+  "note": "Inspect warnings before interpreting an affected model as fully optimized; warnings and iterations are in selections.json and search files."
+}

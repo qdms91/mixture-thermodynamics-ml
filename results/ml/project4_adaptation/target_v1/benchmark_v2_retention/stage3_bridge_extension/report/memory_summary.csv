@@ -1,0 +1,11 @@
+family,seed,policy,memory_size,positive_labels,g_mix_min_kJ_mol,g_mix_max_kJ_mol,distinct_blocks
+p3_active200,11,downstream_energy_bridge20,20,10,-2.5751111879842137,-2.3562960518581333,6
+p3_active200,11,downstream_bridge_class_matched20,20,10,-2.85897702824714,-2.3562960518581333,11
+p3_active200,22,downstream_energy_bridge20,20,10,-2.5751111879842137,-2.3562960518581333,6
+p3_active200,22,downstream_bridge_class_matched20,20,10,-3.041867725791242,-2.3562960518581333,13
+p3_active200,33,downstream_energy_bridge20,20,10,-2.5751111879842137,-2.3562960518581333,7
+p3_active200,33,downstream_bridge_class_matched20,20,10,-3.067067019888631,-2.4058016874108628,12
+p3_active200,44,downstream_energy_bridge20,20,10,-2.5751111879842137,-2.3562960518581333,7
+p3_active200,44,downstream_bridge_class_matched20,20,10,-2.8637407269483868,-2.406425808466572,9
+p3_active200,55,downstream_energy_bridge20,20,10,-2.5740742291186707,-2.3562960518581333,7
+p3_active200,55,downstream_bridge_class_matched20,20,10,-3.029373738070372,-2.3736788774420536,11

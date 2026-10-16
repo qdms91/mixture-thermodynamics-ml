@@ -1,0 +1,1014 @@
+{
+  "description": "Scientific settings extracted from the original saved records. Runtime scripts continue to use their original per-run files. This summary does not replace those files or their integrity checks.",
+  "molecular_software": {
+    "ORCA": "6.1.1",
+    "orca-pi": "2.0.0",
+    "openCOSMO-RS_py_commit": "c2bc186762e4a2a3e6bb547fc9cbc917ed35d9b0",
+    "parameterization": "openCOSMORS24a"
+  },
+  "P1": {
+    "source_record": "results/ml/project1_regression/run_20261004_134348_552708/run_metadata.json",
+    "original_record_sha256": "24b272033a05476599fb1837130f768e4b972c82be1cd5d6840b57e1caa5ce81",
+    "settings": {
+      "temperature_K": 298.15,
+      "molecule_order": [
+        "water",
+        "methanol",
+        "acetone",
+        "acetonitrile",
+        "benzene"
+      ],
+      "features": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "target": "g_excess_kJ_mol",
+      "implied_fraction": "x_benzene",
+      "split_counts": {
+        "train_pool": 17121,
+        "test": 3758,
+        "validation": 2872
+      },
+      "training_sizes": [
+        100,
+        300,
+        1000,
+        3000,
+        10000,
+        17121
+      ],
+      "subset_seeds": [
+        42,
+        88,
+        123
+      ],
+      "settings": [
+        {
+          "id": "mean_excess",
+          "family": "baseline"
+        },
+        {
+          "id": "ridge_d2_a0.0001",
+          "family": "ridge",
+          "degree": 2,
+          "alpha": 0.0001
+        },
+        {
+          "id": "ridge_d2_a0.01",
+          "family": "ridge",
+          "degree": 2,
+          "alpha": 0.01
+        },
+        {
+          "id": "ridge_d2_a1",
+          "family": "ridge",
+          "degree": 2,
+          "alpha": 1.0
+        },
+        {
+          "id": "ridge_d3_a0.0001",
+          "family": "ridge",
+          "degree": 3,
+          "alpha": 0.0001
+        },
+        {
+          "id": "ridge_d3_a0.01",
+          "family": "ridge",
+          "degree": 3,
+          "alpha": 0.01
+        },
+        {
+          "id": "ridge_d3_a1",
+          "family": "ridge",
+          "degree": 3,
+          "alpha": 1.0
+        },
+        {
+          "id": "ridge_d4_a0.0001",
+          "family": "ridge",
+          "degree": 4,
+          "alpha": 0.0001
+        },
+        {
+          "id": "ridge_d4_a0.01",
+          "family": "ridge",
+          "degree": 4,
+          "alpha": 0.01
+        },
+        {
+          "id": "ridge_d4_a1",
+          "family": "ridge",
+          "degree": 4,
+          "alpha": 1.0
+        },
+        {
+          "id": "boost_l7_r0.05",
+          "family": "boosting",
+          "max_leaf_nodes": 7,
+          "learning_rate": 0.05
+        },
+        {
+          "id": "boost_l7_r0.1",
+          "family": "boosting",
+          "max_leaf_nodes": 7,
+          "learning_rate": 0.1
+        },
+        {
+          "id": "boost_l15_r0.05",
+          "family": "boosting",
+          "max_leaf_nodes": 15,
+          "learning_rate": 0.05
+        },
+        {
+          "id": "boost_l15_r0.1",
+          "family": "boosting",
+          "max_leaf_nodes": 15,
+          "learning_rate": 0.1
+        },
+        {
+          "id": "boost_l31_r0.05",
+          "family": "boosting",
+          "max_leaf_nodes": 31,
+          "learning_rate": 0.05
+        },
+        {
+          "id": "boost_l31_r0.1",
+          "family": "boosting",
+          "max_leaf_nodes": 31,
+          "learning_rate": 0.1
+        }
+      ],
+      "selection_rule": "Mean validation MAE; select separately by family and training size",
+      "test_rule": "Evaluate only the full-training selections, after all selections are saved",
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.6",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.8.0",
+        "joblib": "1.6.0",
+        "matplotlib": "3.11.2"
+      },
+      "calculation_metadata": {
+        "campaign": "thermo",
+        "seed": 88,
+        "starts": null,
+        "temperature_K": 298.15,
+        "molecule_order": [
+          "water",
+          "methanol",
+          "acetone",
+          "acetonitrile",
+          "benzene"
+        ],
+        "source": "calculated",
+        "versions": {
+          "numpy": "2.4.6",
+          "scipy": "1.17.1",
+          "pandas": "3.0.6",
+          "opencosmorspy": "0.0.1"
+        },
+        "temperature_steps_K": [
+          1.0,
+          2.0
+        ],
+        "cosmospace_convergence": 1e-10,
+        "cosmospace_max_iter": 3000,
+        "tpd_tolerance": 1e-06,
+        "mole_fraction_floor": 1e-10,
+        "sha256": {
+          "surface:water": "ff3531888cfd6ed086f93f0a058852dfb56d5b34a43ce9bfa244d5c0192fd2b3",
+          "surface:methanol": "5b48d948ebbff7ea137ceaecc3f845a63ee3c8bec2f2c073ca3bfe86c193e1ca",
+          "surface:acetone": "9915a41605cd97fbeca230fc747030a9eab277c012cc3083c6b2ee81892036c1",
+          "surface:acetonitrile": "b3a33520d2f85c775ae9fdad4790a6dce421256c848b470bc62b565a4b924fee",
+          "surface:benzene": "9f0db1f90c97c98779a852c9c157fe2028f78c3216869c262776d9e8e7e00ab0",
+          "mixture_thermodynamics.py": "58bee706ca714146b9b5d25be0fc85301fd350d1c83ff477a69738e043928189",
+          "phase_stability.py": "af1bb478467c37e58e522beac2c048e693ef3cab80ad02ef0904f97e814a2892",
+          "project_config.py": "d530b9d05e83474c4bbd21a0e7e800cb3a51e0145cee802a44e3c96090ae9561",
+          "collect_ml_data.py": "4aee61131ddf6869a36f48bd8f7df33d239591dc90f3f9e53ef4d2ca518a4b35"
+        }
+      }
+    }
+  },
+  "P2_preparation": {
+    "source_record": "results/ml/project2_classification/prepared_seed2026/preparation.json",
+    "original_record_sha256": "d341876ce6a6ce9ce8d13c856b4cc13f851368f24397f6f745bbc57b8ed88888",
+    "settings": {
+      "selected_validation_fold": 2,
+      "validation_fold_balance": [
+        {
+          "fold": 0,
+          "class_balance_loss": 0.03069904824115204
+        },
+        {
+          "fold": 1,
+          "class_balance_loss": 0.00951197085572754
+        },
+        {
+          "fold": 2,
+          "class_balance_loss": 0.0023247213154368573
+        },
+        {
+          "fold": 3,
+          "class_balance_loss": 0.01016766377287801
+        },
+        {
+          "fold": 4,
+          "class_balance_loss": 0.017052439402957923
+        }
+      ],
+      "test_fold": 0,
+      "split_seed": 2026,
+      "inner_folds": 3,
+      "inner_seed": 2027,
+      "label_definition": "1: detected instability with negative explicit split; 0: none found by the recorded 40-start search",
+      "feature_policy": "Only explicit feed-feature whitelists; no TPD, split, convergence, timing or recipe identifiers as predictors",
+      "output_sha256": {
+        "descriptor_constants.json": "ec766c9b37632f63c195cd2e9ad95ac13e8714836b8ea1dab340c25e28a4d402",
+        "frozen_split.csv": "165e63f13fd99daf2037a07a700051112d3edbd0db5f1e22b434c030fc9409a1",
+        "excluded_needs_review.csv": "026a1a2dfb6c8c989c9159466b5aef887471faeb3d6943fde6bed82c338f7098",
+        "split_counts.csv": "cb7ce67f572ff3103e5e665f1e16a595859ee30c87932b7ea28853f110a2f9ef",
+        "classification_data.csv": "092c98339cc4dea9f9e6f76bc6ef253f8f93fe1ec0d3627dbcccaa78fb34723f",
+        "feature_groups.json": "0088d5e1979029b95a71cad762784989665c949291ff06f32f3c3ac19c8995c1"
+      }
+    }
+  },
+  "P2_benchmark": {
+    "source_record": "results/ml/project2_classification/benchmark_v1/run_metadata.json",
+    "original_record_sha256": "0ba69764143a34d6051379aeb661a4f07fc6a31c3dd7722222ec7a8f37f37218",
+    "settings": {
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.6",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.8.0",
+        "joblib": "1.6.0",
+        "matplotlib": "3.11.2",
+        "threadpoolctl": "3.7.0"
+      },
+      "settings": [
+        {
+          "family": "logistic",
+          "C": 0.1,
+          "weighted": false,
+          "setting_id": "logistic_00"
+        },
+        {
+          "family": "logistic",
+          "C": 0.1,
+          "weighted": true,
+          "setting_id": "logistic_01"
+        },
+        {
+          "family": "logistic",
+          "C": 1.0,
+          "weighted": false,
+          "setting_id": "logistic_02"
+        },
+        {
+          "family": "logistic",
+          "C": 1.0,
+          "weighted": true,
+          "setting_id": "logistic_03"
+        },
+        {
+          "family": "logistic",
+          "C": 10.0,
+          "weighted": false,
+          "setting_id": "logistic_04"
+        },
+        {
+          "family": "logistic",
+          "C": 10.0,
+          "weighted": true,
+          "setting_id": "logistic_05"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": "scale",
+          "weighted": false,
+          "setting_id": "svm_06"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": "scale",
+          "weighted": true,
+          "setting_id": "svm_07"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": 0.1,
+          "weighted": false,
+          "setting_id": "svm_08"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": 0.1,
+          "weighted": true,
+          "setting_id": "svm_09"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": 1.0,
+          "weighted": false,
+          "setting_id": "svm_10"
+        },
+        {
+          "family": "svm",
+          "C": 0.1,
+          "gamma": 1.0,
+          "weighted": true,
+          "setting_id": "svm_11"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": "scale",
+          "weighted": false,
+          "setting_id": "svm_12"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": "scale",
+          "weighted": true,
+          "setting_id": "svm_13"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": 0.1,
+          "weighted": false,
+          "setting_id": "svm_14"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": 0.1,
+          "weighted": true,
+          "setting_id": "svm_15"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": 1.0,
+          "weighted": false,
+          "setting_id": "svm_16"
+        },
+        {
+          "family": "svm",
+          "C": 1.0,
+          "gamma": 1.0,
+          "weighted": true,
+          "setting_id": "svm_17"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": "scale",
+          "weighted": false,
+          "setting_id": "svm_18"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": "scale",
+          "weighted": true,
+          "setting_id": "svm_19"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": 0.1,
+          "weighted": false,
+          "setting_id": "svm_20"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": 0.1,
+          "weighted": true,
+          "setting_id": "svm_21"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": 1.0,
+          "weighted": false,
+          "setting_id": "svm_22"
+        },
+        {
+          "family": "svm",
+          "C": 10.0,
+          "gamma": 1.0,
+          "weighted": true,
+          "setting_id": "svm_23"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": "scale",
+          "weighted": false,
+          "setting_id": "svm_24"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": "scale",
+          "weighted": true,
+          "setting_id": "svm_25"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": 0.1,
+          "weighted": false,
+          "setting_id": "svm_26"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": 0.1,
+          "weighted": true,
+          "setting_id": "svm_27"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": 1.0,
+          "weighted": false,
+          "setting_id": "svm_28"
+        },
+        {
+          "family": "svm",
+          "C": 100.0,
+          "gamma": 1.0,
+          "weighted": true,
+          "setting_id": "svm_29"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.0001,
+          "weighted": false,
+          "setting_id": "mlp_30"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.0001,
+          "weighted": true,
+          "setting_id": "mlp_31"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.01,
+          "weighted": false,
+          "setting_id": "mlp_32"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.01,
+          "weighted": true,
+          "setting_id": "mlp_33"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.1,
+          "weighted": false,
+          "setting_id": "mlp_34"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            64,
+            32
+          ],
+          "alpha": 0.1,
+          "weighted": true,
+          "setting_id": "mlp_35"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.0001,
+          "weighted": false,
+          "setting_id": "mlp_36"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.0001,
+          "weighted": true,
+          "setting_id": "mlp_37"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.01,
+          "weighted": false,
+          "setting_id": "mlp_38"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.01,
+          "weighted": true,
+          "setting_id": "mlp_39"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.1,
+          "weighted": false,
+          "setting_id": "mlp_40"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            128,
+            64
+          ],
+          "alpha": 0.1,
+          "weighted": true,
+          "setting_id": "mlp_41"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.0001,
+          "weighted": false,
+          "setting_id": "mlp_42"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.0001,
+          "weighted": true,
+          "setting_id": "mlp_43"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.01,
+          "weighted": false,
+          "setting_id": "mlp_44"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.01,
+          "weighted": true,
+          "setting_id": "mlp_45"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.1,
+          "weighted": false,
+          "setting_id": "mlp_46"
+        },
+        {
+          "family": "mlp",
+          "layers": [
+            256,
+            128,
+            64
+          ],
+          "alpha": 0.1,
+          "weighted": true,
+          "setting_id": "mlp_47"
+        }
+      ],
+      "feature_groups": {
+        "a_composition": [
+          "x_water",
+          "x_methanol",
+          "x_acetone",
+          "x_acetonitrile"
+        ],
+        "b_molecular": [
+          "x_water",
+          "x_methanol",
+          "x_acetone",
+          "x_acetonitrile",
+          "mean_molar_mass_g_mol",
+          "mean_atom_count",
+          "atom_moles_H_per_mol_mixture",
+          "atom_moles_C_per_mol_mixture",
+          "atom_moles_N_per_mol_mixture",
+          "atom_moles_O_per_mol_mixture",
+          "atom_moles_from_water_per_mol_mixture",
+          "atom_moles_from_methanol_per_mol_mixture",
+          "atom_moles_from_acetone_per_mol_mixture",
+          "atom_moles_from_acetonitrile_per_mol_mixture",
+          "atom_moles_from_benzene_per_mol_mixture",
+          "volume_additive_molar_volume_mL_mol",
+          "volume_additive_density_g_mL"
+        ],
+        "c_all": [
+          "x_water",
+          "x_methanol",
+          "x_acetone",
+          "x_acetonitrile",
+          "mean_molar_mass_g_mol",
+          "mean_atom_count",
+          "atom_moles_H_per_mol_mixture",
+          "atom_moles_C_per_mol_mixture",
+          "atom_moles_N_per_mol_mixture",
+          "atom_moles_O_per_mol_mixture",
+          "atom_moles_from_water_per_mol_mixture",
+          "atom_moles_from_methanol_per_mol_mixture",
+          "atom_moles_from_acetone_per_mol_mixture",
+          "atom_moles_from_acetonitrile_per_mol_mixture",
+          "atom_moles_from_benzene_per_mol_mixture",
+          "volume_additive_molar_volume_mL_mol",
+          "volume_additive_density_g_mL",
+          "g_excess_kJ_mol",
+          "h_mix_kJ_mol",
+          "s_mix_J_mol_K",
+          "ln_gamma_water",
+          "ln_gamma_methanol",
+          "ln_gamma_acetone",
+          "ln_gamma_acetonitrile",
+          "ln_gamma_benzene"
+        ],
+        "d_thermodynamics": [
+          "x_water",
+          "x_methanol",
+          "x_acetone",
+          "x_acetonitrile",
+          "g_excess_kJ_mol",
+          "h_mix_kJ_mol",
+          "s_mix_J_mol_K"
+        ],
+        "e_activity": [
+          "x_water",
+          "x_methanol",
+          "x_acetone",
+          "x_acetonitrile",
+          "ln_gamma_water",
+          "ln_gamma_methanol",
+          "ln_gamma_acetone",
+          "ln_gamma_acetonitrile",
+          "ln_gamma_benzene"
+        ]
+      },
+      "bootstrap": 1000,
+      "mlp_cv_seeds": [
+        88,
+        2026
+      ],
+      "mlp_final_seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "hyperparameter_metric": "mean grouped training-CV average precision",
+      "threshold_metric": "validation instability F1; ties prefer recall then lower threshold",
+      "final_fit": "training only; validation is not absorbed after choosing thresholds"
+    }
+  },
+  "P3": {
+    "source_record": "results/ml/project3_active_learning/benchmark_v1/protocol.json",
+    "original_record_sha256": "8ef3cfe748c9545f716241254f9ef6e912c5b1457f0f0f69393059c2981f1466",
+    "settings": {
+      "config": {
+        "initial": 100,
+        "batch": 25,
+        "committee": 3,
+        "layers": [
+          128,
+          64
+        ],
+        "alpha": 0.01,
+        "max_epochs": 1200,
+        "target_ap": 0.98,
+        "target_recall": 0.9,
+        "budgets": [
+          100,
+          200,
+          400,
+          800
+        ]
+      },
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "strategies": [
+        "random",
+        "space_filling",
+        "uncertainty_diversity"
+      ],
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "acquisition_distance_columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "x_benzene"
+      ],
+      "split_counts": {
+        "train": 1191,
+        "test": 495,
+        "validation": 314
+      },
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.6",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.8.0",
+        "joblib": "1.6.0",
+        "threadpoolctl": "3.7.0"
+      },
+      "learner": "Fresh balanced MLP committee; fixed settings, no hyperparameter search or pretrained weights. One training-only continuation at twice the iteration cap if needed.",
+      "acquisition": "Jensen-Shannon disagreement + .25 predictive entropy; top 5*informed shortlist; farthest-first; 20% random exploration.",
+      "heldout_policy": "Validation labels used only for final thresholds; test labels only for final reporting.",
+      "interpretation": "Retrospective follow-up after Project 2; existing test has already been inspected."
+    }
+  },
+  "P4_frozen": {
+    "source_record": "results/ml/project4_frozen_ood/pilot_v1/protocol.json",
+    "original_record_sha256": "4419bfa947934a3a64538f922db7eaf36fd0e1b6d584bb4f5a8c5e06d640f1ea",
+    "settings": {
+      "temperature_K": 298.15,
+      "sample_seed": 20261006,
+      "per_group": 40,
+      "binary_grid": "pilot",
+      "role": "Exploratory frozen challenge; do not recycle these labels into a claimed independent final test.",
+      "source_selection": "Project 2 composition families plus molecular MLP; Project 3 active committees at declared budgets, all available seeds. Budget 200 was highlighted after source-test inspection.",
+      "versions": {
+        "numpy": "2.4.6",
+        "pandas": "3.0.6",
+        "scipy": "1.17.1",
+        "scikit-learn": "1.8.0",
+        "joblib": "1.6.0"
+      }
+    }
+  },
+  "P4_target": {
+    "source_record": "results/ml/project4_adaptation/target_v1/protocol.json",
+    "original_record_sha256": "a7a7ff4620998432f25740351c47cf74ed432c3e5eada2f816544c53cc77c0cb",
+    "settings": {
+      "sample_seed": 20261008,
+      "source": "p3",
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "temperature_K": 298.15,
+      "role": "New target block split; design informed by the inspected 337-recipe challenge.",
+      "source_validation_labels": 314,
+      "sklearn_version": "1.8.0"
+    }
+  },
+  "P4_adaptation": {
+    "source_record": "results/ml/project4_adaptation/target_v1/benchmark_v1/training_protocol.json",
+    "original_record_sha256": "462d1a5c345b2548ee6456bf010eb8a97c6ae4dc28f099fa6403d78581bc3f72",
+    "settings": {
+      "budgets": [
+        60,
+        150,
+        300
+      ],
+      "batch": 30,
+      "epochs": 1200,
+      "min_epochs": 100,
+      "patience": 60,
+      "tol": 1e-05,
+      "alpha": 0.01,
+      "learning_rate": 0.001,
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "source": "p3",
+      "dataset_sha256": "5143d9bf24a2e13750aabf9c1e93283407b761ad6c23391a822e14e4fcd66b0f"
+    }
+  },
+  "P4_retention": {
+    "source_record": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/protocol.json",
+    "original_record_sha256": "8466822cdb92ef06e57a01933ebe4b9ff8bd428b66d5876e27f33ee71127c300",
+    "settings": {
+      "schema": "retention_stages12_v1",
+      "training": {
+        "epochs": 1200,
+        "min_epochs": 100,
+        "patience": 60,
+        "tol": 1e-05,
+        "alpha": 0.01,
+        "learning_rate": 0.001,
+        "replay_share": 0.2
+      },
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "budgets": [
+        60,
+        150,
+        300
+      ],
+      "memory_size": 20,
+      "families": [
+        "p3_active200",
+        "p2_composition",
+        "p2_molecular"
+      ],
+      "replay_families": [
+        "p3_active200",
+        "p2_molecular"
+      ],
+      "policies": [
+        "random20",
+        "slowest20",
+        "time_class_matched20"
+      ],
+      "target_acquisition": "Fixed original transfer_active paths; no new acquisition or energy selection.",
+      "evaluation": "Fixed target validation F1 cutoff; source-validation cutoff is a separate diagnostic."
+    }
+  },
+  "P4_energy": {
+    "source_record": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_energy/protocol.json",
+    "original_record_sha256": "ed85a45aabb94c623e43e246f1bbc8ab3a10ff71554e52b6ed5dd9e8297f6c10",
+    "settings": {
+      "schema": "energy_replay_stage3_v1",
+      "training": {
+        "epochs": 1200,
+        "min_epochs": 100,
+        "patience": 60,
+        "tol": 1e-05,
+        "alpha": 0.01,
+        "learning_rate": 0.001,
+        "replay_share": 0.2
+      },
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "budgets": [
+        60,
+        150,
+        300
+      ],
+      "families": [
+        "p3_active200",
+        "p2_molecular"
+      ],
+      "ridge_training_recipe_count": 17121,
+      "ridge_split_counts": {
+        "train_pool": 17121,
+        "test": 3758,
+        "validation": 2872
+      },
+      "ridge_selection": {
+        "selected_by_validation": {
+          "baseline": {
+            "id": "mean_excess",
+            "family": "baseline"
+          },
+          "boosting": {
+            "id": "boost_l31_r0.1",
+            "family": "boosting",
+            "max_leaf_nodes": 31,
+            "learning_rate": 0.1
+          },
+          "ridge": {
+            "id": "ridge_d4_a0.0001",
+            "family": "ridge",
+            "degree": 4,
+            "alpha": 0.0001
+          }
+        },
+        "preferred_family_by_validation": "ridge"
+      },
+      "temperature_K": 298.15,
+      "new_reference_calculations": 0,
+      "imported_fits": 240,
+      "new_fits": 312,
+      "bridge_infeasibility": "Skip that family/seed and its paired control; never substitute a different anchor.",
+      "target_curriculum": "Same previous transfer_active paths for all arms; no new active acquisition.",
+      "energy_role": "Frozen predicted homogeneous molar mixing free energy for memory selection only.",
+      "evaluation": "Existing source/target held-out tests; follow-up comparison, not new untouched confirmation."
+    }
+  },
+  "P4_bridge_extension": {
+    "source_record": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_bridge_extension/protocol.json",
+    "original_record_sha256": "5d4f712be1289bd13f6c2cc252527de81f4462548596a7d2264a36a987f6199d",
+    "settings": {
+      "schema": "p3_downstream_bridge_extension_v1",
+      "exploratory_after_stage3_test_inspection": true,
+      "selection_rule": "First 10 eligible positives descending in predicted g_mix; then first 10 eligible negatives AFTER the tenth selected positive. Earlier negatives excluded. Ties: recipe_id ascending.",
+      "control_rule": "Random 10 positives and 10 negatives from entire eligible pool; Stage 3 seed convention.",
+      "training": {
+        "epochs": 1200,
+        "min_epochs": 100,
+        "patience": 60,
+        "tol": 1e-05,
+        "alpha": 0.01,
+        "learning_rate": 0.001,
+        "replay_share": 0.2
+      },
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "budgets": [
+        60,
+        150,
+        300
+      ],
+      "family": "p3_active200",
+      "baseline_entries": 252,
+      "planned_entries": 60,
+      "reused_controls": 6,
+      "new_fits": 54,
+      "ridge_training_recipe_count": 17121,
+      "energy_values_reused_from_stage3": true,
+      "new_reference_calculations": 0
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "budgets": [
+    60,
+    150,
+    300
+  ],
+  "batch": 30,
+  "epochs": 1200,
+  "min_epochs": 100,
+  "patience": 60,
+  "tol": 1e-05,
+  "alpha": 0.01,
+  "learning_rate": 0.001,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "dataset_sha256": "5143d9bf24a2e13750aabf9c1e93283407b761ad6c23391a822e14e4fcd66b0f",
+  "source": "p3",
+  "code_sha256": {
+    "project4_adaptation.py": "d283508216ff4ec2877776c5f0fd7a5317afce3d69b8d4f9681ebec6928492c3",
+    "project2_common.py": "9caa69835175d1bd0329d8d467169aab92fcc7c26f74a5f4511d646f2c9b6b01",
+    "project3_common.py": "9a21c7e0d52bfd371490d877be6d5d2eaba5f5e0a73b93a790c55ca8c3362910",
+    "project4_learning.py": "eb9a72802301a92d2687086c41fa1d7220f930098b1636823e66582aaf952b33",
+    "stress_test_stability.py": "8d799bb1111225e02c59a72e127b1adc40fd6d1876ceb5626ed4eeda7dd46158"
+  }
+}

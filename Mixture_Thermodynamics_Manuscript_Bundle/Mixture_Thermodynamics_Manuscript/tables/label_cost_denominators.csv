@@ -1,0 +1,7 @@
+experiment,basis,selected_labels,full_labels,reduction_pct
+P3 active-200,Training only,200,1191,83.20738874895046
+P3 active-200,Training + validation,514,1505,65.84717607973423
+P3 active-200,All including test,1009,2000,49.550000000000004
+P4 transfer-active-150,Training only,150,600,75.0
+P4 transfer-active-150,Training + validation,350,800,56.25
+P4 transfer-active-150,All including test,550,1000,44.99999999999999

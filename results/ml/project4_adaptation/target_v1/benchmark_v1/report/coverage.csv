@@ -1,0 +1,13 @@
+split,components,count,sum
+test,2,80,4
+test,3,40,6
+test,4,20,5
+test,5,60,20
+train,2,240,12
+train,3,120,21
+train,4,60,16
+train,5,180,63
+validation,2,80,6
+validation,3,40,6
+validation,4,20,4
+validation,5,60,14

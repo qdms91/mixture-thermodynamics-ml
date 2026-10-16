@@ -1,0 +1,6 @@
+molecule,surface_file
+water,calculations/water/water.solute.orcacosmo
+methanol,calculations/methanol/methanol.solute.orcacosmo
+acetone,calculations/acetone/acetone.solute.orcacosmo
+acetonitrile,calculations/acetonitrile/acetonitrile.solute.orcacosmo
+benzene,calculations/benzene/benzene.solute.orcacosmo

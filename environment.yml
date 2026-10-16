@@ -1,0 +1,19 @@
+name: cosmo-rs-1
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.16
+  - pip
+  - numpy=2.4.6
+  - scipy=1.17.1
+  - pandas=3.0.6
+  - matplotlib=3.11.2
+  - plotly=7.1.0
+  - git=2.56.0
+  - pip:
+      - scikit-learn==1.8.0
+      - orca-pi==2.0.0
+      - rdkit==2025.9.6
+      - opencosmorspy @ git+https://github.com/TUHH-TVT/openCOSMO-RS_py@c2bc186762e4a2a3e6bb547fc9cbc917ed35d9b0

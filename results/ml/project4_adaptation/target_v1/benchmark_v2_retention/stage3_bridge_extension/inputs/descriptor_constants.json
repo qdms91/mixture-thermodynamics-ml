@@ -1,0 +1,75 @@
+{
+  "molecule_order": [
+    "water",
+    "methanol",
+    "acetone",
+    "acetonitrile",
+    "benzene"
+  ],
+  "elements": [
+    "H",
+    "C",
+    "N",
+    "O"
+  ],
+  "atoms": [
+    [
+      2.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      4.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      6.0,
+      3.0,
+      0.0,
+      1.0
+    ],
+    [
+      3.0,
+      2.0,
+      1.0,
+      0.0
+    ],
+    [
+      6.0,
+      6.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "atomic_mass_g_mol": [
+    1.008,
+    12.011,
+    14.007,
+    15.999
+  ],
+  "molar_mass_g_mol": [
+    18.015,
+    32.042,
+    58.080000000000005,
+    41.053,
+    78.114
+  ],
+  "pure_density_g_mL": [
+    0.997,
+    0.7866,
+    0.7845,
+    0.7767,
+    0.8736
+  ],
+  "density_temperature_K": 298.15,
+  "density_sources": {
+    "water_methanol": "https://doi.org/10.1002/cite.202000058 (Table 2)",
+    "acetone": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5637464/ (solvent-property table)",
+    "acetonitrile": "https://doi.org/10.3389/fphy.2023.1208382 (Table 2; 0.78 bar)",
+    "benzene": "https://doi.org/10.1021/je900468u (Table 1)"
+  },
+  "density_definition": "sum(x*M) / sum(x*M/rho); additive pure-liquid volumes, not real mixture density"
+}

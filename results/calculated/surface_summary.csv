@@ -1,0 +1,6 @@
+molecule,source_file,segments,surface_area_A2,profile_area_A2
+water,calculations/water/water.solute.orcacosmo,252,42.90451838071685,42.90451838071685
+methanol,calculations/methanol/methanol.solute.orcacosmo,444,67.82431014604194,67.82431014632198
+acetone,calculations/acetone/acetone.solute.orcacosmo,711,104.26152278121992,104.2615227800998
+acetonitrile,calculations/acetonitrile/acetonitrile.solute.orcacosmo,539,82.58445218385887,82.58445218133862
+benzene,calculations/benzene/benzene.solute.orcacosmo,874,122.70768336276811,122.7076833608079

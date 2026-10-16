@@ -1,0 +1,24 @@
+%maxcore 1500
+%pal
+    nprocs 4
+end
+
+%output
+    jsonpropfile True
+    jsongbwfile True
+end
+
+! BP86 def2-TZVP TightSCF TightOpt CPCM
+%cpcm
+  radius[1] 1.30
+  radius[6] 2.00
+  radius[7] 1.83
+  radius[8] 1.72
+  cut_area 0.035710648
+end
+
+* xyz 0 1
+O             0.0075440000000000             0.3977430000000000             0.0000000000000000
+H            -0.7671030000000000            -0.1843930000000000             0.0000000000000000
+H             0.7595590000000000            -0.2133500000000000             0.0000000000000000
+*

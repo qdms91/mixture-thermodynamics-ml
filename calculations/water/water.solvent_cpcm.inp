@@ -1,0 +1,12 @@
+!BP86 def2-TZVPD CPCM
+%pal nprocs 4 end
+%maxcore 1500
+%cpcm
+cut_area   0.035700
+cosmorscalc true
+end
+*xyz 0 1
+  O      -0.000795      0.401428      0.000000
+  H      -0.764800     -0.202217      0.000000
+  H       0.765595     -0.199210      0.000000
+*

@@ -1,0 +1,21 @@
+first_negative_rank,first_negative_recipe_id,first_negative_g_mix_kJ_mol,preceding_positive_count,eligible_negative_count,status,reason,policy,family,seed,skipped_intervening_positive_count
+8,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,7,165,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,energy_bridge20,p3_active200,11,
+8,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,7,165,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,bridge_class_matched20,p3_active200,11,
+9,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,8,162,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,energy_bridge20,p3_active200,22,
+9,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,8,162,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,bridge_class_matched20,p3_active200,22,
+9,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,8,162,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,energy_bridge20,p3_active200,33,
+9,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,8,162,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,bridge_class_matched20,p3_active200,33,
+7,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,6,163,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,energy_bridge20,p3_active200,44,
+7,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,6,163,unavailable,Need ten positives above the FIRST negative and ten negatives from it downward.,bridge_class_matched20,p3_active200,44,
+12,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,11,153,available,,energy_bridge20,p3_active200,55,31.0
+12,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,11,153,available,,bridge_class_matched20,p3_active200,55,31.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,energy_bridge20,p2_molecular,11,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,bridge_class_matched20,p2_molecular,11,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,energy_bridge20,p2_molecular,22,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,bridge_class_matched20,p2_molecular,22,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,energy_bridge20,p2_molecular,33,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,bridge_class_matched20,p2_molecular,33,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,energy_bridge20,p2_molecular,44,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,bridge_class_matched20,p2_molecular,44,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,energy_bridge20,p2_molecular,55,37.0
+29,x_0.15_0.15_0.15_0.2_0.35,-2.4715074019834002,28,1100,available,,bridge_class_matched20,p2_molecular,55,37.0

@@ -1,0 +1,16 @@
+strategy,seed,target_ap,target_recall,first_evaluated_budget_meeting_both
+random,11,0.98,0.9,
+random,22,0.98,0.9,
+random,33,0.98,0.9,800.0
+random,44,0.98,0.9,800.0
+random,55,0.98,0.9,
+space_filling,11,0.98,0.9,
+space_filling,22,0.98,0.9,800.0
+space_filling,33,0.98,0.9,400.0
+space_filling,44,0.98,0.9,400.0
+space_filling,55,0.98,0.9,
+uncertainty_diversity,11,0.98,0.9,200.0
+uncertainty_diversity,22,0.98,0.9,200.0
+uncertainty_diversity,33,0.98,0.9,200.0
+uncertainty_diversity,44,0.98,0.9,200.0
+uncertainty_diversity,55,0.98,0.9,200.0

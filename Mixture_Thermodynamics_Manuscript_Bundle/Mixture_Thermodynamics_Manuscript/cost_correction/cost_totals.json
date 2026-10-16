@@ -1,0 +1,16 @@
+{
+  "input_sha256": "1ad12e12f3f9e9871b72390a8a08cc5511dcd5d71c1613d62b57f0d423c7c536",
+  "report_entries": 312,
+  "unique_recorded_comparison_fits": 306,
+  "new_committee_fits": 54,
+  "reused_control_aliases": 6,
+  "historical_comparison_entries": 252,
+  "incremental_fit_seconds": "775.1472803909969123",
+  "incremental_fit_minutes": "12.91912133984994853833333333",
+  "historical_fit_seconds_unique_contribution": "3716.6142714160073155",
+  "total_recorded_comparison_fit_seconds": "4491.7615518070042278",
+  "parent_fit_seconds_removed_from_incremental_total": "1975.7926692970140850",
+  "new_reference_calculations": 0,
+  "duration_interpretation": "Sum of recorded per-job elapsed fitting times; not campaign wall time or CPU time.",
+  "cost_scope": "Recorded comparison-model fits only. Not a complete end-to-end cost including source pretraining, Ridge training, acquisition, data generation, validation, feature generation or reporting."
+}

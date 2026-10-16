@@ -1,0 +1,3314 @@
+[
+  {
+    "job_id": "p3_active200__s11__none__transfer__n60",
+    "model_sha256": "8279fb7cefcc6812341c4ca5a0c103a0757fc21eefd2eb72bdddeb9a7c74954a",
+    "target_cutoff": 0.012478796544378215,
+    "source_cutoff": 0.414711404315832
+  },
+  {
+    "job_id": "p3_active200__s11__none__scratch__n60",
+    "model_sha256": "6e0c85d4f8dd5a10ac7e1195dd4589aab114e6cfbcf048ae2a026a229be58585",
+    "target_cutoff": 0.999890567260192,
+    "source_cutoff": 0.9999091938035357
+  },
+  {
+    "job_id": "p3_active200__s11__none__transfer__n150",
+    "model_sha256": "84c47a67f26294ac9249d67f8c16fc4eafee6b358fd6cf567845273f1ea7c804",
+    "target_cutoff": 0.6400916005976134,
+    "source_cutoff": 0.9999170053387146
+  },
+  {
+    "job_id": "p3_active200__s11__none__scratch__n150",
+    "model_sha256": "9d9ec3c017271303bf40aac39487d03abc494f7bd0695d4b5625f9690bd7933c",
+    "target_cutoff": 0.9953369730699189,
+    "source_cutoff": 0.9998038251380404
+  },
+  {
+    "job_id": "p3_active200__s11__none__transfer__n300",
+    "model_sha256": "102e66a02f8b1dab80af6d75143d7d75dc748c6457dc6b0c4c62fe5b74acca43",
+    "target_cutoff": 0.5394237688744185,
+    "source_cutoff": 0.9999902527495547
+  },
+  {
+    "job_id": "p3_active200__s11__none__scratch__n300",
+    "model_sha256": "9bacf2889f926f6013380cae60c6db548851040071e099a8e014ba6e6e089f8d",
+    "target_cutoff": 0.5436492727904795,
+    "source_cutoff": 0.9991863958106179
+  },
+  {
+    "job_id": "p3_active200__s22__none__transfer__n60",
+    "model_sha256": "e7925607d6d9be69967a699885ad015a2d705feb0aa3b0c530774529f5a2143a",
+    "target_cutoff": 0.7967476825816783,
+    "source_cutoff": 0.993311714036031
+  },
+  {
+    "job_id": "p3_active200__s22__none__scratch__n60",
+    "model_sha256": "3c21db5d5458226116a3149727c9096a0616b37de8033a378a85791b06fe06d3",
+    "target_cutoff": 0.9996623214717734,
+    "source_cutoff": 0.9999766240324547
+  },
+  {
+    "job_id": "p3_active200__s22__none__transfer__n150",
+    "model_sha256": "182bafd7d2444a7b50eb6adb7b7a35b85b9331cc04e2997a2a126d66a8e0f95e",
+    "target_cutoff": 0.41247173203387305,
+    "source_cutoff": 0.9999933497998921
+  },
+  {
+    "job_id": "p3_active200__s22__none__scratch__n150",
+    "model_sha256": "784fc52d2c6ff8ce5e13c699eeaea1168929ceafc6f596aa63e969057b993a6b",
+    "target_cutoff": 0.5731460774901938,
+    "source_cutoff": 0.9991859916724284
+  },
+  {
+    "job_id": "p3_active200__s22__none__transfer__n300",
+    "model_sha256": "23e48fa2414bb0c4b58ace47e9bd0c468029b61bb429e53a63c4a97fb9dc6143",
+    "target_cutoff": 0.42156549907642926,
+    "source_cutoff": 0.9999997551295229
+  },
+  {
+    "job_id": "p3_active200__s22__none__scratch__n300",
+    "model_sha256": "2c9635b3565204ec25f21bb206ea87786a3190934b40c9a0aec5682d1ba427a4",
+    "target_cutoff": 0.2848143516561743,
+    "source_cutoff": 0.999526652418934
+  },
+  {
+    "job_id": "p3_active200__s33__none__transfer__n60",
+    "model_sha256": "c18bb841addd8b655c67019e92e9b5fc62f6f48eb649b3e77d58e3bc21dcec42",
+    "target_cutoff": 0.9121131675314903,
+    "source_cutoff": 0.6420030699638595
+  },
+  {
+    "job_id": "p3_active200__s33__none__scratch__n60",
+    "model_sha256": "c3de03d6eec08128956a3ceee496803638508fbb3eb6f35150699acb8f21edcd",
+    "target_cutoff": 0.9226957447263948,
+    "source_cutoff": 0.9994669895946053
+  },
+  {
+    "job_id": "p3_active200__s33__none__transfer__n150",
+    "model_sha256": "cfad8520e02068d6501954c0334bc93c1029a9b7faf31b9b3be4e7c3c42853b3",
+    "target_cutoff": 0.34528314233247154,
+    "source_cutoff": 0.99973336171794
+  },
+  {
+    "job_id": "p3_active200__s33__none__scratch__n150",
+    "model_sha256": "4ebe644dfcd6608f8b8dabecf50ff172e9966e7ccfb81f86b00bd1b517a9c82d",
+    "target_cutoff": 0.8642895362983949,
+    "source_cutoff": 0.9999940250935727
+  },
+  {
+    "job_id": "p3_active200__s33__none__transfer__n300",
+    "model_sha256": "019096817c95658cb8f7da5914e2f1f10a8e28d5766c19f671ca1fb95d85fd6e",
+    "target_cutoff": 0.5145823676697588,
+    "source_cutoff": 0.9999998573163439
+  },
+  {
+    "job_id": "p3_active200__s33__none__scratch__n300",
+    "model_sha256": "4723819794cc565ff5db44de0d6436766a6e683cf550593e04d32002e4ed0100",
+    "target_cutoff": 0.043418558255925,
+    "source_cutoff": 0.9999364334867903
+  },
+  {
+    "job_id": "p3_active200__s44__none__transfer__n60",
+    "model_sha256": "a410131f252cd42b95232e5cb606075199c5c39516da16eb4f6444e2ad540ad6",
+    "target_cutoff": 0.6679156537332926,
+    "source_cutoff": 0.1740462715057474
+  },
+  {
+    "job_id": "p3_active200__s44__none__scratch__n60",
+    "model_sha256": "64a208e37db5797ec423925d7244a587526ee92f01d1d8dab09f31dabb81f320",
+    "target_cutoff": 0.01406157189352023,
+    "source_cutoff": 1.0716355630708596e-05
+  },
+  {
+    "job_id": "p3_active200__s44__none__transfer__n150",
+    "model_sha256": "7575a636956f592b3b419181cd04212038d12037542bda7708a20ebfd1c0f681",
+    "target_cutoff": 0.18835383206954504,
+    "source_cutoff": 0.9999965611330058
+  },
+  {
+    "job_id": "p3_active200__s44__none__scratch__n150",
+    "model_sha256": "48cff3ef4d3ff48db2d3d1d3423238c5619ebf4a92bdf94189defbbd977f1481",
+    "target_cutoff": 0.9960681166431854,
+    "source_cutoff": 0.9998529272873246
+  },
+  {
+    "job_id": "p3_active200__s44__none__transfer__n300",
+    "model_sha256": "f478ad8eda4901da574283d7bdf1b3368c842fbd2d2558f5a063af63516dc94a",
+    "target_cutoff": 0.7860423406742024,
+    "source_cutoff": 0.999998745619609
+  },
+  {
+    "job_id": "p3_active200__s44__none__scratch__n300",
+    "model_sha256": "e854a266f57a44643f81b84d3b047dc46a19cd014c22c0ef7a61b3fad4055049",
+    "target_cutoff": 0.44975376368138326,
+    "source_cutoff": 0.9996753599985593
+  },
+  {
+    "job_id": "p3_active200__s55__none__transfer__n60",
+    "model_sha256": "defa61878e2d14fded467ead9936efaedb65d6f2bb8ba90539f95760cc078d79",
+    "target_cutoff": 0.570381618224229,
+    "source_cutoff": 0.09543663754751626
+  },
+  {
+    "job_id": "p3_active200__s55__none__scratch__n60",
+    "model_sha256": "09f7a9f7b4456f52608a66c1325d30b304c202697c51e2f9e2621d21ece95486",
+    "target_cutoff": 0.004009516398281672,
+    "source_cutoff": 0.17256257723707302
+  },
+  {
+    "job_id": "p3_active200__s55__none__transfer__n150",
+    "model_sha256": "26353dc0ca5e0ff58fe4b9c66fb5e6dbba9e4da221fd7ecb35990e77ce9b4d4d",
+    "target_cutoff": 0.7065211988429608,
+    "source_cutoff": 0.9998794160655261
+  },
+  {
+    "job_id": "p3_active200__s55__none__scratch__n150",
+    "model_sha256": "f9701ff368069d44dc63b8c2f147c2ba79cd043f0883569bfe7cfbac87544094",
+    "target_cutoff": 0.7566581064220458,
+    "source_cutoff": 0.9998238569612429
+  },
+  {
+    "job_id": "p3_active200__s55__none__transfer__n300",
+    "model_sha256": "62daf1e37a720d044950ca8efa5ec7dcfd25748e827a3b1f7eb5a149e1e8c7e5",
+    "target_cutoff": 0.544171420845214,
+    "source_cutoff": 0.9999974608410015
+  },
+  {
+    "job_id": "p3_active200__s55__none__scratch__n300",
+    "model_sha256": "6c5de285cf27ca175823b2c9f187e0d934a43592d046317c2551af9690c651cf",
+    "target_cutoff": 0.4119288497697548,
+    "source_cutoff": 0.9998644054722146
+  },
+  {
+    "job_id": "p2_molecular__s11__none__transfer__n60",
+    "model_sha256": "c3740efd4fe6cab393f35fbe94ec5b37a7e6b0492c0974893ea73ce88f138bd7",
+    "target_cutoff": 0.6551034486066203,
+    "source_cutoff": 0.8067237867602998
+  },
+  {
+    "job_id": "p2_molecular__s11__none__scratch__n60",
+    "model_sha256": "2dbf774c3af5c1f62e4c3af4dfcc267a54d9070b04c5ab6d5ecd7fc9449da65a",
+    "target_cutoff": 0.9826045006972283,
+    "source_cutoff": 0.9999763496491827
+  },
+  {
+    "job_id": "p2_molecular__s11__none__transfer__n150",
+    "model_sha256": "beb45deb673e579c6900bc8c6a1104047d0523eef27875e21dd044c655dfce05",
+    "target_cutoff": 0.9421866379397429,
+    "source_cutoff": 0.9997191528077147
+  },
+  {
+    "job_id": "p2_molecular__s11__none__scratch__n150",
+    "model_sha256": "dae203e49a35600d29603ccbd58e5302f6cd5aa85a4a42e4b584cc2527619581",
+    "target_cutoff": 0.35925157623661647,
+    "source_cutoff": 0.9988408930258538
+  },
+  {
+    "job_id": "p2_molecular__s11__none__transfer__n300",
+    "model_sha256": "9364cf2c637aec8c229c3fe10e3c37790a3bfc9ada3aaa67bbcff42d9b5952a5",
+    "target_cutoff": 0.013290218903628885,
+    "source_cutoff": 0.9993608755152809
+  },
+  {
+    "job_id": "p2_molecular__s11__none__scratch__n300",
+    "model_sha256": "ee0b9f90d3b729c945bf2c626eb5e8137b8c0ab8ca7489602a3167ed7db2248e",
+    "target_cutoff": 0.024188287853508596,
+    "source_cutoff": 0.9968425294136107
+  },
+  {
+    "job_id": "p2_molecular__s22__none__transfer__n60",
+    "model_sha256": "40069797ad56590b9b1173f5ba6b05f06fea5d080eb3e779cb554adf4cd72246",
+    "target_cutoff": 0.9533328548980388,
+    "source_cutoff": 0.46821088502496694
+  },
+  {
+    "job_id": "p2_molecular__s22__none__scratch__n60",
+    "model_sha256": "67a5a1b5de1cba7b371e301a926f27d9941d0dde047a18050ee5b612af3ed38b",
+    "target_cutoff": 0.7869627500962161,
+    "source_cutoff": 0.996068616476431
+  },
+  {
+    "job_id": "p2_molecular__s22__none__transfer__n150",
+    "model_sha256": "85104f9e5ee7c1ce14ce9ca1df2e3faf05d46340b4e17239057dfb5356c598d6",
+    "target_cutoff": 0.03178466329121762,
+    "source_cutoff": 0.9999348376892838
+  },
+  {
+    "job_id": "p2_molecular__s22__none__scratch__n150",
+    "model_sha256": "5d0e2170dbf7d075a84e61765ab3353f29c6a1d8db229c196062c6d59f721897",
+    "target_cutoff": 0.020286094548672622,
+    "source_cutoff": 0.9993460272832085
+  },
+  {
+    "job_id": "p2_molecular__s22__none__transfer__n300",
+    "model_sha256": "b935921cb45f8324eda05c5160cf143983766d3773adde9f35ef602ec19f8353",
+    "target_cutoff": 0.12816181158757853,
+    "source_cutoff": 0.9991271882104212
+  },
+  {
+    "job_id": "p2_molecular__s22__none__scratch__n300",
+    "model_sha256": "ae49ea3d47e841494a1fd1e93a18fc9ed3906ce5a7872b56f769d49bd0065a87",
+    "target_cutoff": 0.1443478391306093,
+    "source_cutoff": 0.9994564392978029
+  },
+  {
+    "job_id": "p2_molecular__s33__none__transfer__n60",
+    "model_sha256": "e143df5123f5bfb9369666e52697493df057cd066d03dea7335c597086981297",
+    "target_cutoff": 0.2177179154348345,
+    "source_cutoff": 0.6724981255943047
+  },
+  {
+    "job_id": "p2_molecular__s33__none__scratch__n60",
+    "model_sha256": "c411595974a20a01c0d9ceb3110722f22f26db78ade1208d401a38d187f0d0be",
+    "target_cutoff": 0.8766608006883398,
+    "source_cutoff": 0.995366394015638
+  },
+  {
+    "job_id": "p2_molecular__s33__none__transfer__n150",
+    "model_sha256": "c7c74134983789c42fa916ed0761a12be4c9ddad54b4f44fbda79eb73a3aca19",
+    "target_cutoff": 0.028378865755007837,
+    "source_cutoff": 0.9999928475441867
+  },
+  {
+    "job_id": "p2_molecular__s33__none__scratch__n150",
+    "model_sha256": "79173231042250d8fd705b19344d6a377ae7a70ddf01350ec712cd4af139f2d8",
+    "target_cutoff": 0.37395338511325255,
+    "source_cutoff": 0.9998290624335961
+  },
+  {
+    "job_id": "p2_molecular__s33__none__transfer__n300",
+    "model_sha256": "341930b6b7a0a3f91ac5aa7c19c6d36dbf838b7e1a534daec55227cba2c5b3a6",
+    "target_cutoff": 0.7213908218991293,
+    "source_cutoff": 0.9999354197096882
+  },
+  {
+    "job_id": "p2_molecular__s33__none__scratch__n300",
+    "model_sha256": "461ff51455988b5ca51bbf76ac2e8eb63449fc6f929e13a3263c9f8b941f7758",
+    "target_cutoff": 0.028859971052165746,
+    "source_cutoff": 0.9997734505892694
+  },
+  {
+    "job_id": "p2_molecular__s44__none__transfer__n60",
+    "model_sha256": "fcc4168300728271e7c704235b65e3ab7b791d92f5c4211e99cf792da4b5ba5b",
+    "target_cutoff": 0.13261357610296778,
+    "source_cutoff": 0.0911998884408054
+  },
+  {
+    "job_id": "p2_molecular__s44__none__scratch__n60",
+    "model_sha256": "d858cde91c264601f113601ea3f79d6765838f3c2c4831851a4d84fb0cb6ef79",
+    "target_cutoff": 0.9990308830945945,
+    "source_cutoff": 0.9904483224629356
+  },
+  {
+    "job_id": "p2_molecular__s44__none__transfer__n150",
+    "model_sha256": "7ab220423a941c7f236189f46820ce407dc02f80f4d1b080ab40f6c992f86b57",
+    "target_cutoff": 0.9971470608306351,
+    "source_cutoff": 0.999115380218837
+  },
+  {
+    "job_id": "p2_molecular__s44__none__scratch__n150",
+    "model_sha256": "18b1c80b919b03215cfc81165e3111ca6eadbfb0de2b37680e1fe5d650946f4a",
+    "target_cutoff": 0.09618577145491643,
+    "source_cutoff": 0.9977403462554045
+  },
+  {
+    "job_id": "p2_molecular__s44__none__transfer__n300",
+    "model_sha256": "865aae9a60b732ff9288d205a88f01aa6ad8d6aecc20609dd63e583a534470b9",
+    "target_cutoff": 0.5910287648986472,
+    "source_cutoff": 0.9992228005135747
+  },
+  {
+    "job_id": "p2_molecular__s44__none__scratch__n300",
+    "model_sha256": "169a66a4ba6073f2150ce55e44379c6a0c8fceef490711a0efd1412d5864049f",
+    "target_cutoff": 0.12227764478329571,
+    "source_cutoff": 0.9987399902026642
+  },
+  {
+    "job_id": "p2_molecular__s55__none__transfer__n60",
+    "model_sha256": "5b6304cf739f340aea725d05dfafc683d499a0cb5aac9dfade075aecc82e8432",
+    "target_cutoff": 0.9559356387598615,
+    "source_cutoff": 0.54260708607968
+  },
+  {
+    "job_id": "p2_molecular__s55__none__scratch__n60",
+    "model_sha256": "614250b5b26931dcd0440af57b59a2147f8f25e44fbb6e000d7b4fa8ccf616b6",
+    "target_cutoff": 0.9867697774437376,
+    "source_cutoff": 0.981123019651014
+  },
+  {
+    "job_id": "p2_molecular__s55__none__transfer__n150",
+    "model_sha256": "d1ed1959ec894fb27b6c3c07fe4d27350e722afcfa668fad2f6bb1562db60990",
+    "target_cutoff": 0.48590480569161504,
+    "source_cutoff": 0.9938179652211098
+  },
+  {
+    "job_id": "p2_molecular__s55__none__scratch__n150",
+    "model_sha256": "cffbe1d4100a75d3e75f6e4c670a1d490a95159498212828f260a7305687389c",
+    "target_cutoff": 0.5164653773960924,
+    "source_cutoff": 0.9988412529395202
+  },
+  {
+    "job_id": "p2_molecular__s55__none__transfer__n300",
+    "model_sha256": "79f7d1e572653b3b696cf75cc1d0046cdc3b6d3e86d690b4871b18dc1a2759a9",
+    "target_cutoff": 0.5489073100976397,
+    "source_cutoff": 0.9982242378800117
+  },
+  {
+    "job_id": "p2_molecular__s55__none__scratch__n300",
+    "model_sha256": "40965ff4d2dfa00aa362deea32903cb75baacc28b514b63cd8ccad89869f21fb",
+    "target_cutoff": 0.5978999516479652,
+    "source_cutoff": 0.9983318763622431
+  },
+  {
+    "job_id": "p3_active200__s11__random20__transfer__n60",
+    "model_sha256": "d0ef8d4bb57cf4d20b5d94dbee1a83e690d06d1e2f4df7b26d05e4c51b302e65",
+    "target_cutoff": 0.137493896974751,
+    "source_cutoff": 0.06382464348274003
+  },
+  {
+    "job_id": "p3_active200__s11__random20__scratch__n60",
+    "model_sha256": "40749ad87e680d1dbcc8473cd4ea586af7e218c5731cd3f76ad206ae36c075c4",
+    "target_cutoff": 0.9849057985276638,
+    "source_cutoff": 0.02415797646184468
+  },
+  {
+    "job_id": "p3_active200__s11__random20__transfer__n150",
+    "model_sha256": "a03b90aa4ab64ede17201977f3a5d9ad0526d2469fd835cbdc8024a5ea6de9d6",
+    "target_cutoff": 0.28400756899160173,
+    "source_cutoff": 0.8850033738522134
+  },
+  {
+    "job_id": "p3_active200__s11__random20__scratch__n150",
+    "model_sha256": "971d26409e0b863206fdb1d038468c455548f4b8fc59922db2234fce6f419739",
+    "target_cutoff": 0.7465272418151901,
+    "source_cutoff": 0.08886963561016248
+  },
+  {
+    "job_id": "p3_active200__s11__random20__transfer__n300",
+    "model_sha256": "ba221cb61536ee3d3ea29d48692cea460cf75ac97257738d2f588b22fe943eb7",
+    "target_cutoff": 0.33385751437509664,
+    "source_cutoff": 0.9234786326820655
+  },
+  {
+    "job_id": "p3_active200__s11__random20__scratch__n300",
+    "model_sha256": "6acb13055c558b3e7b4775eaaf9edf54e7c850d5b823a867261046589b1e39eb",
+    "target_cutoff": 0.5192700456912295,
+    "source_cutoff": 0.08331174894279929
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__transfer__n60",
+    "model_sha256": "dff1c27e20f966b37bb013d8f17877b7427e84dd7f32c216a46e025027fd2a1b",
+    "target_cutoff": 0.6458645581457622,
+    "source_cutoff": 0.7022410868050005
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__scratch__n60",
+    "model_sha256": "66485ef207983e391f4edc43cc127b0f631efbe636286c28404f3649af78f803",
+    "target_cutoff": 0.006375620962382593,
+    "source_cutoff": 0.5282486500416819
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__transfer__n150",
+    "model_sha256": "ed269df8936cbf5a51568547a239ab6b459e50dd7f0281a3b5423cd5509ff6ec",
+    "target_cutoff": 0.323416620621391,
+    "source_cutoff": 0.5494145997349043
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__scratch__n150",
+    "model_sha256": "292e794c419dc57dae337bf777b8e1e7064320378c0ed786f03132b0689323e3",
+    "target_cutoff": 0.04260405064173476,
+    "source_cutoff": 0.539135934328335
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__transfer__n300",
+    "model_sha256": "4a7f8e7dfaf6942d93ddb2b3e1228e998aef949732a252692c63b5a93896a973",
+    "target_cutoff": 0.32774656794437157,
+    "source_cutoff": 0.6882622852215364
+  },
+  {
+    "job_id": "p3_active200__s11__slowest20__scratch__n300",
+    "model_sha256": "7429523ad566d9c42971a604af06d194602859f1e7994275ddb32c0bd5a1a948",
+    "target_cutoff": 0.7203719475773299,
+    "source_cutoff": 0.46537003585436526
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__transfer__n60",
+    "model_sha256": "e0a357b9f2831c3c1fe227e42ccbe75657990a84f115a2e14cc88d5c56e965d8",
+    "target_cutoff": 0.6984223510361168,
+    "source_cutoff": 0.28078623813011977
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__scratch__n60",
+    "model_sha256": "7f66c1f8a710ab20ba8baeafea8083a0414947993d76a2aa867cbb1bfa31a858",
+    "target_cutoff": 0.9493732673794214,
+    "source_cutoff": 0.1969309595341774
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__transfer__n150",
+    "model_sha256": "5ca0a3d7e9c4268c585bfab87461f973b6e5a85f89a38c797a3ae9a4c9e2df78",
+    "target_cutoff": 0.48155775819421115,
+    "source_cutoff": 0.42355865730239434
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__scratch__n150",
+    "model_sha256": "91a2045f9574865fe16f9c94fd9aba44c45f1bf31a5323e21eae9d94dc2fc503",
+    "target_cutoff": 0.5485735850390908,
+    "source_cutoff": 0.05799969973333929
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__transfer__n300",
+    "model_sha256": "b1f3f7b80a4f30345ce484d324ff9dae44fa62a9206f503b74bfc5f6ea9672df",
+    "target_cutoff": 0.3165846731882296,
+    "source_cutoff": 0.34298733748574173
+  },
+  {
+    "job_id": "p3_active200__s11__time_class_matched20__scratch__n300",
+    "model_sha256": "939ae8aa6e535cfadf3b9a189f5d527acc78917e0e99841a1ebb2332903b1d9f",
+    "target_cutoff": 0.6632548186585604,
+    "source_cutoff": 0.08432051423186672
+  },
+  {
+    "job_id": "p3_active200__s22__random20__transfer__n60",
+    "model_sha256": "3c309df4a86daab30d2b626b6cee500f0e63d5240b2f8ef55a3490ab93bab6a1",
+    "target_cutoff": 0.9883084020929283,
+    "source_cutoff": 0.930975196719587
+  },
+  {
+    "job_id": "p3_active200__s22__random20__scratch__n60",
+    "model_sha256": "ce17cd9cfb66a290af6ac20c5a6fb1562dbed45a0bf56bc78ffe3743e09aa5d1",
+    "target_cutoff": 0.9839119031083553,
+    "source_cutoff": 0.7303484575482259
+  },
+  {
+    "job_id": "p3_active200__s22__random20__transfer__n150",
+    "model_sha256": "215ca5a38d35b3737216a704fc28e02f9d0b9dea92db86ac37dc0961f917f023",
+    "target_cutoff": 0.5771139424062076,
+    "source_cutoff": 0.9879177070247352
+  },
+  {
+    "job_id": "p3_active200__s22__random20__scratch__n150",
+    "model_sha256": "a7705e661bf8d3be2c935d5dc1d6bafccbf5253f54d80504c3f3a3ec9407dc9c",
+    "target_cutoff": 0.5691833366879392,
+    "source_cutoff": 0.8559735135587739
+  },
+  {
+    "job_id": "p3_active200__s22__random20__transfer__n300",
+    "model_sha256": "de551ee30b0c5e59c4f579f12088260a1d244adad4d16a93bb1558fb1c8a2ae1",
+    "target_cutoff": 0.1200294742164114,
+    "source_cutoff": 0.9403527360740731
+  },
+  {
+    "job_id": "p3_active200__s22__random20__scratch__n300",
+    "model_sha256": "9c9491381bc1d2003996b7b92ab26950eee69523e9c6cbe021f41e1fc4d83468",
+    "target_cutoff": 0.06735946217205793,
+    "source_cutoff": 0.6947615017099338
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__transfer__n60",
+    "model_sha256": "b1dff3c43844ebc2d27563590699a0fdfb83dfff703542749f351a28101ef433",
+    "target_cutoff": 0.9945936827690388,
+    "source_cutoff": 0.9752694935869539
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__scratch__n60",
+    "model_sha256": "29318a3fa5b6b5f9ab4060774c47e0f6234583920050e3408e45eb3f38e635a1",
+    "target_cutoff": 0.6926820771917748,
+    "source_cutoff": 0.8672338670473486
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__transfer__n150",
+    "model_sha256": "d439263eb9cecba1d394efc256f93e92ab64c90ddcd3881c3bf372bf7060ce50",
+    "target_cutoff": 0.33210816317592107,
+    "source_cutoff": 0.9919723702582054
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__scratch__n150",
+    "model_sha256": "5d8ff34d2070a064b8fab181aec9dbe3093db9f3dcadcf64c294a48734e41508",
+    "target_cutoff": 0.48293403835961896,
+    "source_cutoff": 0.9244413570375315
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__transfer__n300",
+    "model_sha256": "fc92c056b646af4d1863b06030835565560689950610f4eb7623cabca4ea3f93",
+    "target_cutoff": 0.18981993919390328,
+    "source_cutoff": 0.9984322655324281
+  },
+  {
+    "job_id": "p3_active200__s22__slowest20__scratch__n300",
+    "model_sha256": "0f81212830b633a81175d6a6ba034627815ea8f4026da3b63664baf8dddb633d",
+    "target_cutoff": 0.22760179392493265,
+    "source_cutoff": 0.9487076373113673
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__transfer__n60",
+    "model_sha256": "e9cdfd3e3987f9eb10a50426144bc9a2e54fa7aefd78337471b135dd726fa209",
+    "target_cutoff": 0.3588671334561502,
+    "source_cutoff": 0.9930210640904096
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__scratch__n60",
+    "model_sha256": "2ecc05d29acb6d4b7a659daabaad6ce43b12cc101625aa7b66e5d3045211bded",
+    "target_cutoff": 0.773667232888298,
+    "source_cutoff": 0.9413784238755988
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__transfer__n150",
+    "model_sha256": "00ea8c97ad11ab5523dc9a0ba72021d0b3630af43a4a8f9c965903e8214e0c5c",
+    "target_cutoff": 0.04406027409126497,
+    "source_cutoff": 0.9999968052080872
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__scratch__n150",
+    "model_sha256": "a63f6cf818ca1479920d6f9e34228b78c2bd5e98c212050176934c452bc94f0f",
+    "target_cutoff": 0.2618047433906879,
+    "source_cutoff": 0.996476079280164
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__transfer__n300",
+    "model_sha256": "675ebc3687ed651b500eb48171e671c663ee6d3ee741f5e34a2386c6ad429631",
+    "target_cutoff": 0.1544297578548193,
+    "source_cutoff": 0.9999760156785878
+  },
+  {
+    "job_id": "p3_active200__s22__time_class_matched20__scratch__n300",
+    "model_sha256": "f50f08f9a3939cb8a59606aa7e4d86f96bd1832e8afda19912321b6fd553298e",
+    "target_cutoff": 0.10228160625414207,
+    "source_cutoff": 0.9932796717667071
+  },
+  {
+    "job_id": "p3_active200__s33__random20__transfer__n60",
+    "model_sha256": "b9e2981edd56b29193383ecd5179de0bc255c092c41b8ec9528d59339f9bb30c",
+    "target_cutoff": 0.9860060662949244,
+    "source_cutoff": 0.561281169881385
+  },
+  {
+    "job_id": "p3_active200__s33__random20__scratch__n60",
+    "model_sha256": "4d4a2a7dee95bb7f9e705d875a0baa3da5c8678048de21240add2838414e73c4",
+    "target_cutoff": 0.9167172351669524,
+    "source_cutoff": 0.29421796337850675
+  },
+  {
+    "job_id": "p3_active200__s33__random20__transfer__n150",
+    "model_sha256": "3ede651586f2671e69faf0f9b11308afa21f79eee741474bbde3a59dae40bbdb",
+    "target_cutoff": 0.18952589969970443,
+    "source_cutoff": 0.6309263554783705
+  },
+  {
+    "job_id": "p3_active200__s33__random20__scratch__n150",
+    "model_sha256": "6a4890e1905d5b2fce4f9d8b61b07806364edee7b2aaf6781eba5f3f26e5e27c",
+    "target_cutoff": 0.7038831984672392,
+    "source_cutoff": 0.2592595834808464
+  },
+  {
+    "job_id": "p3_active200__s33__random20__transfer__n300",
+    "model_sha256": "26cbf6cfbfa513e3c6891873a692568210d355e19f90bfdb9b9dc650ff9b3c4e",
+    "target_cutoff": 0.6673624872677912,
+    "source_cutoff": 0.670455874039213
+  },
+  {
+    "job_id": "p3_active200__s33__random20__scratch__n300",
+    "model_sha256": "1a868fa4ede4335c30ac4be989f63eb5b07460393348b852ba2656911dd2f7fd",
+    "target_cutoff": 0.11197685384725327,
+    "source_cutoff": 0.134390043886345
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__transfer__n60",
+    "model_sha256": "b4a3570c620d278fcfc9f4ea42cfce727541795104e5ac10f425f0679180acd9",
+    "target_cutoff": 0.8545276399455698,
+    "source_cutoff": 0.30078885166214847
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__scratch__n60",
+    "model_sha256": "6ebf29780d1f5190503b0fc64017681ab84a738418783feb9d30f1ae9be9cdb6",
+    "target_cutoff": 0.6003642697044635,
+    "source_cutoff": 0.2824586344028212
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__transfer__n150",
+    "model_sha256": "148d2a985a17fe37218aff055eba8bce93f198cb5a431ed3eaf12db4c1d55c28",
+    "target_cutoff": 0.28850283541582095,
+    "source_cutoff": 0.585339458627684
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__scratch__n150",
+    "model_sha256": "dea6d8643ce8469c77665ab50b0819b341b19d1bfb1ea75f35de50cb983aba9b",
+    "target_cutoff": 0.6777702771683235,
+    "source_cutoff": 0.1679055711345169
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__transfer__n300",
+    "model_sha256": "dad39fec1f5014635e74ab2fa13b172d387888299d196c2145b5e83204d5d0e4",
+    "target_cutoff": 0.7407301908976396,
+    "source_cutoff": 0.6384859453469267
+  },
+  {
+    "job_id": "p3_active200__s33__slowest20__scratch__n300",
+    "model_sha256": "aef8ae3bcc1d5264ad609cf96f4d2242b708ca0405ca3978691c8925c60599b6",
+    "target_cutoff": 0.10806513577462358,
+    "source_cutoff": 0.13619772078289485
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__transfer__n60",
+    "model_sha256": "53a393b3a097d271d973b38a1407cd1899ac004e62e8edc1a5f30ded545f512f",
+    "target_cutoff": 0.855304931381108,
+    "source_cutoff": 0.5125365285870157
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__scratch__n60",
+    "model_sha256": "b5121f24b7f58c55a678da1e081c17bc5532fae04a6e3033d0f87746444b72ff",
+    "target_cutoff": 0.9023309443070051,
+    "source_cutoff": 0.5387884108497983
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__transfer__n150",
+    "model_sha256": "fc85599cb6870a20cd0e8a03d64d2cf51ec27232a42a488aad9f8a2dc5397daf",
+    "target_cutoff": 0.25618585209989836,
+    "source_cutoff": 0.8750103477864398
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__scratch__n150",
+    "model_sha256": "b5af94b1f2fa1202f0a93a7ce1e21f31ff1bbfec54dc787c69590cf780596e32",
+    "target_cutoff": 0.535465497712266,
+    "source_cutoff": 0.5523434033439886
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__transfer__n300",
+    "model_sha256": "747acf4c6aa62348b17ffcd52a0a14915920a6b64c46b081450251b52df4972d",
+    "target_cutoff": 0.7507354494695191,
+    "source_cutoff": 0.9099315045941854
+  },
+  {
+    "job_id": "p3_active200__s33__time_class_matched20__scratch__n300",
+    "model_sha256": "f5d519c223ad25b99b47a8e9e93221589a317b62be44d50c9424f6326294f31f",
+    "target_cutoff": 0.07497582083963285,
+    "source_cutoff": 0.7582008550561681
+  },
+  {
+    "job_id": "p3_active200__s44__random20__transfer__n60",
+    "model_sha256": "e507b12948000b6e12ead22e42a0850e2b79d81b421900f336972a163ac637fc",
+    "target_cutoff": 0.5153581765408284,
+    "source_cutoff": 0.16810423733101862
+  },
+  {
+    "job_id": "p3_active200__s44__random20__scratch__n60",
+    "model_sha256": "77fce600f3bdf79d62dc4bb0c3872d99a9f6d038634f70aa4aa3d49528642ef4",
+    "target_cutoff": 0.8977319886886604,
+    "source_cutoff": 0.3688284225029736
+  },
+  {
+    "job_id": "p3_active200__s44__random20__transfer__n150",
+    "model_sha256": "646684bb3d5b7a189656f6d07ce38467eaf10f707d7a7f5add40b1d901a85df2",
+    "target_cutoff": 0.24174512901641418,
+    "source_cutoff": 0.8602413341663356
+  },
+  {
+    "job_id": "p3_active200__s44__random20__scratch__n150",
+    "model_sha256": "2f3929fc8353c3c8068e4ddd7e523443d176d76912f185667084c27171aa7aa3",
+    "target_cutoff": 0.09046519896769978,
+    "source_cutoff": 0.27478834399157676
+  },
+  {
+    "job_id": "p3_active200__s44__random20__transfer__n300",
+    "model_sha256": "44199076b23af1d27fa2f8f0da276b7138be4e8281d10caf0cbc3dde02d87098",
+    "target_cutoff": 0.42219864254416944,
+    "source_cutoff": 0.7764766445318733
+  },
+  {
+    "job_id": "p3_active200__s44__random20__scratch__n300",
+    "model_sha256": "b94ba27e57bab71b1b1fec3281abf695f0a29b8b81e52a84929573f18d64b8f5",
+    "target_cutoff": 0.4433493651204558,
+    "source_cutoff": 0.42505765260054956
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__transfer__n60",
+    "model_sha256": "750e28b08db27c69294d601f1fab5d6f8e66a8242148c04eb38e0fa6baec44e1",
+    "target_cutoff": 0.2988669009646818,
+    "source_cutoff": 0.5171768958178727
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__scratch__n60",
+    "model_sha256": "69eb19071d080e3edd176ed93fe2714ecac46c9af2bcddaaab07545ae7af4791",
+    "target_cutoff": 0.9455654758364846,
+    "source_cutoff": 0.5648486557344078
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__transfer__n150",
+    "model_sha256": "8e4a9fde9636573c9933ff01fec98990793046086771c42f95ad0fe019a952de",
+    "target_cutoff": 0.4305131558394739,
+    "source_cutoff": 0.9953893040707961
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__scratch__n150",
+    "model_sha256": "403cc7c6ad541adc7ca8de5fc266c35e7bcc722c25069502c533d8a727e14c09",
+    "target_cutoff": 0.47825893318035,
+    "source_cutoff": 0.8687291828724727
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__transfer__n300",
+    "model_sha256": "6642f96e9422e954052f4fa398f6b3fc59c5aad380b6219e16008f415eda58d8",
+    "target_cutoff": 0.9022608302906289,
+    "source_cutoff": 0.9962649389060437
+  },
+  {
+    "job_id": "p3_active200__s44__slowest20__scratch__n300",
+    "model_sha256": "8ee5be42883752e8121f9910e067894a42fdb004c6186c83162f65c605a7aa1f",
+    "target_cutoff": 0.7219844333105091,
+    "source_cutoff": 0.759270118313836
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__transfer__n60",
+    "model_sha256": "896561deab6766c15c2c55a070625ce7b95b8689d854825f87c2a8694959177c",
+    "target_cutoff": 0.4805366518317599,
+    "source_cutoff": 0.8659643246753804
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__scratch__n60",
+    "model_sha256": "3beed028bb9aa42ef14441e1fe601c37d2d381bb8450b1e0d63c8aa13db96e8e",
+    "target_cutoff": 0.9891679268866121,
+    "source_cutoff": 0.780792838835677
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__transfer__n150",
+    "model_sha256": "18bfd271cd068a7c6e097ad67c1fe6d2dd2c5d8a0f86a8c548bccfc24e11e58e",
+    "target_cutoff": 0.8431245891941338,
+    "source_cutoff": 0.9940428406125529
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__scratch__n150",
+    "model_sha256": "5d93638c6abbac69926b0df25aa0a24e0b422dca741ca06a96c421e78338a13b",
+    "target_cutoff": 0.3316477362617609,
+    "source_cutoff": 0.815935638156302
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__transfer__n300",
+    "model_sha256": "f7e91f14fcd551b0cb3d227dcd7d99887dd3e034d8e250e4ec3241306fd19399",
+    "target_cutoff": 0.7919589618621717,
+    "source_cutoff": 0.994317250482311
+  },
+  {
+    "job_id": "p3_active200__s44__time_class_matched20__scratch__n300",
+    "model_sha256": "ecf27e6ffccf6d5818a3c5fc9b1af505a145f57bef83daf53c2edf53eb962dfe",
+    "target_cutoff": 0.32002186726351595,
+    "source_cutoff": 0.8894489292626883
+  },
+  {
+    "job_id": "p3_active200__s55__random20__transfer__n60",
+    "model_sha256": "1fd84bd84bbc8e4dcb888ea8c534e6fc14d479586e7628dc92d3aaf37633870c",
+    "target_cutoff": 0.601094293126203,
+    "source_cutoff": 0.01458469258730504
+  },
+  {
+    "job_id": "p3_active200__s55__random20__scratch__n60",
+    "model_sha256": "f8eee438aae7eff87340121056ebb8e39212f0b0dddb6f1d5bb59f0282d8b320",
+    "target_cutoff": 0.009161954241137948,
+    "source_cutoff": 0.032524069100786694
+  },
+  {
+    "job_id": "p3_active200__s55__random20__transfer__n150",
+    "model_sha256": "720a496efc70425292bc4983cd1ac3331f43c3ffb685582b3d1a0c8fd7189edc",
+    "target_cutoff": 0.3683088437690118,
+    "source_cutoff": 0.4318071563811994
+  },
+  {
+    "job_id": "p3_active200__s55__random20__scratch__n150",
+    "model_sha256": "b0e153e2d4ce4ae9a84fa4dc69aea1d33fcdd9291c28a79ca0292bdae24150ba",
+    "target_cutoff": 0.5834254096382788,
+    "source_cutoff": 0.027394780338511823
+  },
+  {
+    "job_id": "p3_active200__s55__random20__transfer__n300",
+    "model_sha256": "ac735b8733df7d793c445b2f994f4321d66b7581b0e2d8d547e207f489965775",
+    "target_cutoff": 0.15690409667844044,
+    "source_cutoff": 0.3285758633076768
+  },
+  {
+    "job_id": "p3_active200__s55__random20__scratch__n300",
+    "model_sha256": "d57fcb37198ddb996790ab84e5e86491f804b54c4945c2c1a9d8b373ec5ed1e1",
+    "target_cutoff": 0.09128630271500575,
+    "source_cutoff": 0.0136598331391843
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__transfer__n60",
+    "model_sha256": "2a015af317d5394abf085cd85cf7c65d0a4e0048b765285c034f8bf9199c8764",
+    "target_cutoff": 0.23469003471418382,
+    "source_cutoff": 0.29249319274145175
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__scratch__n60",
+    "model_sha256": "94d4193161d5d60bf9e8f53152a1eee8be147cb90f8fb96bb9695c0edd7674fd",
+    "target_cutoff": 0.001244409477900693,
+    "source_cutoff": 0.5864241382095683
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__transfer__n150",
+    "model_sha256": "b5c5cb55df1c785af244a797a08f962b548f54009ba1233100494b7612654e27",
+    "target_cutoff": 0.5115817789092707,
+    "source_cutoff": 0.4740986671831677
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__scratch__n150",
+    "model_sha256": "2dd1e9970f873bce4ee233ec6bae6d8d64a9036fb901b678e009f18946adb774",
+    "target_cutoff": 0.004944922208515064,
+    "source_cutoff": 0.08773997724148115
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__transfer__n300",
+    "model_sha256": "013b27e282e2c7a09e8ad18d1c8b0841245a25a72e52d526b1674d7ca63feccf",
+    "target_cutoff": 0.224554694890965,
+    "source_cutoff": 0.30743113490905727
+  },
+  {
+    "job_id": "p3_active200__s55__slowest20__scratch__n300",
+    "model_sha256": "2b1c5964118d8d95496409f9ca3dfe8cb838024a38ba3118f48082be1b568afa",
+    "target_cutoff": 0.08909632364991166,
+    "source_cutoff": 0.08686627514972174
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__transfer__n60",
+    "model_sha256": "f0eefa79b2f634214269ab867c8aadc895afaa3d189a0bb7ef6ce1f4bdb71c0c",
+    "target_cutoff": 0.4406443859795706,
+    "source_cutoff": 0.6912797728976504
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__scratch__n60",
+    "model_sha256": "93fdcd643a0fb2d8cda142401875c1167d98b29e1908c7b6854959f093cf42f5",
+    "target_cutoff": 0.30421196246281174,
+    "source_cutoff": 0.9019721966409212
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__transfer__n150",
+    "model_sha256": "74d4d4ff0dc5ba36b2b41140e7524546a3811739ca9b849f49c71ffd3b81e9f0",
+    "target_cutoff": 0.36948965899640823,
+    "source_cutoff": 0.8322445917156601
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__scratch__n150",
+    "model_sha256": "fcacf8bbad8c79b1b49505ef920cfd5c7119c2ea336a7ecd903bac9d17c26285",
+    "target_cutoff": 0.6819413139753542,
+    "source_cutoff": 0.9397933969461602
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__transfer__n300",
+    "model_sha256": "aaddb0f872f9987d7ffc56e3b371deac9ad710c0d56a207814f82499ad299d10",
+    "target_cutoff": 0.1925770037526422,
+    "source_cutoff": 0.847746167026917
+  },
+  {
+    "job_id": "p3_active200__s55__time_class_matched20__scratch__n300",
+    "model_sha256": "62db39a7078566dfecd1fb4dae43fd45404128e5d83252128a5581d046032133",
+    "target_cutoff": 0.05430762182986088,
+    "source_cutoff": 0.89595503448265
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__transfer__n60",
+    "model_sha256": "340e5e1ccee9b745df1c51105b0411cde013b951ab3dbd7777660e043da85152",
+    "target_cutoff": 0.4372238542267595,
+    "source_cutoff": 0.2789915078224486
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__scratch__n60",
+    "model_sha256": "eb37fc2f73c038ceba10c890dc888208ddcbdc9222cc901ab706ab60136740f2",
+    "target_cutoff": 0.024618825318362656,
+    "source_cutoff": 0.8781961073897785
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__transfer__n150",
+    "model_sha256": "570a3837900f2699998b2a7bb335f880b3e9400fd894878bf37db38dde0ca680",
+    "target_cutoff": 0.9334097184493145,
+    "source_cutoff": 0.9999370624981131
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__scratch__n150",
+    "model_sha256": "52d84d3af0a2b4d15a76c0c22bc9eb882a3f9ede4614ab1dfd96a91318975c64",
+    "target_cutoff": 0.36036142956446376,
+    "source_cutoff": 0.9968672896661103
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__transfer__n300",
+    "model_sha256": "cacba88dda08b83b3eb8c42d6d3cc975761fb0e26dfba5e259bec601045f7d51",
+    "target_cutoff": 0.3352755483875391,
+    "source_cutoff": 0.9975829345205417
+  },
+  {
+    "job_id": "p2_molecular__s11__random20__scratch__n300",
+    "model_sha256": "03462baeff67f401d9a65ea0163c2a6813edd7bc46de057c993ad633de75c94f",
+    "target_cutoff": 0.3880588265662516,
+    "source_cutoff": 0.9917542948014896
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__transfer__n60",
+    "model_sha256": "afaef3418962204620eb574bf6b2aad84ed7d91d77d0bf393018eee8d6764a60",
+    "target_cutoff": 0.008307350405798492,
+    "source_cutoff": 0.0434547778825242
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__scratch__n60",
+    "model_sha256": "e935a9e96ea469023d6eefc201b865307c7248e89881167771592a2eafcd75d4",
+    "target_cutoff": 0.9909709747360965,
+    "source_cutoff": 0.4601469237265647
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__transfer__n150",
+    "model_sha256": "afa2b4faccdeac055ffc17421c8337c5bc97fe8cbe817b9adaf3c87caa56dc34",
+    "target_cutoff": 0.9987424367308897,
+    "source_cutoff": 0.7187818097630219
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__scratch__n150",
+    "model_sha256": "dd990d0188234d46629a6cb310c6e286ac65b9dd6a7e930d646529577291324d",
+    "target_cutoff": 0.0439262551748702,
+    "source_cutoff": 0.8328854467769062
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__transfer__n300",
+    "model_sha256": "f85416630e6881975f0ba62ece322a0aefcb8c7954d96fe998a0707af19e3e6e",
+    "target_cutoff": 0.3522813901554325,
+    "source_cutoff": 0.4533121817874377
+  },
+  {
+    "job_id": "p2_molecular__s11__slowest20__scratch__n300",
+    "model_sha256": "a355dd51cf9e117d40be96aa6a36cd5ce716b179fe0fac80d0474889f70732a1",
+    "target_cutoff": 0.03671885475571901,
+    "source_cutoff": 0.9351851940538461
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__transfer__n60",
+    "model_sha256": "fbed6dab8bc3d41f1630ed1dd4258e20879bcc19afc3ba426b169cf796a5a0bb",
+    "target_cutoff": 0.4890063134345381,
+    "source_cutoff": 0.9997616012877497
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__scratch__n60",
+    "model_sha256": "123e40d5d15a16d17bf4096f67dda8a32f11d8a9bab4e88b033a88176a98b2d8",
+    "target_cutoff": 0.9312683888659875,
+    "source_cutoff": 0.9894095628438433
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__transfer__n150",
+    "model_sha256": "d199c96df8aa6f0ca5bb56f8241dc8b625441312caf56024ded86f587b48858d",
+    "target_cutoff": 0.5855400857397611,
+    "source_cutoff": 0.9999984428355351
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__scratch__n150",
+    "model_sha256": "32260a3d5a67b2f53b669c2fb2e40519d388746807a163c3c21e24b97de56fb6",
+    "target_cutoff": 0.038430185165730095,
+    "source_cutoff": 0.9993701824907565
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__transfer__n300",
+    "model_sha256": "c31e1849440fbc33c00f86e59f0ad6754c840e0b058fb45561b3e91e2135cb73",
+    "target_cutoff": 0.11410026806027455,
+    "source_cutoff": 0.9999985457408392
+  },
+  {
+    "job_id": "p2_molecular__s11__time_class_matched20__scratch__n300",
+    "model_sha256": "5f7b7d22a71f343b5c9544fe4b134a67ec98c70cbd36aa16800a93cc55701cc7",
+    "target_cutoff": 0.2646949486755306,
+    "source_cutoff": 0.9989629677350957
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__transfer__n60",
+    "model_sha256": "c536e577255f77cd7e66fff6eb2d25dec2473388da3ad464d7c7085efdabf705",
+    "target_cutoff": 0.7519375716957583,
+    "source_cutoff": 0.09384748969022806
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__scratch__n60",
+    "model_sha256": "d1cea80e53fb2ecd3e5e919c1447a5cc11b7f96ee9b97191a28a1bfddac6641d",
+    "target_cutoff": 0.000472709095768439,
+    "source_cutoff": 0.47544232907620193
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__transfer__n150",
+    "model_sha256": "a7fbbecbb9113a2ae292b90cd159f5d4cdb2a0f7b54ba25fdb48436c16d5ec7e",
+    "target_cutoff": 0.5779457621254092,
+    "source_cutoff": 0.48055608339505945
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__scratch__n150",
+    "model_sha256": "aefb0fe7f5467bcc6561ed521c86b06ccf5d7836af2e4e3cb1df4619e3c6311d",
+    "target_cutoff": 0.2926408662202191,
+    "source_cutoff": 0.603105617613009
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__transfer__n300",
+    "model_sha256": "0b108c4879a2c070cc41d224fefc16036c38f9da70520ea7dfbac424154ec5b9",
+    "target_cutoff": 0.7357048234349675,
+    "source_cutoff": 0.10255880129648559
+  },
+  {
+    "job_id": "p2_molecular__s22__random20__scratch__n300",
+    "model_sha256": "9019191da7e6cfe5d10c650e467a095878c03a4ad0886d0c9e9352b6ad6f1676",
+    "target_cutoff": 0.05958653614184862,
+    "source_cutoff": 0.566000420867983
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__transfer__n60",
+    "model_sha256": "fb2a529f51d5a1aadb48e42788ae3875cc1dc2fd9071aa5cd5ac1f606fb4c12f",
+    "target_cutoff": 0.8121858914353973,
+    "source_cutoff": 0.13217855397485506
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__scratch__n60",
+    "model_sha256": "5d7096cb662821ce94615403c06c41c678a1b7b1a749f4ee27ed7a841d6fbcfd",
+    "target_cutoff": 0.003003535127389874,
+    "source_cutoff": 0.3457644870795325
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__transfer__n150",
+    "model_sha256": "23ebac79d34d67bf63d327474b5f39a53cf43d623e5c1e21a004f789f2a15ed0",
+    "target_cutoff": 0.43167703056765777,
+    "source_cutoff": 0.7448260672973261
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__scratch__n150",
+    "model_sha256": "780737514b946d51fd009f3889ca3b43a9301f54e2e356d27bbbed6f41033c48",
+    "target_cutoff": 0.005420805322807323,
+    "source_cutoff": 0.9714682328042791
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__transfer__n300",
+    "model_sha256": "0e1f4444d6b84b5d42510a06827b45d83aba88b0905d288a1b2f9481abea6c11",
+    "target_cutoff": 0.19841000921597926,
+    "source_cutoff": 0.6116447126149424
+  },
+  {
+    "job_id": "p2_molecular__s22__slowest20__scratch__n300",
+    "model_sha256": "d44b7c2954fb11944412c7fed14f8542607180cc4a17fbcf0d4d6963be306169",
+    "target_cutoff": 0.22677333522343246,
+    "source_cutoff": 0.9965702767609921
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__transfer__n60",
+    "model_sha256": "7bcad80b78172c74003450c6517c45facc700152193f7e472438d2becbeeb279",
+    "target_cutoff": 0.9863581853488546,
+    "source_cutoff": 0.998645037669001
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__scratch__n60",
+    "model_sha256": "13d30c47abe6605432cc40cf184611746560ddaafbdf90c5ece96698188e6a7f",
+    "target_cutoff": 0.9757104654544713,
+    "source_cutoff": 0.9989560039028317
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__transfer__n150",
+    "model_sha256": "c8a91a1b4714f059ff8ec10cfedd350847dce904127c6592eb0a8ddbd799e714",
+    "target_cutoff": 0.44604445905741436,
+    "source_cutoff": 0.9989971746947143
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__scratch__n150",
+    "model_sha256": "0ed9cfb88e09ff6d80f9992f8eed2f79bb3b42abc7848009a9064c43fa15a916",
+    "target_cutoff": 0.16989494770678018,
+    "source_cutoff": 0.9994005367643544
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__transfer__n300",
+    "model_sha256": "009bf904aea5dc08569cb2b985cfc937dddb283e6cbb666392aa9c86a47f872f",
+    "target_cutoff": 0.08397682291649257,
+    "source_cutoff": 0.9988401117128264
+  },
+  {
+    "job_id": "p2_molecular__s22__time_class_matched20__scratch__n300",
+    "model_sha256": "ee4b8da6ab264b5198bbd7caf7cdb47b22885a530ed23172f79fbac3995f1f40",
+    "target_cutoff": 0.0534732149222634,
+    "source_cutoff": 0.9986413258104162
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__transfer__n60",
+    "model_sha256": "0bf4270ad272c9d63dfab169be132601680fe3fb7a01c984e3deaea8deb24ad9",
+    "target_cutoff": 0.014006818152933503,
+    "source_cutoff": 0.1533747673511151
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__scratch__n60",
+    "model_sha256": "dcc3c5bbf181ad43a35691ff0ef464938a432f4ceecf442412bb2e5ac4272d88",
+    "target_cutoff": 0.003196266628852043,
+    "source_cutoff": 0.14670865624329812
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__transfer__n150",
+    "model_sha256": "27d49e1022d62057d42090cf8d055e6c7e483a3c0071af02b268f650944fa1b1",
+    "target_cutoff": 0.6978717512251653,
+    "source_cutoff": 0.4029699671866061
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__scratch__n150",
+    "model_sha256": "83083284dbf4864ad5953734b4de96abb1e6e63dda929bb634d6d11f8f8f791c",
+    "target_cutoff": 0.0028170378934038918,
+    "source_cutoff": 0.241018808835561
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__transfer__n300",
+    "model_sha256": "7e6756f69695457169b875837a80fc8a7d684c825fcb482eaf2792e807b4779b",
+    "target_cutoff": 0.09262023050929517,
+    "source_cutoff": 0.23835633540433174
+  },
+  {
+    "job_id": "p2_molecular__s33__random20__scratch__n300",
+    "model_sha256": "9fcde0d107be68bdac4665c504c9e94d46f2ec4ebd24cbc74dedbfbc20f979ae",
+    "target_cutoff": 0.0037877967429440465,
+    "source_cutoff": 0.28522829790001086
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__transfer__n60",
+    "model_sha256": "88c86516c5e418d6b75e4aa543faf55d6eb34f41535976631956456d15fb2293",
+    "target_cutoff": 0.916995958751203,
+    "source_cutoff": 0.32887696051060905
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__scratch__n60",
+    "model_sha256": "00b8dd48e77e449522c9d280f11af5ef7f577d0732eeb0674df0c79d43f0c690",
+    "target_cutoff": 0.9439860072500065,
+    "source_cutoff": 0.9299751931690503
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__transfer__n150",
+    "model_sha256": "b330f2eefe2672126fcfce0b98036af5021e70a2ab457f29b300e4af6495190e",
+    "target_cutoff": 0.6107127094562926,
+    "source_cutoff": 0.5787059287191744
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__scratch__n150",
+    "model_sha256": "89bd27f504a7e75a90bb0a0ac0de34c995efd25db3919639686e2b9e2ed3e8dc",
+    "target_cutoff": 0.4951536172352409,
+    "source_cutoff": 0.9569373635376506
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__transfer__n300",
+    "model_sha256": "71cd2184c5f8597c303052ce9c8e6bbafc839ecd82516420a1955dfada8b2ed7",
+    "target_cutoff": 0.3046411347050098,
+    "source_cutoff": 0.08334415740290453
+  },
+  {
+    "job_id": "p2_molecular__s33__slowest20__scratch__n300",
+    "model_sha256": "d2a2826a5597489a2baab74f4e4f00231a235b42b3c806e4609694b127bb3630",
+    "target_cutoff": 0.010517510258390553,
+    "source_cutoff": 0.9799581213218113
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__transfer__n60",
+    "model_sha256": "81f52ffea648887f072ccbb20be9318e26fce4f7e3235a758edc6b5f7823fdd7",
+    "target_cutoff": 0.017000958344201324,
+    "source_cutoff": 0.9211341178952924
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__scratch__n60",
+    "model_sha256": "3406fc5f39583438c3e17bcce5d7f8bf3eafd4f8b3af4b434142b67b4e7efd89",
+    "target_cutoff": 0.5231385017735892,
+    "source_cutoff": 0.9947781593138153
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__transfer__n150",
+    "model_sha256": "782845b48262e038bb49b13babecc4d2d9f79bcf827cb6b98cf5a23d27206c63",
+    "target_cutoff": 0.9988318446741221,
+    "source_cutoff": 0.9999907548089615
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__scratch__n150",
+    "model_sha256": "e24f699e308ff199cfd20e463a8745bea90c878dd40acd9e1c93869ebe3e6a33",
+    "target_cutoff": 0.44858715151094836,
+    "source_cutoff": 0.9987304780754483
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__transfer__n300",
+    "model_sha256": "c02bff2f9d824c48bc35663b3be83bf02d241b964ea7d243638f40fc268f0f12",
+    "target_cutoff": 0.04840665550301384,
+    "source_cutoff": 0.9999989032243657
+  },
+  {
+    "job_id": "p2_molecular__s33__time_class_matched20__scratch__n300",
+    "model_sha256": "e108cb0f7d9a073a15145c75d4ede5c3d0d478eda4e4e41060380bd4c678819a",
+    "target_cutoff": 0.13218889506418605,
+    "source_cutoff": 0.9969179970647154
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__transfer__n60",
+    "model_sha256": "80f3ff743266b2e91645e16d75fdf3e90a189aa4c42ff72696d4b941d184d29f",
+    "target_cutoff": 0.9962643579702242,
+    "source_cutoff": 0.13808984874643734
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__scratch__n60",
+    "model_sha256": "a58ceb98a065ec75b2e19065c27eca658954bc3eae1d03cd6a98d93b027534ef",
+    "target_cutoff": 0.21668389578160877,
+    "source_cutoff": 0.5611988924710888
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__transfer__n150",
+    "model_sha256": "50396a218a85c3bf0b9d011e76077d9d96c8fb4e77664b8f6d6bbf0545285c01",
+    "target_cutoff": 0.9992971973745733,
+    "source_cutoff": 0.9997869608946651
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__scratch__n150",
+    "model_sha256": "37782b44785c44e7f454e0061ebf6fba89c9f8261b44a8289d0dca3a41415142",
+    "target_cutoff": 0.011071170884030493,
+    "source_cutoff": 0.8760575577944202
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__transfer__n300",
+    "model_sha256": "1ffab9f68e8a0e05e7d427d62e08c2a2d13fbf92451385fae2a38798be5ebaf0",
+    "target_cutoff": 0.8641615316661283,
+    "source_cutoff": 0.9950973218261484
+  },
+  {
+    "job_id": "p2_molecular__s44__random20__scratch__n300",
+    "model_sha256": "1bc9a47af8a806df93629e19c0946a3ce6bde4c0ddd12d0030b6d037368c0e7c",
+    "target_cutoff": 0.015455203290510635,
+    "source_cutoff": 0.9323965543714355
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__transfer__n60",
+    "model_sha256": "21bdb77fb7dbb61b5455b431948cddfc650bcb94bce658a5326bf07649a30834",
+    "target_cutoff": 0.9952324384604458,
+    "source_cutoff": 0.0804298117035821
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__scratch__n60",
+    "model_sha256": "9c97a71d4e0c31c07581506cf85a67205bc35e326f902c65666ec3c1c5a4f21e",
+    "target_cutoff": 0.9880363647405375,
+    "source_cutoff": 0.22095151552748882
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__transfer__n150",
+    "model_sha256": "0126420786db0479224938d534cc202d384ef1bbf230e1d897951e3720836ca3",
+    "target_cutoff": 0.9925904480682693,
+    "source_cutoff": 0.6279055055346999
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__scratch__n150",
+    "model_sha256": "6a4b41fd7e0f2c27b5b23acfaeb2e1fdbd916548fd7783357c78a85eb7e14bd1",
+    "target_cutoff": 0.41545681611352786,
+    "source_cutoff": 0.9699731316074374
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__transfer__n300",
+    "model_sha256": "2dae322b6a98abd228eaf4cb011a6ab97467d3dd04f8400660a3044de6f94ff3",
+    "target_cutoff": 0.6904483809120041,
+    "source_cutoff": 0.7498422731789242
+  },
+  {
+    "job_id": "p2_molecular__s44__slowest20__scratch__n300",
+    "model_sha256": "2d5b892bac401e54957b8634911312f7cfae37da3da6749c70f27196e5b5ac22",
+    "target_cutoff": 0.6379116941064983,
+    "source_cutoff": 0.9818680920010943
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__transfer__n60",
+    "model_sha256": "c2b19699e9126522d6fbc1ede4b55b55cd6ae88d6553ededec082e384e75e13e",
+    "target_cutoff": 0.9906727844303745,
+    "source_cutoff": 0.31823325509115996
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__scratch__n60",
+    "model_sha256": "279f6712145c1c9c26985af755d5be9e4f2ebad60ef39e77c0ca5a7401968183",
+    "target_cutoff": 0.930305395181406,
+    "source_cutoff": 0.9079062150601418
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__transfer__n150",
+    "model_sha256": "4c21da68bd169cc713ec062880ab3fd2a0d61aaa806fb2b63adb919fe4e4bb63",
+    "target_cutoff": 0.9992589737501641,
+    "source_cutoff": 0.961074134022421
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__scratch__n150",
+    "model_sha256": "fe58c06a46695135f2eb3c6f5988e0bd6cc40746f34d696743f70ad6f16740ae",
+    "target_cutoff": 0.19402081616007957,
+    "source_cutoff": 0.9403801281275207
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__transfer__n300",
+    "model_sha256": "2a702ab142f06eb9e81eb73cb7c61b2b1f07be7a009d0dabb2f5f374555377e1",
+    "target_cutoff": 0.6577733679949329,
+    "source_cutoff": 0.6929462271805757
+  },
+  {
+    "job_id": "p2_molecular__s44__time_class_matched20__scratch__n300",
+    "model_sha256": "36a198fe160ed2d2e0a5b7770e914604e3689b3613bb6fbebb215b9cf517bef4",
+    "target_cutoff": 0.997598221476912,
+    "source_cutoff": 0.9312753668905801
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__transfer__n60",
+    "model_sha256": "ef3b4597cc28e68898ef8c75878d33b31f1059c854c4387b2d602212b641c357",
+    "target_cutoff": 0.9446070465132577,
+    "source_cutoff": 0.983007885196889
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__scratch__n60",
+    "model_sha256": "600881283615479674070d46f49088d27b18e1371169ec4eb28e54dc9fdf725f",
+    "target_cutoff": 0.9357784803980193,
+    "source_cutoff": 0.9525392571657688
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__transfer__n150",
+    "model_sha256": "39994942baea1dea5ec708103cb2f030281abbbdc90057fdcdbe08f51f61d4c0",
+    "target_cutoff": 0.5223135368868591,
+    "source_cutoff": 0.9999997583831562
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__scratch__n150",
+    "model_sha256": "c44c3ee1e656ae4669553726c2ad85c6f080316b15e6e4dd5c2c5ab86eae9a26",
+    "target_cutoff": 0.5085336241227806,
+    "source_cutoff": 0.9997303520935032
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__transfer__n300",
+    "model_sha256": "702dc37f1ac7de9976a261b8c9bdc615f608f7767d17f64f6a45df3396be9f36",
+    "target_cutoff": 0.7014760177865274,
+    "source_cutoff": 0.9999652559480308
+  },
+  {
+    "job_id": "p2_molecular__s55__random20__scratch__n300",
+    "model_sha256": "2ef33cbc29d4f2bff4270038c862fe2e447216da6d825ea852d14b20ef123558",
+    "target_cutoff": 0.22194016152359033,
+    "source_cutoff": 0.9986298599077242
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__transfer__n60",
+    "model_sha256": "e787cb893abb5d2164a2688ebf06bcaa9985247142317037801bdbb4bc1ee27c",
+    "target_cutoff": 0.9404308667367,
+    "source_cutoff": 0.9732523239194362
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__scratch__n60",
+    "model_sha256": "8d1f645b9dd8102ac14e903d55832d7035bbc1fa167950f5a5b7012da63a7958",
+    "target_cutoff": 0.5731022176297699,
+    "source_cutoff": 0.9039625972924807
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__transfer__n150",
+    "model_sha256": "1ffea0ba4cc99d60e0993839da9d78c9c90203b90895ffa5bed1f485887b57f3",
+    "target_cutoff": 0.5285251645832111,
+    "source_cutoff": 0.5545509763873658
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__scratch__n150",
+    "model_sha256": "b32510b675e095c944c2f4e6cc9885ee40999f3e2f731d2ab4a239577fc9d1ff",
+    "target_cutoff": 0.6558670197838254,
+    "source_cutoff": 0.9601304257304898
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__transfer__n300",
+    "model_sha256": "fc4cda44893751f969707d0c69ca51d6f52f6e1f7eddbb080147fa424adf624a",
+    "target_cutoff": 0.31530985659029814,
+    "source_cutoff": 0.7174813824756917
+  },
+  {
+    "job_id": "p2_molecular__s55__slowest20__scratch__n300",
+    "model_sha256": "64d58f00d80f0a6ca8d186107e6d54c6db9a64c247cf70ddd365bfdca1686d89",
+    "target_cutoff": 0.04946268822443927,
+    "source_cutoff": 0.9666799125904486
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__transfer__n60",
+    "model_sha256": "c49803c1c4d2a5b9a22492e26c6625f90a74c338d250bee0bd6b4aebe064b344",
+    "target_cutoff": 0.76336831571643,
+    "source_cutoff": 0.9998279899427192
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__scratch__n60",
+    "model_sha256": "20d8068f1ae5ee9d6225d86289acfa1ceb94bd14494d97b0336566b0df71808b",
+    "target_cutoff": 0.6754799835033861,
+    "source_cutoff": 0.9763421204288917
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__transfer__n150",
+    "model_sha256": "2b75e8720c31fa9a4d6255fe5b66d62df3c8e97b2beedc64d45bb2b1f23d385e",
+    "target_cutoff": 0.538092586503245,
+    "source_cutoff": 0.9999996270963489
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__scratch__n150",
+    "model_sha256": "37a6c30db70a345523a83963927c6ee6c7a66c15de9d2ed4e36dc65cfab8cf4b",
+    "target_cutoff": 0.2858261818166406,
+    "source_cutoff": 0.9998796671857823
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__transfer__n300",
+    "model_sha256": "bb8a0c44c969a4c46c699d33a135590ad0866a911811a2db01dc61663a33f754",
+    "target_cutoff": 0.07883916140006476,
+    "source_cutoff": 0.9999998744273277
+  },
+  {
+    "job_id": "p2_molecular__s55__time_class_matched20__scratch__n300",
+    "model_sha256": "c1b129230404d381555d91d674499057b208d715b2424c5709aba7e9a1e36694",
+    "target_cutoff": 0.29666637699516535,
+    "source_cutoff": 0.9997461893556014
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__transfer__n60",
+    "model_sha256": "bdd17fdcea85f0de5de5000ac7aeda8bcf99968eb27dbbed2eae5f6e17593d7e",
+    "target_cutoff": 0.8241878654371657,
+    "source_cutoff": 0.9082428049051051
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__scratch__n60",
+    "model_sha256": "7f99ddd90ae81b3cc2419c0a7a57f179b3b2037fda65754688d48dd29e09e0f7",
+    "target_cutoff": 0.9908764718535042,
+    "source_cutoff": 0.9471951824548794
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__transfer__n150",
+    "model_sha256": "100be0a9c54fccddfcd14f61dc63c13704b0535d50f86ffe4d70d591054d723b",
+    "target_cutoff": 0.359504206481387,
+    "source_cutoff": 0.9923893463129279
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__scratch__n150",
+    "model_sha256": "f2378d68a07a3849c040d6445973fbdc229f9738bcc5ddf8d51110a6759257fa",
+    "target_cutoff": 0.4853468250949174,
+    "source_cutoff": 0.9952976417993314
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__transfer__n300",
+    "model_sha256": "6fd5f3142e231003bcc26c4224b3b1da7688d196b2b32922b30c0fac57658572",
+    "target_cutoff": 0.27612000279462406,
+    "source_cutoff": 0.9971077957740974
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g20__scratch__n300",
+    "model_sha256": "e22ca761d91cf8601b4d159c6fb5439e8c358e77e42aef4b791afc7db21d6da7",
+    "target_cutoff": 0.38751025094040287,
+    "source_cutoff": 0.9949282202484738
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__transfer__n60",
+    "model_sha256": "cb9a9432cb40e86f3099fe06234131cb263af21205bdc972d4718f8d528062fb",
+    "target_cutoff": 0.1359445932303263,
+    "source_cutoff": 0.3752582505253466
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__scratch__n60",
+    "model_sha256": "03d549ee433196853002fcc00433502b2cd4217a67661d3a0239bf4810b445e3",
+    "target_cutoff": 0.984483489265231,
+    "source_cutoff": 0.9726161869526045
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__transfer__n150",
+    "model_sha256": "f238f930282a7d796382b39a748d7a2a2465bc25c63a4f14c92d3a12c543682c",
+    "target_cutoff": 0.3773952087408496,
+    "source_cutoff": 0.9999520671597075
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__scratch__n150",
+    "model_sha256": "09519642a77163a518dd7b9cccfb6ba8cf19797f8a5ca493ecfa2351aef2ed52",
+    "target_cutoff": 0.8372994134870293,
+    "source_cutoff": 0.9992469389191552
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__transfer__n300",
+    "model_sha256": "8e6c6d129d2278be38bdd68f3618c1a4f0f12250a2cb5abb3809aa8c97c8bca6",
+    "target_cutoff": 0.28714922578640056,
+    "source_cutoff": 0.9999162037351876
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g20__scratch__n300",
+    "model_sha256": "3f9fd187c6029171fb3facda90068aa445fb85a72c76e3fe44d2e647ede217c2",
+    "target_cutoff": 0.5740419253183521,
+    "source_cutoff": 0.9984331703281565
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "1aa2b11bbf411e47ef8b12d4a3366826063a0d1617c1f0f232d92ee4953bb2bc",
+    "target_cutoff": 0.7562170921612146,
+    "source_cutoff": 0.9290331591140354
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "7cd6f6e94af7c416316cbd8e72e586f15d8bd56af26dc738c2ac08dc54671728",
+    "target_cutoff": 0.965450963035936,
+    "source_cutoff": 0.9747385422389155
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "39f7b0ab4cf684e4752fd69a417f533a159d60def3909e7d47f9d99cac499147",
+    "target_cutoff": 0.3036310838624497,
+    "source_cutoff": 0.9999432262991954
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "22c00eb18e4ce37b4ada3824ae3cce1c66e018631fcdd98b7017d284fa6371fc",
+    "target_cutoff": 0.8531599604032082,
+    "source_cutoff": 0.9935294581374338
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "d81abb39683de544b97aa42d65d4ad3cb4507ee6d8b7b1356db21f2cd717bed2",
+    "target_cutoff": 0.3012524058547687,
+    "source_cutoff": 0.9999925436508571
+  },
+  {
+    "job_id": "p3_active200__s11__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "1bfa64bbc1c3bf55c2734345fba6b6a6b6a90af7d8254dfc338b4d253fcf506e",
+    "target_cutoff": 0.38688898383543674,
+    "source_cutoff": 0.9922941537117982
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "6a4b6ff9ae3bf8394f3b903c1bc97483bd6ebf3c341f0ad019cac67eac738c29",
+    "target_cutoff": 0.042589876838580974,
+    "source_cutoff": 0.012604046299847238
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "920ba8a6dc07c2be9a7e9ddfd1080b4654f4914cc253cd7edcf864f1fa876d08",
+    "target_cutoff": 0.9219675166055129,
+    "source_cutoff": 0.010487829190986162
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "c49d5dcec568343b63cea528db15cdc07aad9fe8aa47de1adaa60c8ad8541381",
+    "target_cutoff": 0.3523824611778081,
+    "source_cutoff": 0.1657335550521097
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "f7bddd8680bb8a872da082d2e504973812680b537a2547dde2432dd666bcd220",
+    "target_cutoff": 0.7331911861742263,
+    "source_cutoff": 0.017946128671022143
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "bf1f18002bbcb5db9fccc900385c1d637067333a5afaf36bb55a1dcb08ae9c6f",
+    "target_cutoff": 0.3467257189307038,
+    "source_cutoff": 0.09381116899421266
+  },
+  {
+    "job_id": "p3_active200__s11__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "06ee95f6625e6553243ec45aa59dd8f4c3d55ef10fd9bf2549554a612123691b",
+    "target_cutoff": 0.5291408936156895,
+    "source_cutoff": 0.013576883337444424
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__transfer__n60",
+    "model_sha256": "e45d641736737012e5bc857a4344cda2691919f17f2971314d0d720c3ae61c9c",
+    "target_cutoff": 0.9693377591355637,
+    "source_cutoff": 0.9998217554892067
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__scratch__n60",
+    "model_sha256": "c2713a880b014768474ded6a9c6443ae9a1477dec9f305a9b8303e95333f03e0",
+    "target_cutoff": 0.844031604103396,
+    "source_cutoff": 0.9985457282178091
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__transfer__n150",
+    "model_sha256": "cc67d5fbf6f3c1a5b2485e8e370a07b9b034818b9e50d8705a6981233346f283",
+    "target_cutoff": 0.21093976574605036,
+    "source_cutoff": 0.9999881160963477
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__scratch__n150",
+    "model_sha256": "9abf97356d65d1b35d4e863d36a953643107bff48441167b2fbcf85d6920e2b8",
+    "target_cutoff": 0.3756424925759587,
+    "source_cutoff": 0.9987734811990929
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__transfer__n300",
+    "model_sha256": "59cda5c10c75dff7bbb0931c635bf0b23e4af0c739898e9a9c58ba1955c6766d",
+    "target_cutoff": 0.25029037293680795,
+    "source_cutoff": 0.9999908143071584
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g20__scratch__n300",
+    "model_sha256": "90f38d5dd30456c1de3a4ca07f0fc7e11722f79cd2793f356e89d7a91a1bf2f4",
+    "target_cutoff": 0.060145751724583134,
+    "source_cutoff": 0.9990859455880631
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__transfer__n60",
+    "model_sha256": "b860e0dc5feb66cb88a6064d0650f4fbd6499edb1f209a6010f98179369490a2",
+    "target_cutoff": 0.18248584616209854,
+    "source_cutoff": 0.8291883558220849
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__scratch__n60",
+    "model_sha256": "2871bd86a543c187cacd15b0ab10e86d9aa446fe482d23ba014dd9333aa71fd8",
+    "target_cutoff": 0.6656566470835991,
+    "source_cutoff": 0.9004224972627076
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__transfer__n150",
+    "model_sha256": "2436de3885a078453929a4c8d3c6982573f14ef8c210b5d35f8ff08e1bbc6e31",
+    "target_cutoff": 0.06580235170979813,
+    "source_cutoff": 0.9999987167164495
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__scratch__n150",
+    "model_sha256": "741f438f41c36be67866b26e5a33b66f6fefb46592d4f21ea9c7f429e3314d1a",
+    "target_cutoff": 0.30862455310192904,
+    "source_cutoff": 0.9994512529652485
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__transfer__n300",
+    "model_sha256": "6475e1ce21dc0d3a507678f53b2a2d0e5e4156a7de317f019e7dbf6f90a6770d",
+    "target_cutoff": 0.3694347995441168,
+    "source_cutoff": 0.9999883403575377
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g20__scratch__n300",
+    "model_sha256": "ed3ce8c51f377a4fb59e4c076594dce2f174c8cce788248f04c73c62009fa65d",
+    "target_cutoff": 0.20401454088026053,
+    "source_cutoff": 0.9986191205570814
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "fc571a9947d3e74d19acd7800ab641a699d0bd63c8c0ca193de42f8e5b7695e1",
+    "target_cutoff": 0.5271158116875442,
+    "source_cutoff": 0.9946761709727155
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "6f01131c86365fa53d00b323c08fe87a0093a8d05a1c191078f6a99557bee525",
+    "target_cutoff": 0.8879336067007885,
+    "source_cutoff": 0.9436746783210522
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "0f9cc790ef1885fdc4672fb6059fab71949ed2e6b7df9d087e9507f381ad4eab",
+    "target_cutoff": 0.29348732387907844,
+    "source_cutoff": 0.9985955932888858
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "505282d87badd7063efe5f7347e22b235b005b9e42d95adb2308f55cd98b57d3",
+    "target_cutoff": 0.358238102342129,
+    "source_cutoff": 0.9734696245952579
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "26e9aebc8b31709cfb5f840fa80a892f9b54555306529074ab39f6301767c5b2",
+    "target_cutoff": 0.2786124595881863,
+    "source_cutoff": 0.9987532529787718
+  },
+  {
+    "job_id": "p3_active200__s22__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "a8f2e779733cb8a9cf70d0fd8a780aea2dd436d623ca3c03716c6f87d0e2976c",
+    "target_cutoff": 0.10123822247139654,
+    "source_cutoff": 0.9786839567065106
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "5269ff6a3bc7cb4864c8ca8d885780c017f7223362cb6729adce2f2c9def1712",
+    "target_cutoff": 0.9659382508275302,
+    "source_cutoff": 0.04457401627881139
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "0be03f891b0395492915218fa1da7096c871c2e175c71d9544dbca06da2dfbfa",
+    "target_cutoff": 0.2145710533318764,
+    "source_cutoff": 0.07266725805046115
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "5157df25eb0b6cab20492e5421678076766e070481c87d2cd00a9c060a723fc6",
+    "target_cutoff": 0.2175642253365725,
+    "source_cutoff": 0.45698176419179504
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "2548ab00354fe8d33322efd2d7b157f54bdc87da3acd8eebcd583a32ad7f6dd1",
+    "target_cutoff": 0.3680529665086751,
+    "source_cutoff": 0.0025218359576500014
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "7a66787fb80a554aec4018eec4b192bee1c3db786c8b18dc37e7f9879b48da67",
+    "target_cutoff": 0.2691311322849636,
+    "source_cutoff": 0.1828209630560074
+  },
+  {
+    "job_id": "p3_active200__s22__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "006276390651ce1cb202eaec12ecc8a96c979acd81c2576693fe7db4fffa8a33",
+    "target_cutoff": 0.3928676152595554,
+    "source_cutoff": 0.008076184516660017
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__transfer__n60",
+    "model_sha256": "4ba71493d8857dba8acdd94563c0313dce062fc909b3352309d7e001f57566fc",
+    "target_cutoff": 0.9874581097308609,
+    "source_cutoff": 0.9876267485575031
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__scratch__n60",
+    "model_sha256": "e799c81fa9e28dd7b5cb4a57e617466004c326b165c8b278e88b40aaa5dfc525",
+    "target_cutoff": 0.9275643892393767,
+    "source_cutoff": 0.9991226488607813
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__transfer__n150",
+    "model_sha256": "d9958b75e0dc49608ad360458b6747e42e5c0426a02695e946bcb092d1765220",
+    "target_cutoff": 0.0308092275479326,
+    "source_cutoff": 0.999188249254766
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__scratch__n150",
+    "model_sha256": "f44570185db242dda1c4bbeb1ccf077ed271fb3ed60dde007ac9d1d7e91d7185",
+    "target_cutoff": 0.6318615633546382,
+    "source_cutoff": 0.9996582677461568
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__transfer__n300",
+    "model_sha256": "070f71d6bee532b39bceb2eb64453b007011ecb38d5cab19c5df8acf30032935",
+    "target_cutoff": 0.10400753343006973,
+    "source_cutoff": 0.9984312786190248
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g20__scratch__n300",
+    "model_sha256": "d07e38a3659b0ada34d2758d2ac971c12c117169b15342b65d2f62233faab528",
+    "target_cutoff": 0.1369701211935018,
+    "source_cutoff": 0.9997384517292435
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__transfer__n60",
+    "model_sha256": "f3fb5ac42a2bf6ca20705d85e7576da51c29d17929bfd429c113a3a13f614e57",
+    "target_cutoff": 0.8537884748597867,
+    "source_cutoff": 0.5731179114867769
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__scratch__n60",
+    "model_sha256": "c4d0c0ed1943ad84832c139a0ee05df758288eceb2cdc885ceff76365eaf8e84",
+    "target_cutoff": 0.7342651019748141,
+    "source_cutoff": 0.9818105660446216
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__transfer__n150",
+    "model_sha256": "b3c68cd9f1455b349975c7f68a918aba8cf3208406b6c1eeb78ef3e4ccaee1d8",
+    "target_cutoff": 0.28145141898615705,
+    "source_cutoff": 0.9999858118940509
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__scratch__n150",
+    "model_sha256": "baf3acf829594cec20eb67452db1881fef32972cc0b993d7a0eb115c43a6ee09",
+    "target_cutoff": 0.5191080537526721,
+    "source_cutoff": 0.9999521909696942
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__transfer__n300",
+    "model_sha256": "b91369e6f75f18c3a63b27673fcbc278aa7813f799eff8eb8c156012ec5799fc",
+    "target_cutoff": 0.6801627872489178,
+    "source_cutoff": 0.999999923786563
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g20__scratch__n300",
+    "model_sha256": "5a77a3fa68c2b7572f2c557435ff915ece7cf83289b8b9e1f9c4dcf1a8eeb89e",
+    "target_cutoff": 0.46983688765454223,
+    "source_cutoff": 0.9999676348807224
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "2e65dee7df6b144df4d50fe8b1d18d92f572e4c7f5c264498b78f8fa07cf5cc2",
+    "target_cutoff": 0.9870141040419586,
+    "source_cutoff": 0.9571682929293726
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "c9c49e8a8b21495db28630e6e6a8fa612d849a66713382ab0fa0bd9f7599fcac",
+    "target_cutoff": 0.893878559458891,
+    "source_cutoff": 0.986259504155898
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "91363f4935359c04c06d7c1519bc27e61828d1372c7ed7b6aafdf3ccf1ebcdf3",
+    "target_cutoff": 0.1919960867759655,
+    "source_cutoff": 0.994182358718
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "c82358d1f20e4f1204b9ee26c5f75ec0df7cbd62f8276e4ab92b6d1fa9550ab6",
+    "target_cutoff": 0.5525645896619932,
+    "source_cutoff": 0.9848938348568262
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "f20668077b4ab114a56e9139250bcfc4093dd20c4470647339eae6d1e62ff6da",
+    "target_cutoff": 0.6145554867509575,
+    "source_cutoff": 0.9980299742654974
+  },
+  {
+    "job_id": "p3_active200__s33__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "106acf78e574207555715da098c5c74ac5c9cb35a8f404c2871c2e74b747e972",
+    "target_cutoff": 0.07614718344516701,
+    "source_cutoff": 0.9906001078737058
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "42181b5689a0bfe1bcbe2463edf2dc8e84bffa275df640ba6915119df8808001",
+    "target_cutoff": 0.8505464911414831,
+    "source_cutoff": 0.036787930955540935
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "efbf7cc778ee4d75065c2f6d008f8eaa13d84ec18482e09b874ffe48208cea06",
+    "target_cutoff": 0.0117125805837962,
+    "source_cutoff": 0.024121707389544073
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "d0383c0a2be60e1746ff28617796783768d058d66c6ece9760a90b638eedfda0",
+    "target_cutoff": 0.035052373925030765,
+    "source_cutoff": 0.24463542790675585
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "8d6cbc287fb685e173d99f4fc5a00eaa68651c7ebac0974f443d83094806e50e",
+    "target_cutoff": 0.6493876073315201,
+    "source_cutoff": 0.028190454960192683
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "52536f88e78d0f10af95b4bf7c5d15cacb204d24a5cb035f2f84225f9933e705",
+    "target_cutoff": 0.7164391345271796,
+    "source_cutoff": 0.47660210478516934
+  },
+  {
+    "job_id": "p3_active200__s33__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "c30ceeb56db56ec7c57d7ec21ff38db656b8329902ae247b2a5d53f13ec5f9d6",
+    "target_cutoff": 0.07033997710457372,
+    "source_cutoff": 0.021826655273889967
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__transfer__n60",
+    "model_sha256": "142c2aed5f5aee8b0712fdef060bb5b243a9c3bc6853562f1895fbc718cfd90c",
+    "target_cutoff": 0.3695913498648904,
+    "source_cutoff": 0.9324447314211732
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__scratch__n60",
+    "model_sha256": "95f9a73ee5264ba89bde33d546b00be89b885fd5d0b080ae2a0667476efcf8d6",
+    "target_cutoff": 0.981100100263076,
+    "source_cutoff": 0.9536276090815897
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__transfer__n150",
+    "model_sha256": "f7cb4e5f2de4de235ed76fed863fe25bbbadaad6268da9f3fe77522a736377a5",
+    "target_cutoff": 0.6763399959998625,
+    "source_cutoff": 0.9995872422891031
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__scratch__n150",
+    "model_sha256": "1b69f324debb840716e5add05774c905a77b0145e128b8e20cadbc68ef1326db",
+    "target_cutoff": 0.1260319307739086,
+    "source_cutoff": 0.9996879432243944
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__transfer__n300",
+    "model_sha256": "1ec7ec4dc6c9b015a39252af21c0ba2889878db70b2d908bc51bcac9bb859775",
+    "target_cutoff": 0.47758689024860584,
+    "source_cutoff": 0.9996045253361694
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g20__scratch__n300",
+    "model_sha256": "4dcf957a596ba8cdec8ead938d2640104918aa5440874c093ac7ec7cd6fa6fa6",
+    "target_cutoff": 0.4681740083970643,
+    "source_cutoff": 0.9970506447309813
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__transfer__n60",
+    "model_sha256": "c86bcc364885ba23d61356270e29caf2ff8acffd137b22d4ccfee30f651e6c5c",
+    "target_cutoff": 0.6318837908309402,
+    "source_cutoff": 0.23952300257648493
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__scratch__n60",
+    "model_sha256": "0fc82f94284f40857f1239e286ea502143775a36509f56eeb681207f56f8b346",
+    "target_cutoff": 0.5306492164840736,
+    "source_cutoff": 0.2775021269620108
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__transfer__n150",
+    "model_sha256": "e7677f0f9cdb5303e33ded2fc0bf31a2fd72d9e1c12b37161f286ae0c37be9da",
+    "target_cutoff": 0.5829654573704744,
+    "source_cutoff": 0.9999989651239917
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__scratch__n150",
+    "model_sha256": "afbf20d2d18f4a1c53ad17afd755b22206fdc91b416cebbffee89686fd70b94b",
+    "target_cutoff": 0.5518103142010465,
+    "source_cutoff": 0.9998993548820372
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__transfer__n300",
+    "model_sha256": "7b95601dc1be0a6ed65f1b19b71d85a9ed014ad0ee292bc3747c3ecbbc50e027",
+    "target_cutoff": 0.47074630718269433,
+    "source_cutoff": 0.999965058772076
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g20__scratch__n300",
+    "model_sha256": "4bc4caf8f6af46f0beb8c4ddc48e6a2b194743617d988439ab1ca27ffd462032",
+    "target_cutoff": 0.4625677033036226,
+    "source_cutoff": 0.9982823570064142
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "41efe83fe0aea9123924521aaab58172f22ef0251d9ddd6dd27d2745efa748bd",
+    "target_cutoff": 0.3064708860697655,
+    "source_cutoff": 0.9281821956532661
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "47726727f13eee32dbe466594b0b8b825980d0388523a33c84ccfcb0f4949dde",
+    "target_cutoff": 0.9880783272747952,
+    "source_cutoff": 0.9684850203703701
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "716eab4e4411a0e3fad5cb1b22bcedd297544cdcbdb25563e2a24a5bd2b41fcb",
+    "target_cutoff": 0.46666748191022595,
+    "source_cutoff": 0.9993011236518702
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "86fb7d89371c235d2f84aff9ee017c608c6daeff1953d33b3422c011d7d28df8",
+    "target_cutoff": 0.32505439418702053,
+    "source_cutoff": 0.9934835562222685
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "466a6632bb5c59ad888cf7db630cd0bff0a94562b4c971c8baec60ba63ae70bc",
+    "target_cutoff": 0.3249529312037987,
+    "source_cutoff": 0.999435364197378
+  },
+  {
+    "job_id": "p3_active200__s44__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "7538b2ac553d3963e73b683bf913a1656c906de02aba6da9ca0bcce84cfd17bd",
+    "target_cutoff": 0.5095790125221046,
+    "source_cutoff": 0.9911876195763081
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "2d0c4bab1b1c941cf49606cc28dba44721814f178cf75e0494c553a089d2835e",
+    "target_cutoff": 0.7220565803463682,
+    "source_cutoff": 0.006131628615541434
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "79f689ea0ad99e589d3d446c985678ea7dcd177819b42c0b4aba7f07bd62939f",
+    "target_cutoff": 0.35009844400430795,
+    "source_cutoff": 0.0007618695792532777
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "0f5c621c8f057509e33708aa1f84deaa9bacc5f369d19cbe777d6139f50b9653",
+    "target_cutoff": 0.19256918814331989,
+    "source_cutoff": 0.3497060986801988
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "6c2dbcead1e3db24b745fb16bd0de8ba0b7c52f61b4532be395f315c45e948f6",
+    "target_cutoff": 0.2541079933063491,
+    "source_cutoff": 0.003338716801727835
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "bc06b38277440b42ebb6f5b003927f961c55ed2325fba144ce1ea7b15c30e752",
+    "target_cutoff": 0.3396740120209946,
+    "source_cutoff": 0.08908532357373689
+  },
+  {
+    "job_id": "p3_active200__s44__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "f6f5365921ca5ff7ae2d5f4910e41b8dd67c167787533fd3e82195f768092734",
+    "target_cutoff": 0.6187622399457674,
+    "source_cutoff": 0.008584804272055437
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__transfer__n60",
+    "model_sha256": "4c9b7ad370c79514526477890d2c2360f550482c85b03531ae6e2da916735ea7",
+    "target_cutoff": 0.3310954349801599,
+    "source_cutoff": 0.9954195077817909
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__scratch__n60",
+    "model_sha256": "84bf4270d308be0717a8351d29d015721367a10af7628729fc2775a9129ade61",
+    "target_cutoff": 0.5179209062805359,
+    "source_cutoff": 0.9787725407753172
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__transfer__n150",
+    "model_sha256": "0c4a71906afa93b00187fe6d934f7812dbe923f70ac83ca73252397f01c2c3d8",
+    "target_cutoff": 0.23806735949480048,
+    "source_cutoff": 0.9996942992850678
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__scratch__n150",
+    "model_sha256": "412835b4f430f192e7eb0fafc69b0c248ed1f81dcefd8872c62d8c9626ab6701",
+    "target_cutoff": 0.7107555205259993,
+    "source_cutoff": 0.9981618144295141
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__transfer__n300",
+    "model_sha256": "d7e1314fec790aca428c67cc5c15ee14d20c6d4982489d489727d51a1ad9122c",
+    "target_cutoff": 0.19341787349557635,
+    "source_cutoff": 0.9996111354533473
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g20__scratch__n300",
+    "model_sha256": "09daad6b65e53e64f6ccb91dbc63827963e950aaa619c7b9386a28807732021d",
+    "target_cutoff": 0.04708540644140696,
+    "source_cutoff": 0.994927049884867
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__transfer__n60",
+    "model_sha256": "cb6635a369836b6ea2697eb4398040da680c4bf0063f062f7e99716e2774e1b5",
+    "target_cutoff": 0.58620998681732,
+    "source_cutoff": 0.03268141601435022
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__scratch__n60",
+    "model_sha256": "254c08637f342757fab625fd731779a169565d152e53ee9de6ec039bb9f780b5",
+    "target_cutoff": 0.39218876220131516,
+    "source_cutoff": 0.3354984129074358
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__transfer__n150",
+    "model_sha256": "0a87fb413ae0f0459d6001b2f833300c7bed97f4ae3d425340b33ff523de4a90",
+    "target_cutoff": 0.35123329275481496,
+    "source_cutoff": 0.9999270563214028
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__scratch__n150",
+    "model_sha256": "15eab4aa23a449396becd6f54b32025501c9192519d918d2153a42b447cda5ec",
+    "target_cutoff": 0.43202280297550216,
+    "source_cutoff": 0.9997835512542861
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__transfer__n300",
+    "model_sha256": "2252dbe5b29cd44936ef97b4142a194e88fbeca57f5c7287c2a6b170f5a8c749",
+    "target_cutoff": 0.5073587138263761,
+    "source_cutoff": 0.9999981536568238
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g20__scratch__n300",
+    "model_sha256": "dd2765de38c7edb31aac7af99278a901c8f4f99d8056dbecd640e9bd2f00c5f8",
+    "target_cutoff": 0.39309440633883846,
+    "source_cutoff": 0.9988877064276714
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__transfer__n60",
+    "model_sha256": "8b5bd8f2882d684adfad3b865c4efa1f4dfee82a7fa53e845d307e9a78c6a448",
+    "target_cutoff": 0.7963016073005055,
+    "source_cutoff": 0.0930308009326718
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__scratch__n60",
+    "model_sha256": "cabf308f5e398df851e199d2c86b2876c7e530eeb6b27a3162b9b3f42edd6840",
+    "target_cutoff": 0.017011022552286852,
+    "source_cutoff": 0.8364885130124957
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__transfer__n150",
+    "model_sha256": "66cb98350bd80ffb250db155f89f28f212e6c59df3d28d94b3785a6036f31c58",
+    "target_cutoff": 0.5163259038643506,
+    "source_cutoff": 0.4751378408522317
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__scratch__n150",
+    "model_sha256": "eb55e396b3eb7f4bcea9dce757cc4d5b604eaa64c5a6bf7466795c53aa06c7c3",
+    "target_cutoff": 0.04972393704244011,
+    "source_cutoff": 0.18222025109813866
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__transfer__n300",
+    "model_sha256": "b890a0204d90b91d095f212aab3b0545eb0c6b454ee87a234b04c96bc71f6a40",
+    "target_cutoff": 0.142873097594891,
+    "source_cutoff": 0.27460327460787737
+  },
+  {
+    "job_id": "p3_active200__s55__energy_bridge20__scratch__n300",
+    "model_sha256": "98e230308a39e0c46b67b81b8e2eb352d44fd888095f61dfa0708fb7ffd160c9",
+    "target_cutoff": 0.08026348432857505,
+    "source_cutoff": 0.13121892977352106
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "b8f02bfca64b758fcc04aad0d79737cd75f9d7856caa9029f88d9fdf947f381c",
+    "target_cutoff": 0.8740042327213339,
+    "source_cutoff": 0.9903254389913053
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "d85b4d9ed282ee9da94347da685c4e7fd3b17bd47b289ea8b3e29f66b00a2ed5",
+    "target_cutoff": 0.7734585374017032,
+    "source_cutoff": 0.9851779563283966
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "c18b53464c2f1f7f14f9dd54a6564a6c53d8336dc9dc29b0f42d21dff6e63480",
+    "target_cutoff": 0.5474685721906812,
+    "source_cutoff": 0.9999984195536404
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "f1c2efe66fe20c951eb624f99aafcfd3803a2d9c7d656de9cbd61523267d146d",
+    "target_cutoff": 0.7748960909689258,
+    "source_cutoff": 0.9999597761218931
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "f3f0c8efc995398e93055e6b2cd3db1fab08f3da575067913ef0a35a2e011ea9",
+    "target_cutoff": 0.41663672694825554,
+    "source_cutoff": 0.9999997387860532
+  },
+  {
+    "job_id": "p3_active200__s55__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "a33540493567377cd9f18bc2b80453d117c43a2ab100b1d314cc26fa621e3511",
+    "target_cutoff": 0.38293106225035706,
+    "source_cutoff": 0.9999462641719642
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "f7a0933ce6b865a86202f578dabd33dfbe184e9a03e0a1e1a96012e63181aff8",
+    "target_cutoff": 0.5767747068546254,
+    "source_cutoff": 0.005279855403974517
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "8d9c50b59dbbb2a6705095c6ee79bad33143d64e028d17214775094a32a731bc",
+    "target_cutoff": 0.023199833759128374,
+    "source_cutoff": 0.011559909620294668
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "2642e8a26f58e496a50818a035a72c628e68ea5c0d3990e21e1377447051b3b6",
+    "target_cutoff": 0.3533865731712155,
+    "source_cutoff": 0.12630082124138575
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "2dba18e05a7164b94820e3df465e0cd4d599a8e2012a884944dcac04684ee485",
+    "target_cutoff": 0.48524283820631275,
+    "source_cutoff": 0.0077193064585522565
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "7edcbc58748e9a833889e49b41db9e6c17c47e3394c04b0a6bdbc6885f5bf677",
+    "target_cutoff": 0.13821570531273705,
+    "source_cutoff": 0.011580213136865207
+  },
+  {
+    "job_id": "p3_active200__s55__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "8827718959898dc1364b51a7f268efed167a141e1b5b3de64b58c92b82eede80",
+    "target_cutoff": 0.3660571671560966,
+    "source_cutoff": 0.006223425651070618
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__transfer__n60",
+    "model_sha256": "29f0aaf867f1a5ff4873f604d63f8339138c31642e47b26cfb5abb980d22d958",
+    "target_cutoff": 0.8400378448932323,
+    "source_cutoff": 0.2974442514102886
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__scratch__n60",
+    "model_sha256": "73031a62a7300b3b34e255a9837d837836388a61eb4a6b46cb7d8dd7cd4e02a1",
+    "target_cutoff": 0.35769254084341034,
+    "source_cutoff": 0.45586803145108884
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__transfer__n150",
+    "model_sha256": "eb98544dbdd99c675c69030cb23a12c3b0e821e0f8ebf7abe32922e05cd76aef",
+    "target_cutoff": 0.7111549988692817,
+    "source_cutoff": 0.682788133951512
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__scratch__n150",
+    "model_sha256": "f9be76872afb0ec4cd6f02e5b3a2161562b6987f1ba958b27995fe666186d628",
+    "target_cutoff": 0.725465516197171,
+    "source_cutoff": 0.32353711027136933
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__transfer__n300",
+    "model_sha256": "10a56f9dea88b6162a5faf0d0f2f408e3017221f7939417d8f0753ef4ff2e06a",
+    "target_cutoff": 0.1700813042912522,
+    "source_cutoff": 0.7417570579710003
+  },
+  {
+    "job_id": "p3_active200__s55__bridge_class_matched20__scratch__n300",
+    "model_sha256": "e59f6134cd5e13501884e298df7e296269f0c25a03dc84837b4e947ec36d2a37",
+    "target_cutoff": 0.8358996125224817,
+    "source_cutoff": 0.3509164603183496
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__transfer__n60",
+    "model_sha256": "a1f5d94da2f1fff8934a2ac1053a1dac1eaef3a705bb2f7c78dba481450631fc",
+    "target_cutoff": 0.7417869906665864,
+    "source_cutoff": 0.9998957527640346
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__scratch__n60",
+    "model_sha256": "0cb7d5bb18d7b70714774648d096a94d19d033c2812dfbf0903736c2b4342884",
+    "target_cutoff": 0.9084291837452421,
+    "source_cutoff": 0.9851146828057464
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__transfer__n150",
+    "model_sha256": "fefec9fba0fec938cd9b838acadc7e7d9499ed04d1ad0b60bea94f7d71e8196d",
+    "target_cutoff": 0.9970898608469018,
+    "source_cutoff": 0.9999915862826626
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__scratch__n150",
+    "model_sha256": "0500ddb024e1655a5526bc116a6701de7e96cf45039f981cc4e8028e5eaecf8b",
+    "target_cutoff": 0.6013921663447653,
+    "source_cutoff": 0.9995940755012415
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__transfer__n300",
+    "model_sha256": "df11f61e5d06224360c33694a3e17b5ed149a9d212be1278cfa6120ced4c8a05",
+    "target_cutoff": 0.3599559887088137,
+    "source_cutoff": 0.9999950853840142
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g20__scratch__n300",
+    "model_sha256": "0998bad26e175f1f7e47378ee39356a73f35bd312eea4f78453e7122f83c6a27",
+    "target_cutoff": 0.4712183377013531,
+    "source_cutoff": 0.9990796153211793
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__transfer__n60",
+    "model_sha256": "8f0e6c1ff3859da9b2ed164bc43368df1cf2fb9ca79eac0a179e4776de3d1e96",
+    "target_cutoff": 0.6080208672111316,
+    "source_cutoff": 0.8087351747135548
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__scratch__n60",
+    "model_sha256": "70a8e39b0a41500ffc32659b1a52862f42eee05fea45f9a046ba4952d5a6fede",
+    "target_cutoff": 0.8502809857674233,
+    "source_cutoff": 0.9242280725505924
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__transfer__n150",
+    "model_sha256": "9cb78040e3f338503e99cb3d5d28b2d2a720e56bd00542bdebe17e6f20795819",
+    "target_cutoff": 0.4318894753124763,
+    "source_cutoff": 0.9999922253142887
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__scratch__n150",
+    "model_sha256": "6f5be1ae4c7cb13e14db59998379ed7809fb3d0adb5bcac887813ad9f07870bf",
+    "target_cutoff": 0.8359149346468179,
+    "source_cutoff": 0.9986199971018735
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__transfer__n300",
+    "model_sha256": "7357679256940f7329f1b86bdd8d87313ca96e2f0d718c8acacd816b972e2f31",
+    "target_cutoff": 0.017002297317050896,
+    "source_cutoff": 0.9981141886002263
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g20__scratch__n300",
+    "model_sha256": "53938f011c7594caf6fcc72f2adb9aaf6aee422e984fdd83fdd785d7b9ee3a68",
+    "target_cutoff": 0.466586129879555,
+    "source_cutoff": 0.9957939779381508
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__transfer__n60",
+    "model_sha256": "04f0fe779f4db0b71aa2778d54f4743a79bfded03c00dc3d95695b528576916c",
+    "target_cutoff": 0.9383185805725637,
+    "source_cutoff": 0.9111405066078001
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__scratch__n60",
+    "model_sha256": "03ce60ae67d729ff294e583e6c5f1b49532b0ccc6018f0cccab6bff9c4ab75d0",
+    "target_cutoff": 0.9961663518646445,
+    "source_cutoff": 0.9546266991745367
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__transfer__n150",
+    "model_sha256": "426686fa3d9b245f9f7972352c09460f2a3fab6fd1b38d2eceb4516982c5e34a",
+    "target_cutoff": 0.40250213244374516,
+    "source_cutoff": 0.8592453617961229
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__scratch__n150",
+    "model_sha256": "86198091e8ab0e7f413516d28400570a6ea9a37b49a3ce3320ce8632685635a9",
+    "target_cutoff": 0.018053720180734884,
+    "source_cutoff": 0.9804566403745506
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__transfer__n300",
+    "model_sha256": "e4d74c16e9632bfa5d3490ddc8180c24ba95acc0f946aec0246a84cd6e4bb495",
+    "target_cutoff": 0.17032284759174451,
+    "source_cutoff": 0.9828787330402543
+  },
+  {
+    "job_id": "p2_molecular__s11__energy_bridge20__scratch__n300",
+    "model_sha256": "22cf07502a20254d889a4ebc70bbead9af951e936af13e70659a6c59af36c86c",
+    "target_cutoff": 0.005870273503862106,
+    "source_cutoff": 0.977938401249892
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "209c40b4cf3cc3dd546d33e429d200d69b05c622ca158d53543ff8467fd19d1d",
+    "target_cutoff": 0.8198212807000321,
+    "source_cutoff": 0.9998472466514222
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "df26385279def5bb062ee54e5217684f0f7ec8803484bc927b62294d0e27c0bf",
+    "target_cutoff": 0.9949499922680719,
+    "source_cutoff": 0.9902985055511907
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "cb97674aeaba88452491c3f21782dc58b31868682b1b1709b647054ec7cb7139",
+    "target_cutoff": 0.5263210317773415,
+    "source_cutoff": 0.9999845945225218
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "e6d256e85440be859dc706affe99f2b5ba46cf53e5af50fbbf35438b2bd0277a",
+    "target_cutoff": 0.7177950735723336,
+    "source_cutoff": 0.9997731089154159
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "602ac0760b6b0890094f824a8475f994f9c047e9ec68d5ba90021b82f62dfe45",
+    "target_cutoff": 0.0494551966276419,
+    "source_cutoff": 0.9999981079775745
+  },
+  {
+    "job_id": "p2_molecular__s11__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "c5c2faea354afbcc222520b9c176249d4c347cfe286e317f2a766825d53a4b35",
+    "target_cutoff": 0.49279230225875,
+    "source_cutoff": 0.9995755350282529
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "10d37fb878a2b62db61cd833fbe2827cbb77ffe80b4a36bb44e8f677b7b23e2d",
+    "target_cutoff": 0.6033747666117041,
+    "source_cutoff": 0.06083020134199633
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "275196cb6321b0aa9e3fad1bdd2d14c85d8dd6e60f09c355f65a0a22f989b602",
+    "target_cutoff": 0.02233214974269272,
+    "source_cutoff": 0.2774842304702587
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "9ea874714d1bdcd7969fd7e2ff20143fa79fd8274c7b9aa7df4a818e569eb60d",
+    "target_cutoff": 0.021493708278368173,
+    "source_cutoff": 0.9886721345361414
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "4a1845a81148194c3ffa3834b2921b775385bebac86993e28ce81e9ea3f2c743",
+    "target_cutoff": 0.32968655659283225,
+    "source_cutoff": 0.5832097798435464
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "9272fa0e21e708780828ba5c5636ef2236db16fee10c30e08d0ca59b847710b2",
+    "target_cutoff": 0.30621063427821255,
+    "source_cutoff": 0.9734028349127074
+  },
+  {
+    "job_id": "p2_molecular__s11__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "00d0a18d8ed0f45bbb43a12881445964770e7e54f2a89afe44fb383418329c01",
+    "target_cutoff": 0.01553782080891043,
+    "source_cutoff": 0.4454558444550272
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__transfer__n60",
+    "model_sha256": "d655e1d5feccb22799191f22f99879712554d89ceae195ab92c57ca2178ed006",
+    "target_cutoff": 0.983908864832063,
+    "source_cutoff": 0.9997051328613672
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__scratch__n60",
+    "model_sha256": "95239300da4ffd95d4f3ccf89d8a2ebbd2e90bcbd228f110a88ebc6f74d0f048",
+    "target_cutoff": 0.9972518388419789,
+    "source_cutoff": 0.9770837496917103
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__transfer__n150",
+    "model_sha256": "8cd6fe5c159f3676194a9c2074a689230ee6e2afdf9f6bebf449d700769ebd2d",
+    "target_cutoff": 0.7875118964258124,
+    "source_cutoff": 0.9999960486554113
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__scratch__n150",
+    "model_sha256": "8c1903a796a874644ac55547048b5d7bb0e4823749e5504c585b3ef1798cb0af",
+    "target_cutoff": 0.03813684973885172,
+    "source_cutoff": 0.9995228922663039
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__transfer__n300",
+    "model_sha256": "a30bb376ab24ccddcc30779046786fb105cd3c5f371af208441c3572805ed519",
+    "target_cutoff": 0.06698399190105762,
+    "source_cutoff": 0.999999854201202
+  },
+  {
+    "job_id": "p2_molecular__s11__bridge_class_matched20__scratch__n300",
+    "model_sha256": "2a808a6f470854ee829c14f2f502d98e20fa6de6150ce734fff6047c9adb8df6",
+    "target_cutoff": 0.37298229427281554,
+    "source_cutoff": 0.9991302761648048
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__transfer__n60",
+    "model_sha256": "4f728f1a67339f436880aa3a44721d8851232af386ea586d117f091004f73dc7",
+    "target_cutoff": 0.9794510650760074,
+    "source_cutoff": 0.9995176913010285
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__scratch__n60",
+    "model_sha256": "6e69222a91d22b4f17c4a3ab65c750f1014ddfd04d984d12355a6b11f25d24ce",
+    "target_cutoff": 0.9989504331830025,
+    "source_cutoff": 0.9996986386688138
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__transfer__n150",
+    "model_sha256": "bc0069826f529eb78aace3aeb86476d0ec6457ea10655e3843ff868e8c87e924",
+    "target_cutoff": 0.235915568723561,
+    "source_cutoff": 0.9999829303623576
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__scratch__n150",
+    "model_sha256": "c8675fb8619c27fccd115b70cc9e3b5796628123bd3f1469a8c9a2e3a5f6d26c",
+    "target_cutoff": 0.2752058310691273,
+    "source_cutoff": 0.9998716971454882
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__transfer__n300",
+    "model_sha256": "e1b58eb0aff695ae82c0e406ee7a42573648b0e5c5b256d3a005b2ad7be75893",
+    "target_cutoff": 0.03457015593678223,
+    "source_cutoff": 0.9999995647726799
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g20__scratch__n300",
+    "model_sha256": "6ba42566d47c0f907c6ad9ed3c8338cdf5d047517bd3c88e42798b68b3ed1495",
+    "target_cutoff": 0.10892407740952692,
+    "source_cutoff": 0.999951955944458
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__transfer__n60",
+    "model_sha256": "73425e092874283061ec368c5b1e7ce1b1c5ac939ca3bda47f3d3fe67dca3723",
+    "target_cutoff": 0.8246503519043223,
+    "source_cutoff": 0.04825161381367249
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__scratch__n60",
+    "model_sha256": "f1cafecd0f80021559dc5780129c6a1f4c2739355efb7e16da1854f637e412df",
+    "target_cutoff": 0.3942070569575245,
+    "source_cutoff": 0.9814298818187236
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__transfer__n150",
+    "model_sha256": "a4c25f7bc81378936aaaeb87bac406e5d0c72ba8f37bee233fea81185f2239ff",
+    "target_cutoff": 0.1423557283493961,
+    "source_cutoff": 0.9985663816916338
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__scratch__n150",
+    "model_sha256": "8b0cab65c1bfbb10ea63263b66d2d39c05a88bbd6c399b31ca3f119df925f48f",
+    "target_cutoff": 0.290160375695427,
+    "source_cutoff": 0.9985178745934755
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__transfer__n300",
+    "model_sha256": "ed7e3ea6ee13839f28411d86bdac93e04296f42e146246d7a9174ea14ed265dd",
+    "target_cutoff": 0.24829916423983342,
+    "source_cutoff": 0.9999246462206215
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g20__scratch__n300",
+    "model_sha256": "8217bfbabdc68e36208b0caf2640f99c6a799c0d469461edd4960b594d5b6947",
+    "target_cutoff": 0.04711166281366843,
+    "source_cutoff": 0.9994588827349142
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__transfer__n60",
+    "model_sha256": "a5000ff45e973e8cd5cf2c549136b2010b5dfc3a35bcfbe60a3813f0762d4478",
+    "target_cutoff": 0.9017054834150978,
+    "source_cutoff": 0.9840618233204598
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__scratch__n60",
+    "model_sha256": "dff0ef0bbf98a8d74d30cb87c9f01bb1035f679ce5346acad9890454427a1652",
+    "target_cutoff": 0.9996105206517859,
+    "source_cutoff": 0.9990449538413128
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__transfer__n150",
+    "model_sha256": "051147ac145d4f7ea801d8507f93aff12bb513e86fd0691403077d9416e0cce0",
+    "target_cutoff": 0.42776243624080784,
+    "source_cutoff": 0.9532925428660448
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__scratch__n150",
+    "model_sha256": "7f4620cd52fcb6f47358d2688fc4b821a2b0099e0f8c32084a1de79bd3ed7afc",
+    "target_cutoff": 0.2420125976942662,
+    "source_cutoff": 0.9896341102583355
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__transfer__n300",
+    "model_sha256": "f5c578b01d86dea871979bcff0bd26608524c13d5b063478e97508f6ef62bdb5",
+    "target_cutoff": 0.19841999154880333,
+    "source_cutoff": 0.9948852893170105
+  },
+  {
+    "job_id": "p2_molecular__s22__energy_bridge20__scratch__n300",
+    "model_sha256": "d0428a4819b8ea08d0d98ac210ddafd1be469bce8c0ee649d087c3cdbd0b994c",
+    "target_cutoff": 0.2532175661887117,
+    "source_cutoff": 0.9920850469539625
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "cf54b79b38d66e288bb6334ca1463be92414fef8e5929a2bf0dd0dc633e76a0a",
+    "target_cutoff": 0.9785347318256953,
+    "source_cutoff": 0.9999726688033207
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "faa1b8cabf71017df81bbcf6bf4998f797586b40a5f5b39f81b1ac9d576f978d",
+    "target_cutoff": 0.6949618783357682,
+    "source_cutoff": 0.9997198279989981
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "f6fcf612919f77eaf2434883886d1efe69300c014ecb296bcc790284f6d36565",
+    "target_cutoff": 0.3062264102113058,
+    "source_cutoff": 0.9999986321594205
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "57eb19f8171012ecedf1a7e0c07fd073fa437dfe9e98afdddc78864a34894b0d",
+    "target_cutoff": 0.23305741727316276,
+    "source_cutoff": 0.9999024687927803
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "bd9cfd6a4658d88570ca11d03de2af63fe408ee2714a8f51ccaaadfacda58689",
+    "target_cutoff": 0.04357811651932051,
+    "source_cutoff": 0.999999896885522
+  },
+  {
+    "job_id": "p2_molecular__s22__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "3de5c95a1cb0fe3e89e3c0e32f7109acafe50d113795f37c97eb22b0f55d7ee0",
+    "target_cutoff": 0.2100219698216984,
+    "source_cutoff": 0.9999212568239734
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "53769550adca3909756759c12fd092cf1f97fe265b4408f92cee4da539a90165",
+    "target_cutoff": 0.7597848908916145,
+    "source_cutoff": 0.01447390245412765
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "92b9ff316798de7fcec1778ef5d63239f5caf54189317c94d5ee05c468b3ff26",
+    "target_cutoff": 0.952210139075517,
+    "source_cutoff": 0.9096684833892196
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "90433787ea4bfa487e4b1485638be2d2c1afe618f3e07638189207542876a202",
+    "target_cutoff": 0.11063061794859837,
+    "source_cutoff": 0.9996963405078155
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "cb58ded4d6c06cd4fe4b450f02c3a56fae131a6ac6562c8c0671e84a46d3cd5d",
+    "target_cutoff": 0.003452830134196725,
+    "source_cutoff": 0.9031906273943485
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "c7f2c76a2979bbb1742888c1450761ee17ef029eda66abbce2f404b5d6c951a1",
+    "target_cutoff": 0.06563672569380903,
+    "source_cutoff": 0.9994592999101998
+  },
+  {
+    "job_id": "p2_molecular__s22__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "0c1444c74e9dfa633e985681ade4cc885a374d7f67bb0053522292b60727bc0b",
+    "target_cutoff": 0.2670840948385635,
+    "source_cutoff": 0.926731948830224
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__transfer__n60",
+    "model_sha256": "cb60681b0243e037a0b5c2c8302830653543997de812cc3fbfc758d804e240f5",
+    "target_cutoff": 0.9929813880455391,
+    "source_cutoff": 0.9998528122214613
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__scratch__n60",
+    "model_sha256": "7d6e0f36c2a7d3ac8a139942e99b55fd9783bc3653235321150c57b195b07d51",
+    "target_cutoff": 0.8429070347163825,
+    "source_cutoff": 0.9989530598159434
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__transfer__n150",
+    "model_sha256": "d963685c84fa3d2beda621eb7d87f96aec22e3191f9e010dbdc70a55792d13a3",
+    "target_cutoff": 0.41452667409453964,
+    "source_cutoff": 0.9999984331057553
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__scratch__n150",
+    "model_sha256": "bf4f53059f1b8e7fc4f5dad1d78fab6444853f49aed54204fe005318c13c4321",
+    "target_cutoff": 0.3189212576104023,
+    "source_cutoff": 0.9998351744561949
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__transfer__n300",
+    "model_sha256": "02e53e66e7509474caaf509a7777b25672ba6d26998bdb55e075f9544febff6d",
+    "target_cutoff": 0.08111407088388357,
+    "source_cutoff": 0.9999996116172364
+  },
+  {
+    "job_id": "p2_molecular__s22__bridge_class_matched20__scratch__n300",
+    "model_sha256": "1b16b00aa9a5f53793d5ab8f79b6c023d5dda90b2886194f52135e9d2ee9e6ab",
+    "target_cutoff": 0.21005089527732046,
+    "source_cutoff": 0.9995105289956547
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__transfer__n60",
+    "model_sha256": "c2e0b15a42bed1499e0c501d7fefccbbe08449196289901e47763b504614c95f",
+    "target_cutoff": 0.9385702520190251,
+    "source_cutoff": 0.9999624172883457
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__scratch__n60",
+    "model_sha256": "c63394d29a37235764a569bccd47c69bebef5b52a85c477e9053984c1f5d8920",
+    "target_cutoff": 0.9586199970371246,
+    "source_cutoff": 0.9997879434767328
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__transfer__n150",
+    "model_sha256": "b9291d3fa73d7a3fcf9d06345e9f9d08e6b01afa3d73a580bacaf9b1ea9c84b0",
+    "target_cutoff": 0.294353374572136,
+    "source_cutoff": 0.9999929634428354
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__scratch__n150",
+    "model_sha256": "ab02ea14b62ca7a40b33b3e88d6efa66bf2d427bfd24c89055f9e7d9784afe78",
+    "target_cutoff": 0.45558073087613304,
+    "source_cutoff": 0.9999364133345093
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__transfer__n300",
+    "model_sha256": "cba6cc602d12390c1f21db79540398dcd434356697fff2501ea2673163c9edc8",
+    "target_cutoff": 0.1055784124049683,
+    "source_cutoff": 0.9999998386290424
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g20__scratch__n300",
+    "model_sha256": "d583fa2cf587b08f65e2a744a0aac3815f1b5fb5aeac580b43120e96fadcf932",
+    "target_cutoff": 0.005319809324008777,
+    "source_cutoff": 0.9999812427152704
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__transfer__n60",
+    "model_sha256": "6c53ba209c2ac48f6b73a1012c7c63e8492b26e607ad7fb3c07893a7a63278e9",
+    "target_cutoff": 0.7210770662372624,
+    "source_cutoff": 0.5915429479976541
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__scratch__n60",
+    "model_sha256": "a503c62c641c6645b8c81a7d26d2d8407702ec213e0a61c8d74a2c50522f9026",
+    "target_cutoff": 0.8389353851073693,
+    "source_cutoff": 0.9940542485953996
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__transfer__n150",
+    "model_sha256": "96ba86e8f460d7407e2d9444b39c7a770f738c0f6680e9b6a53361db0c3f03b2",
+    "target_cutoff": 0.2794613553679473,
+    "source_cutoff": 0.9993769786548233
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__scratch__n150",
+    "model_sha256": "1a74aa217d42bdbf9c5b7bae4a97275bc84b9e2892ee903a48d67e6623676605",
+    "target_cutoff": 0.5579277067506823,
+    "source_cutoff": 0.9999885907937838
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__transfer__n300",
+    "model_sha256": "897a65ac08da7b589fc6375c0a3bb7fb758249ac3926dd85fe567889e5b41c99",
+    "target_cutoff": 0.10967413121862611,
+    "source_cutoff": 0.9997221400270192
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g20__scratch__n300",
+    "model_sha256": "8eef979d25ae91b90404ff4fc0afc01c0a142753a34d24fb5f7c75f3e60faaa2",
+    "target_cutoff": 0.3450579928242597,
+    "source_cutoff": 0.9998109862577435
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__transfer__n60",
+    "model_sha256": "fa1f92591fc4bf98ad87cf1ce119116969a8be5e51bf371379232a47574d1309",
+    "target_cutoff": 0.9657638466351698,
+    "source_cutoff": 0.9699349388182066
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__scratch__n60",
+    "model_sha256": "2941d13ab065ace4228d2fe11bbe19eca81dd6fd7b49de0d0fdba32adb1c60ff",
+    "target_cutoff": 0.9961689081258696,
+    "source_cutoff": 0.9910356325321249
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__transfer__n150",
+    "model_sha256": "bf2b84d52bfaa9c790d336328e71ec1b64bfd0de2d0606a8d7e011574001fff6",
+    "target_cutoff": 0.5313459704790399,
+    "source_cutoff": 0.9775846961958043
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__scratch__n150",
+    "model_sha256": "9b441921393fae66192b732a5b0e2b9493329ebc9115456b434e85fdc4372f21",
+    "target_cutoff": 0.0605279193213146,
+    "source_cutoff": 0.9945428397049558
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__transfer__n300",
+    "model_sha256": "e52611895e66c3672ca03db1bcbd003acec994e63384c99ea94a7bd20329cb5d",
+    "target_cutoff": 0.03889481405031655,
+    "source_cutoff": 0.8537490925698702
+  },
+  {
+    "job_id": "p2_molecular__s33__energy_bridge20__scratch__n300",
+    "model_sha256": "d6508d2cf07cc74e8c83e2b2d38f184a2f205ed2cee01f44f46ee4f0da39c9cb",
+    "target_cutoff": 0.03762027055473024,
+    "source_cutoff": 0.9925615573676799
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "1408181b6ba5d72225ef9c8c71df47711cd637983ff583d9dbfb46b9b260bb63",
+    "target_cutoff": 0.9243074808430795,
+    "source_cutoff": 0.9998378843028908
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "3ee21397ad105eb8cd2d38c9c6e12f3731fe0dba38f8881bafe8af41fb2ddf08",
+    "target_cutoff": 0.9509951285057632,
+    "source_cutoff": 0.999797170759746
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "d58d4cf26513197561504991b145ef4682dd0cfcbd5ddf55d1c05c9e0b64e3cf",
+    "target_cutoff": 0.5212383409706799,
+    "source_cutoff": 0.9999999371394425
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "9c17310ca4cb8a03e9d4dff317c578fec96c3e4a9e5d9e94bb9935db4c3b39fb",
+    "target_cutoff": 0.463656067538903,
+    "source_cutoff": 0.9999691670090698
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "b32d55bb3ca857f0f05fddc8e8f486695561b27ba0d9df3a89da58898df2eb78",
+    "target_cutoff": 0.08530902585436247,
+    "source_cutoff": 0.9999999762870009
+  },
+  {
+    "job_id": "p2_molecular__s33__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "3cf373789b8c529970f0a8820414516610d48a3367785f46af006f2c2dc7c353",
+    "target_cutoff": 0.025049335573511824,
+    "source_cutoff": 0.999905101887598
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "986e7a53815f68b1dc6646c7619fa60ce4fc1c205e5ef10b1c4a022e908b0727",
+    "target_cutoff": 0.4457735839854477,
+    "source_cutoff": 0.1615137895068017
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "9223ec3bc75815be6620f09f64075bb1b4701932241d0d276a1d1ff177efbac3",
+    "target_cutoff": 0.014213584768398535,
+    "source_cutoff": 0.37312204761853046
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "0c7d466afb18f52d3b3830995a09fc2dbc74f813775a16ead4a30983a0d59565",
+    "target_cutoff": 0.2899332575849424,
+    "source_cutoff": 0.9935500906488732
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "4d4fe57f1356b4b3df8fe0910b537a834ca4e020fc73664dc8b45a8d23a69c60",
+    "target_cutoff": 0.023723829684938903,
+    "source_cutoff": 0.7309337650969718
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "c866e844aed3604c9e83e62cbc52b65f31c9450aa8f2f7dc155d04f1a89fed87",
+    "target_cutoff": 0.13572458011268243,
+    "source_cutoff": 0.9880894353917676
+  },
+  {
+    "job_id": "p2_molecular__s33__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "49537e21f17d9c11f62f9e722b0262799d4fc4b9e143ed481f903aafa9553d2b",
+    "target_cutoff": 0.03567600759216142,
+    "source_cutoff": 0.673148479307751
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__transfer__n60",
+    "model_sha256": "87b962ee750cd4702482a0e02489a634b610386b6ac087e6844be366b5ef6450",
+    "target_cutoff": 0.9967743427429316,
+    "source_cutoff": 0.6916492341903379
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__scratch__n60",
+    "model_sha256": "13019af26a055520092aae2ddb47077841f4cbcb36da96210929a04abd8d8df3",
+    "target_cutoff": 0.0019253909454820357,
+    "source_cutoff": 0.9533959875217234
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__transfer__n150",
+    "model_sha256": "ac8be0e6f4efced31284f9b170a761f5bd6675aa3e45a673bc380927676a38a1",
+    "target_cutoff": 0.49498194814257634,
+    "source_cutoff": 0.9988597383816812
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__scratch__n150",
+    "model_sha256": "058ec3f3a884fd2b0020629585d9995d110843faa0a36956b0f2440dc3b60d4b",
+    "target_cutoff": 0.691373673907281,
+    "source_cutoff": 0.9937552466632722
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__transfer__n300",
+    "model_sha256": "06b6f02ecaeda82489f99855782dcb266bf0785dd0b358bc536fde72957f73da",
+    "target_cutoff": 0.047248302440328266,
+    "source_cutoff": 0.9980524606289102
+  },
+  {
+    "job_id": "p2_molecular__s33__bridge_class_matched20__scratch__n300",
+    "model_sha256": "62f32678768a5a80fec10525d839bcdc0b39185ff33a8504061f51ac3d199e0d",
+    "target_cutoff": 0.6898439508332026,
+    "source_cutoff": 0.9751202620080424
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__transfer__n60",
+    "model_sha256": "7a86664cd825aaf194fcc1ab9d4b88bb1d8d4fd9d8eff7b83f6ef25b91178ff5",
+    "target_cutoff": 0.9999298884862915,
+    "source_cutoff": 0.9989202284544447
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__scratch__n60",
+    "model_sha256": "a2a0ce1acdb7c66a8eccbe94619046e567c3b444b1939e45c34259d049f8daf5",
+    "target_cutoff": 0.9418393642907003,
+    "source_cutoff": 0.9864945134949354
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__transfer__n150",
+    "model_sha256": "bce4e9cf2d8a6c35f057403dbb0e46de89194cb18373debb7af498113d31205d",
+    "target_cutoff": 0.037147484458432654,
+    "source_cutoff": 0.999979364118129
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__scratch__n150",
+    "model_sha256": "292fce46a3f3b942c261c5929be466781661cb733b4c3196fda47b31239dfe7a",
+    "target_cutoff": 0.995528185821425,
+    "source_cutoff": 0.9997924750657292
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__transfer__n300",
+    "model_sha256": "b3dca17eb0143108cd6baf2f8da4957f3575a19256474296710dc83ba297014d",
+    "target_cutoff": 0.6755322873918109,
+    "source_cutoff": 0.9999705459582234
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g20__scratch__n300",
+    "model_sha256": "7fbdd318fa7c55f1f98cf841bc91b87f0588ded1b3ee542c7390de1013db09cf",
+    "target_cutoff": 0.6798971563206342,
+    "source_cutoff": 0.9995749619881326
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__transfer__n60",
+    "model_sha256": "20370b6150ac5b297ab2deb7418797a4d748b676b03273518391eec1425ebcb4",
+    "target_cutoff": 0.092701010438899,
+    "source_cutoff": 0.051808028366405294
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__scratch__n60",
+    "model_sha256": "8db68ecdd1368ecce7fc0ede04483372a2564c2836da83e71f6879029e23fbe1",
+    "target_cutoff": 0.23755823848445942,
+    "source_cutoff": 0.8156365765110382
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__transfer__n150",
+    "model_sha256": "c2dcad68a6d005cf4518120645ef536d0b4f2b34b5ab7d2c162b09bd4397a6c1",
+    "target_cutoff": 0.5625891867680838,
+    "source_cutoff": 0.9991246857697137
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__scratch__n150",
+    "model_sha256": "aa9a51fcad56352f3f28191a83622caa6bcf0f5522b429cecd7dd8aa355ec188",
+    "target_cutoff": 0.3359221906517176,
+    "source_cutoff": 0.9986656053008406
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__transfer__n300",
+    "model_sha256": "1c27a30bcbc8fc161f765bc0fc325131e9b5f654145ef1146e823b25ee050dd3",
+    "target_cutoff": 0.9994049559134396,
+    "source_cutoff": 0.995623583939107
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g20__scratch__n300",
+    "model_sha256": "73d287eff5d629a2bafbd68e81b6bf8cea416113c67433d24f5d76a010697028",
+    "target_cutoff": 0.08065144360058886,
+    "source_cutoff": 0.9982358616208122
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__transfer__n60",
+    "model_sha256": "5bb9ab55390c89f998d2c7c55334f6aa9fb3dd3324d1dd0eb8e38de94452c81a",
+    "target_cutoff": 0.9952695327360456,
+    "source_cutoff": 0.530080923441575
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__scratch__n60",
+    "model_sha256": "43de7466f5d92caed385fd2582e7d6d835b5c5772097d6d9c6bea04e7fed5c5f",
+    "target_cutoff": 0.975389496342081,
+    "source_cutoff": 0.9337497443223927
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__transfer__n150",
+    "model_sha256": "4d01363500ac859896a023ad6c3b02628f9c88092041242385829d263aa2ec00",
+    "target_cutoff": 0.38605127219743157,
+    "source_cutoff": 0.9640388462733552
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__scratch__n150",
+    "model_sha256": "dc449e3ef6cdbf66d93562f3824853cb0d8a4002fd3872cfd82153c5859da2d2",
+    "target_cutoff": 0.011297617838190258,
+    "source_cutoff": 0.9891127285493897
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__transfer__n300",
+    "model_sha256": "961dd7ca26b469742055b3ed9b657b52ab78aded1fa248e080e4dbf0ebcefe68",
+    "target_cutoff": 0.8567311865355429,
+    "source_cutoff": 0.9704980826980695
+  },
+  {
+    "job_id": "p2_molecular__s44__energy_bridge20__scratch__n300",
+    "model_sha256": "a54b9e23b03291ba29d8c45c8856af529207fdfa349d2220161fcb8368196f14",
+    "target_cutoff": 0.02498711832931043,
+    "source_cutoff": 0.9875926144828967
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "d460d5c8f81e6c0f55ef1b9c3b4f4d5e067cc05003ce462b717e28a09a0235c2",
+    "target_cutoff": 0.9977686935679072,
+    "source_cutoff": 0.998382780283479
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "289daa4292e4a5475dfe106024c3529774094c8ac6bc639062365ac991cbe266",
+    "target_cutoff": 0.9386895948275171,
+    "source_cutoff": 0.9915859793381244
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "c9f7a0291f9601a1c8b75c0724216ec1fcdd98192602ee4584c70e669cb75b52",
+    "target_cutoff": 0.41238413795622875,
+    "source_cutoff": 0.9999998090979226
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "24bf6f7fcbfc99d46dff7cff9707b2513e47ea7d363635abbbea6aac14533ae3",
+    "target_cutoff": 0.48941713097009143,
+    "source_cutoff": 0.9998561967423916
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "5b6f2f0fcb51c7de325355509f1014764a6684fd71da007c281588377f91880e",
+    "target_cutoff": 0.5645813761141706,
+    "source_cutoff": 0.9999999123861106
+  },
+  {
+    "job_id": "p2_molecular__s44__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "2c7e8c04f8aeb22438a85f42d3044e69992a812b3c73d102ea6b40e526b07063",
+    "target_cutoff": 0.6485675286729372,
+    "source_cutoff": 0.9997857839561132
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "0dca6a9123d0825c86d87adf0df6e54fb513ae1dbc9ba73e3fcc15b14ca5e5b1",
+    "target_cutoff": 0.09432180965910923,
+    "source_cutoff": 0.027378715456559368
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "e6ea0448c940ce78f3379dd0ae4bc0a5b68667c71d2abf26643543441a339c88",
+    "target_cutoff": 0.1404490793479551,
+    "source_cutoff": 0.47213513146957437
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "aa7ff4ecdd3f253ed0f9ab927e6a1a74f382bbb4a7929823ddc2facee5bd5273",
+    "target_cutoff": 0.9991179148333759,
+    "source_cutoff": 0.9969264252301079
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "75a1abcb903f6da0ce3762940a82eabec6a84e5afa33157a66e31d4dc33b9bf2",
+    "target_cutoff": 0.011331196737244377,
+    "source_cutoff": 0.9750134755731396
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "e60638fdff0c95785eaf7c6704e56399cbffde63fde53835e5f02c7ac1f3b1dc",
+    "target_cutoff": 0.3442248453663142,
+    "source_cutoff": 0.9880810594501761
+  },
+  {
+    "job_id": "p2_molecular__s44__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "44858e9b5183ac7fe525a3988fda5204f97f66c5da8a55d14091f02e030ec351",
+    "target_cutoff": 0.023271740697641364,
+    "source_cutoff": 0.9864174552571884
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__transfer__n60",
+    "model_sha256": "c0ec837ef99f3f5851b4ceb36a5de843396f9007da7caf163946f9135d545af7",
+    "target_cutoff": 0.9581937657131698,
+    "source_cutoff": 0.9884978507304526
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__scratch__n60",
+    "model_sha256": "af75027676d17e2bef844f58fba3af02be3e367e6402089cabfcc29c0e89547b",
+    "target_cutoff": 0.9276406710386352,
+    "source_cutoff": 0.9740900736042456
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__transfer__n150",
+    "model_sha256": "93594832a3a0ea7342a60f6ad55537e3fbf4e4552394398a64e57735bbf44637",
+    "target_cutoff": 0.407954194023282,
+    "source_cutoff": 0.999971269920911
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__scratch__n150",
+    "model_sha256": "6f0aa340c0356506969f291ce4a1ea324af28693677f958385ce0f460618b449",
+    "target_cutoff": 0.34690892122633193,
+    "source_cutoff": 0.9996546973574966
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__transfer__n300",
+    "model_sha256": "de7e02c8cc59c984acbd89eba0d129a2f545e90ba69210a60325a74c4278452b",
+    "target_cutoff": 0.7697163327816723,
+    "source_cutoff": 0.9998610352264703
+  },
+  {
+    "job_id": "p2_molecular__s44__bridge_class_matched20__scratch__n300",
+    "model_sha256": "b6920b634a0fab1947302a57084b1c949ebaa353aee3f5b143434d35cc7c1e46",
+    "target_cutoff": 0.03586775258729922,
+    "source_cutoff": 0.9997668305594333
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__transfer__n60",
+    "model_sha256": "4808caee24c15903c7612e2f31054d346046fb50c58bfb99afdd09ca1d091405",
+    "target_cutoff": 0.9889003924068581,
+    "source_cutoff": 0.9999478613750489
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__scratch__n60",
+    "model_sha256": "a7ff679f4ea22abc9b784374a32486de7a071727a2eccc15dbfcb35398f78d61",
+    "target_cutoff": 0.6753747284756236,
+    "source_cutoff": 0.9815618545315804
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__transfer__n150",
+    "model_sha256": "c9a07a852878e743b1b6fefd449823a7692bb5ccedc6a8a8b82bc8727e1b45e3",
+    "target_cutoff": 0.46134798607706323,
+    "source_cutoff": 0.9999959081344052
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__scratch__n150",
+    "model_sha256": "47baf3b2b5781425a2e74148fdf4f9d97ea06fc5c3be127d5079b01119dafccb",
+    "target_cutoff": 0.6048923648349506,
+    "source_cutoff": 0.9999107699283147
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__transfer__n300",
+    "model_sha256": "96afcf3ff0b84468fec740fe85cfafde4d841d97c7d2cc6b81dae2e0e275f8f7",
+    "target_cutoff": 0.4416125522366842,
+    "source_cutoff": 0.999996460095364
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g20__scratch__n300",
+    "model_sha256": "5fbeec738f66e1d2470b36c98aa923045b9a5903256b0486a956b83772d9c695",
+    "target_cutoff": 0.6278448652220731,
+    "source_cutoff": 0.9997426149726576
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__transfer__n60",
+    "model_sha256": "25590598b9b0643c3f1b5d2205a3fbb3557e01f2d41f260099faf8489ba2ff4d",
+    "target_cutoff": 0.950115396013409,
+    "source_cutoff": 0.08946928001255251
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__scratch__n60",
+    "model_sha256": "35a22ba97129f6c4d704ff3ed94a88aa32f01eaa68963ca8183389e272c2a4d9",
+    "target_cutoff": 0.8072840660331634,
+    "source_cutoff": 0.8035777794942099
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__transfer__n150",
+    "model_sha256": "30c2b8ada4252d6fb54f51538aa22abbfd37842f0a90e06a1d67d45d34dee889",
+    "target_cutoff": 0.5261849038343808,
+    "source_cutoff": 0.9997267077314907
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__scratch__n150",
+    "model_sha256": "39670b228afe63c59251e8b24d8370a0949e3263732488f2c24a4f9dc3e95c25",
+    "target_cutoff": 0.6558049163390964,
+    "source_cutoff": 0.9996051473075731
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__transfer__n300",
+    "model_sha256": "0e83fe27f5fdf83e50d9ca5dfacbdb9edb9bcd1b90a197c6dc4dc6143db759cb",
+    "target_cutoff": 0.37231958541022264,
+    "source_cutoff": 0.9999365321006018
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g20__scratch__n300",
+    "model_sha256": "6bd48a0bd0384307984132c42f831d9937e5de8ea18628d9b64b5419b8fc8244",
+    "target_cutoff": 0.5879909408290466,
+    "source_cutoff": 0.9985087941853711
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__transfer__n60",
+    "model_sha256": "70cf0e37d20b2b0b5faf10d96b05c1916cdf17f84e6c0f1a557e7755ee20d5d5",
+    "target_cutoff": 0.9769819093413942,
+    "source_cutoff": 0.9935213757511671
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__scratch__n60",
+    "model_sha256": "4bde668e60c2fb9f4baf1863172e6255f645d6a7a1cf43dfac5d74205f016a24",
+    "target_cutoff": 0.783629315660937,
+    "source_cutoff": 0.974992421104495
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__transfer__n150",
+    "model_sha256": "bb13c521d4eb5bb6f771164d72f4fa0abfe5675a52c25d807dbf8d1f4a5cedaa",
+    "target_cutoff": 0.999487553205692,
+    "source_cutoff": 0.9012119621514322
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__scratch__n150",
+    "model_sha256": "b53d11367d1edde787bfbb428e0a50f30f603276112bc339da42f9cc2457cd30",
+    "target_cutoff": 0.8545740400642735,
+    "source_cutoff": 0.9894286953631596
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__transfer__n300",
+    "model_sha256": "6af4a3ef687ec3536db9c27f0ef35db57f20107630fba0ebc41d34763efd4705",
+    "target_cutoff": 0.01602609921631731,
+    "source_cutoff": 0.9714321141103129
+  },
+  {
+    "job_id": "p2_molecular__s55__energy_bridge20__scratch__n300",
+    "model_sha256": "28c8cf4bbb764847752e3229ee567307f36020ff92bbf6b906215a5dbea9a902",
+    "target_cutoff": 0.30449993820663773,
+    "source_cutoff": 0.9873755406587232
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__transfer__n60",
+    "model_sha256": "70377e7040d6fad5d714d2daf5cffc474b259cdcf01ce11ef04281e7801045d9",
+    "target_cutoff": 0.9608999982366987,
+    "source_cutoff": 0.9999472972896846
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__scratch__n60",
+    "model_sha256": "cf987079bbab54d4c380d074646b0e09da789626a99865e5d27cfd306d8eb2a9",
+    "target_cutoff": 0.8781467179333459,
+    "source_cutoff": 0.980699767691488
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__transfer__n150",
+    "model_sha256": "1a2c34aa277e73b759cb2ded76d93387e2ce935a8ed1413e3ce49be126e3c9c8",
+    "target_cutoff": 0.4554778775147496,
+    "source_cutoff": 0.9999989567986592
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__scratch__n150",
+    "model_sha256": "2def8f4ef494abb9aa0d33a9bc9b2d0d74a4bfddb1297abfb30d0a1bc5e2817b",
+    "target_cutoff": 0.4503268851453952,
+    "source_cutoff": 0.999926296918813
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__transfer__n300",
+    "model_sha256": "41acfa8a72f3bf0681c7140ae92e197c5c275b3dfcc35992c839daa5b47b0aca",
+    "target_cutoff": 0.419869809688555,
+    "source_cutoff": 0.9999997161090661
+  },
+  {
+    "job_id": "p2_molecular__s55__highest_g_class_matched20__scratch__n300",
+    "model_sha256": "23444e3d5cea7d4f02d33faa42ba41f40b69bc71daef0f60048c69b22b6a0fec",
+    "target_cutoff": 0.5373989957243556,
+    "source_cutoff": 0.9998541350912254
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__transfer__n60",
+    "model_sha256": "8c9d71d43274f1ca4800cc4be2dfd40dcb0ee57957b9e50fbb7e9b3e3fddd51f",
+    "target_cutoff": 0.6393187915095213,
+    "source_cutoff": 0.010176833244139911
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__scratch__n60",
+    "model_sha256": "e228ffb3c7fb2dde8d2dea9de5574b59c84ae50089f8e72cb7b1596d0239323a",
+    "target_cutoff": 0.020689054703699694,
+    "source_cutoff": 0.2449699942680358
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__transfer__n150",
+    "model_sha256": "607c3766ad28ac9b19511c547c4d97a378cf80c66c03b8d5167bad5ea50289de",
+    "target_cutoff": 0.16199824043187097,
+    "source_cutoff": 0.8208352650893151
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__scratch__n150",
+    "model_sha256": "f908606ed5d12d31df22b07e1bf1cef4aabb8364d10d5a43a320d6426811c747",
+    "target_cutoff": 0.699220025941084,
+    "source_cutoff": 0.3203311612335982
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__transfer__n300",
+    "model_sha256": "88a6c8ee4deeab37cd7e98425f1eca1ea395257760ea1cc3c257bc12cc87e74c",
+    "target_cutoff": 0.02135172472775083,
+    "source_cutoff": 0.7257649558883236
+  },
+  {
+    "job_id": "p2_molecular__s55__lowest_g_class_matched20__scratch__n300",
+    "model_sha256": "4febb89d2b3704fa755c367d393498ccbd4644c3fca02d1cb9af6e15dacc83a9",
+    "target_cutoff": 0.5133215216438458,
+    "source_cutoff": 0.18532361051573865
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__transfer__n60",
+    "model_sha256": "a6dc8522c37480977d32727e6e79b7a4f479f5024a84bc862beae9d13b38aad1",
+    "target_cutoff": 0.6723052891124083,
+    "source_cutoff": 0.75046729780943
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__scratch__n60",
+    "model_sha256": "69b1b5f07f10b3bc85f27c9dbfedab6560705e8200a4dd2d314d2d813f359a21",
+    "target_cutoff": 0.9236528460013469,
+    "source_cutoff": 0.8763856257667594
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__transfer__n150",
+    "model_sha256": "894cfb8ed682dcaa89be9f080d5bf219e8d2b8b811710debc0541ca9f55ce275",
+    "target_cutoff": 0.7684155376855587,
+    "source_cutoff": 0.9935160521544515
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__scratch__n150",
+    "model_sha256": "6f352e47f62e1837fe9f90e75eff46e1241f64a2011ad444e58f531691a532f3",
+    "target_cutoff": 0.9944275055343841,
+    "source_cutoff": 0.9559111054075878
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__transfer__n300",
+    "model_sha256": "bbec117ba0eacf13759b2e564551fb35562d0be9545dd6a03121a860d8694f1c",
+    "target_cutoff": 0.5054621259901028,
+    "source_cutoff": 0.9715168265754764
+  },
+  {
+    "job_id": "p2_molecular__s55__bridge_class_matched20__scratch__n300",
+    "model_sha256": "8c361631468d10317b44247416597c2250a27bbcab9f6c050e1ffe0d6cc74dea",
+    "target_cutoff": 0.5389647630326652,
+    "source_cutoff": 0.9747920367194499
+  }
+]

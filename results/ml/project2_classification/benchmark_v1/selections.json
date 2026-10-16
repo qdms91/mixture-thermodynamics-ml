@@ -1,0 +1,1257 @@
+{
+  "models": [
+    {
+      "group": "a_composition",
+      "family": "majority",
+      "setting": {
+        "family": "majority",
+        "setting_id": "majority",
+        "weighted": false
+      },
+      "threshold": 0.5,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/a_composition__majority.joblib",
+      "model_sha256": "537cc790adc2337e2f6ccd0d817e5f079e04b7f62a5e77838ef79a2c4ecd7546",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.017622376999497646,
+          "convergence_warnings": [],
+          "iterations": []
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.0,
+        "recall_instability": 0.0,
+        "f1_instability": 0.0,
+        "precision_no_instability": 0.9044585987261147,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9498327759197325,
+        "f1_macro": 0.47491638795986624,
+        "average_precision": 0.09554140127388536,
+        "pr_auc_trapezoid": 0.5477707006369427,
+        "roc_auc": 0.5,
+        "balanced_accuracy": 0.5,
+        "tn": 284,
+        "fp": 0,
+        "fn": 30,
+        "tp": 0
+      }
+    },
+    {
+      "group": "a_composition",
+      "family": "logistic",
+      "setting": {
+        "family": "logistic",
+        "C": 1.0,
+        "weighted": true,
+        "setting_id": "logistic_03"
+      },
+      "threshold": 0.6345444147242612,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/a_composition__logistic.joblib",
+      "model_sha256": "0f399069e81cbd884dede5b3c91622b4d054ac5bf097ba0bf4f0aedce1084163",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.012254535999090876,
+          "convergence_warnings": [],
+          "iterations": [
+            18
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.9375,
+        "recall_instability": 1.0,
+        "f1_instability": 0.967741935483871,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 0.9929577464788732,
+        "f1_no_instability": 0.9964664310954063,
+        "f1_macro": 0.9821041832896387,
+        "average_precision": 0.989226812672215,
+        "pr_auc_trapezoid": 0.9890241283960735,
+        "roc_auc": 0.998943661971831,
+        "balanced_accuracy": 0.9964788732394366,
+        "tn": 282,
+        "fp": 2,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "a_composition",
+      "family": "svm",
+      "setting": {
+        "family": "svm",
+        "C": 100.0,
+        "gamma": "scale",
+        "weighted": false,
+        "setting_id": "svm_24"
+      },
+      "threshold": 0.47966026575789344,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/a_composition__svm.joblib",
+      "model_sha256": "594034b7f8191106ed1bc390c81eb744f6387ccde2b19e2403196584eb1fcfff",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.014364970000315225,
+          "convergence_warnings": [],
+          "iterations": [
+            1555
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.967741935483871,
+        "recall_instability": 1.0,
+        "f1_instability": 0.9836065573770492,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 0.9964788732394366,
+        "f1_no_instability": 0.9982363315696648,
+        "f1_macro": 0.990921444473357,
+        "average_precision": 0.9978136200716845,
+        "pr_auc_trapezoid": 0.9977765418366086,
+        "roc_auc": 0.9997652582159624,
+        "balanced_accuracy": 0.9982394366197183,
+        "tn": 283,
+        "fp": 1,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "a_composition",
+      "family": "mlp",
+      "setting": {
+        "family": "mlp",
+        "layers": [
+          128,
+          64
+        ],
+        "alpha": 0.1,
+        "weighted": false,
+        "setting_id": "mlp_40"
+      },
+      "threshold": 0.4004755945258122,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile"
+      ],
+      "seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "model_file": "models/a_composition__mlp.joblib",
+      "model_sha256": "81eafc98981f38aa6a0d2a11a642d607202dadffdcb2f4310e5176e965271287",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 2.2184144069979084,
+          "convergence_warnings": [],
+          "iterations": 299
+        },
+        {
+          "fit_seconds": 2.4291963720024796,
+          "convergence_warnings": [],
+          "iterations": 333
+        },
+        {
+          "fit_seconds": 1.434592708999844,
+          "convergence_warnings": [],
+          "iterations": 195
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "b_molecular",
+      "family": "majority",
+      "setting": {
+        "family": "majority",
+        "setting_id": "majority",
+        "weighted": false
+      },
+      "threshold": 0.5,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/b_molecular__majority.joblib",
+      "model_sha256": "25974b8145a589f49d5fe1503bc88827e12e8ae19217d802982b7fedff4a7aa1",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.007299231001525186,
+          "convergence_warnings": [],
+          "iterations": []
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.0,
+        "recall_instability": 0.0,
+        "f1_instability": 0.0,
+        "precision_no_instability": 0.9044585987261147,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9498327759197325,
+        "f1_macro": 0.47491638795986624,
+        "average_precision": 0.09554140127388536,
+        "pr_auc_trapezoid": 0.5477707006369427,
+        "roc_auc": 0.5,
+        "balanced_accuracy": 0.5,
+        "tn": 284,
+        "fp": 0,
+        "fn": 30,
+        "tp": 0
+      }
+    },
+    {
+      "group": "b_molecular",
+      "family": "logistic",
+      "setting": {
+        "family": "logistic",
+        "C": 0.1,
+        "weighted": false,
+        "setting_id": "logistic_00"
+      },
+      "threshold": 0.25580334046208725,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/b_molecular__logistic.joblib",
+      "model_sha256": "196e2d6f994b13bc6ba6e3deacf01b15ab48f58ff0bef535fb5fd74926a7b8e4",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.010352266999689164,
+          "convergence_warnings": [],
+          "iterations": [
+            22
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.9375,
+        "recall_instability": 1.0,
+        "f1_instability": 0.967741935483871,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 0.9929577464788732,
+        "f1_no_instability": 0.9964664310954063,
+        "f1_macro": 0.9821041832896387,
+        "average_precision": 0.989226812672215,
+        "pr_auc_trapezoid": 0.9890241283960735,
+        "roc_auc": 0.998943661971831,
+        "balanced_accuracy": 0.9964788732394366,
+        "tn": 282,
+        "fp": 2,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "b_molecular",
+      "family": "svm",
+      "setting": {
+        "family": "svm",
+        "C": 100.0,
+        "gamma": "scale",
+        "weighted": false,
+        "setting_id": "svm_24"
+      },
+      "threshold": -0.6527200064812667,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/b_molecular__svm.joblib",
+      "model_sha256": "fe21faab727cf01f991fe6b6a58268d99e9fb1c230d18035a15989ccf0a4c9a3",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.014064716000575572,
+          "convergence_warnings": [],
+          "iterations": [
+            852
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 0.9666666666666667,
+        "f1_instability": 0.9830508474576272,
+        "precision_no_instability": 0.9964912280701754,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9982425307557118,
+        "f1_macro": 0.9906466891066694,
+        "average_precision": 0.996078431372549,
+        "pr_auc_trapezoid": 0.9960190136660725,
+        "roc_auc": 0.9995305164319249,
+        "balanced_accuracy": 0.9833333333333334,
+        "tn": 284,
+        "fp": 0,
+        "fn": 1,
+        "tp": 29
+      }
+    },
+    {
+      "group": "b_molecular",
+      "family": "mlp",
+      "setting": {
+        "family": "mlp",
+        "layers": [
+          128,
+          64
+        ],
+        "alpha": 0.1,
+        "weighted": true,
+        "setting_id": "mlp_41"
+      },
+      "threshold": 0.798470627976335,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL"
+      ],
+      "seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "model_file": "models/b_molecular__mlp.joblib",
+      "model_sha256": "a4f5e6965b27ab125438d5107fa858de30c5a608367bcef0d452c0fcc4567042",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 2.9352521389992035,
+          "convergence_warnings": [],
+          "iterations": 344
+        },
+        {
+          "fit_seconds": 2.129196277997835,
+          "convergence_warnings": [],
+          "iterations": 252
+        },
+        {
+          "fit_seconds": 2.782317620996764,
+          "convergence_warnings": [],
+          "iterations": 333
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "c_all",
+      "family": "majority",
+      "setting": {
+        "family": "majority",
+        "setting_id": "majority",
+        "weighted": false
+      },
+      "threshold": 0.5,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/c_all__majority.joblib",
+      "model_sha256": "f35188ec03bdf3867d5eda94a9ab225d909203db877136f01465aa811da20b2b",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.00941630899978918,
+          "convergence_warnings": [],
+          "iterations": []
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.0,
+        "recall_instability": 0.0,
+        "f1_instability": 0.0,
+        "precision_no_instability": 0.9044585987261147,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9498327759197325,
+        "f1_macro": 0.47491638795986624,
+        "average_precision": 0.09554140127388536,
+        "pr_auc_trapezoid": 0.5477707006369427,
+        "roc_auc": 0.5,
+        "balanced_accuracy": 0.5,
+        "tn": 284,
+        "fp": 0,
+        "fn": 30,
+        "tp": 0
+      }
+    },
+    {
+      "group": "c_all",
+      "family": "logistic",
+      "setting": {
+        "family": "logistic",
+        "C": 0.1,
+        "weighted": true,
+        "setting_id": "logistic_01"
+      },
+      "threshold": 0.7104367394647637,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/c_all__logistic.joblib",
+      "model_sha256": "61ed43c70a46b440f8050615a004b903d066d58ed6440556c840643b11544a3a",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.01238721299887402,
+          "convergence_warnings": [],
+          "iterations": [
+            30
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.967741935483871,
+        "recall_instability": 1.0,
+        "f1_instability": 0.9836065573770492,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 0.9964788732394366,
+        "f1_no_instability": 0.9982363315696648,
+        "f1_macro": 0.990921444473357,
+        "average_precision": 0.9978136200716845,
+        "pr_auc_trapezoid": 0.9977765418366086,
+        "roc_auc": 0.9997652582159624,
+        "balanced_accuracy": 0.9982394366197183,
+        "tn": 283,
+        "fp": 1,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "c_all",
+      "family": "svm",
+      "setting": {
+        "family": "svm",
+        "C": 100.0,
+        "gamma": "scale",
+        "weighted": false,
+        "setting_id": "svm_24"
+      },
+      "threshold": -0.7191818722636601,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/c_all__svm.joblib",
+      "model_sha256": "5a66bfbac68ac890d3594407f9939190d9c25d8cfbbea6cc7c0836c9c0f97bbc",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.016681127999618184,
+          "convergence_warnings": [],
+          "iterations": [
+            1706
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 0.9666666666666667,
+        "f1_instability": 0.9830508474576272,
+        "precision_no_instability": 0.9964912280701754,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9982425307557118,
+        "f1_macro": 0.9906466891066694,
+        "average_precision": 0.9879432624113476,
+        "pr_auc_trapezoid": 0.9878122109158187,
+        "roc_auc": 0.9980046948356807,
+        "balanced_accuracy": 0.9833333333333334,
+        "tn": 284,
+        "fp": 0,
+        "fn": 1,
+        "tp": 29
+      }
+    },
+    {
+      "group": "c_all",
+      "family": "mlp",
+      "setting": {
+        "family": "mlp",
+        "layers": [
+          64,
+          32
+        ],
+        "alpha": 0.1,
+        "weighted": false,
+        "setting_id": "mlp_34"
+      },
+      "threshold": 0.5429250641595628,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "mean_molar_mass_g_mol",
+        "mean_atom_count",
+        "atom_moles_H_per_mol_mixture",
+        "atom_moles_C_per_mol_mixture",
+        "atom_moles_N_per_mol_mixture",
+        "atom_moles_O_per_mol_mixture",
+        "atom_moles_from_water_per_mol_mixture",
+        "atom_moles_from_methanol_per_mol_mixture",
+        "atom_moles_from_acetone_per_mol_mixture",
+        "atom_moles_from_acetonitrile_per_mol_mixture",
+        "atom_moles_from_benzene_per_mol_mixture",
+        "volume_additive_molar_volume_mL_mol",
+        "volume_additive_density_g_mL",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "model_file": "models/c_all__mlp.joblib",
+      "model_sha256": "a5efb8437fa1dd750f85268d5098d099261a95699404a5842ecff89f89865a75",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 2.862249457000871,
+          "convergence_warnings": [],
+          "iterations": 557
+        },
+        {
+          "fit_seconds": 2.5066900009987876,
+          "convergence_warnings": [],
+          "iterations": 499
+        },
+        {
+          "fit_seconds": 2.549322191000101,
+          "convergence_warnings": [],
+          "iterations": 505
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "d_thermodynamics",
+      "family": "majority",
+      "setting": {
+        "family": "majority",
+        "setting_id": "majority",
+        "weighted": false
+      },
+      "threshold": 0.5,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/d_thermodynamics__majority.joblib",
+      "model_sha256": "03fbe56a472db5e1e74a722dfb33c5cde58985391106bf29528d4ce57bb37036",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.007176290000643348,
+          "convergence_warnings": [],
+          "iterations": []
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.0,
+        "recall_instability": 0.0,
+        "f1_instability": 0.0,
+        "precision_no_instability": 0.9044585987261147,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9498327759197325,
+        "f1_macro": 0.47491638795986624,
+        "average_precision": 0.09554140127388536,
+        "pr_auc_trapezoid": 0.5477707006369427,
+        "roc_auc": 0.5,
+        "balanced_accuracy": 0.5,
+        "tn": 284,
+        "fp": 0,
+        "fn": 30,
+        "tp": 0
+      }
+    },
+    {
+      "group": "d_thermodynamics",
+      "family": "logistic",
+      "setting": {
+        "family": "logistic",
+        "C": 1.0,
+        "weighted": false,
+        "setting_id": "logistic_02"
+      },
+      "threshold": 0.2934976623832318,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/d_thermodynamics__logistic.joblib",
+      "model_sha256": "a62b4d27c1807f138d612b692c211c005693997f9a32f73c4faba1e602d55970",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.012439058999007102,
+          "convergence_warnings": [],
+          "iterations": [
+            32
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.967741935483871,
+        "recall_instability": 1.0,
+        "f1_instability": 0.9836065573770492,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 0.9964788732394366,
+        "f1_no_instability": 0.9982363315696648,
+        "f1_macro": 0.990921444473357,
+        "average_precision": 0.9978136200716845,
+        "pr_auc_trapezoid": 0.9977765418366086,
+        "roc_auc": 0.9997652582159624,
+        "balanced_accuracy": 0.9982394366197183,
+        "tn": 283,
+        "fp": 1,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "d_thermodynamics",
+      "family": "svm",
+      "setting": {
+        "family": "svm",
+        "C": 100.0,
+        "gamma": "scale",
+        "weighted": true,
+        "setting_id": "svm_25"
+      },
+      "threshold": 0.8911671275298856,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/d_thermodynamics__svm.joblib",
+      "model_sha256": "ba621bcf202f7f3a1a011c5a92282092d6d0c207e7c8b02a8759cc831bd3c45c",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.015825960002985084,
+          "convergence_warnings": [],
+          "iterations": [
+            1064
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "d_thermodynamics",
+      "family": "mlp",
+      "setting": {
+        "family": "mlp",
+        "layers": [
+          128,
+          64
+        ],
+        "alpha": 0.1,
+        "weighted": false,
+        "setting_id": "mlp_40"
+      },
+      "threshold": 0.34169324063318984,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "g_excess_kJ_mol",
+        "h_mix_kJ_mol",
+        "s_mix_J_mol_K"
+      ],
+      "seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "model_file": "models/d_thermodynamics__mlp.joblib",
+      "model_sha256": "2e7c94d5fc33f7a90afa59561f1a32c06e2d8e0918bfcae6d4304a8fdab30d79",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 2.548724370000855,
+          "convergence_warnings": [],
+          "iterations": 337
+        },
+        {
+          "fit_seconds": 2.5744826000009198,
+          "convergence_warnings": [],
+          "iterations": 350
+        },
+        {
+          "fit_seconds": 2.768097221000062,
+          "convergence_warnings": [],
+          "iterations": 374
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "e_activity",
+      "family": "majority",
+      "setting": {
+        "family": "majority",
+        "setting_id": "majority",
+        "weighted": false
+      },
+      "threshold": 0.5,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/e_activity__majority.joblib",
+      "model_sha256": "25a1a00f9c9f2a891e7ad5909588687bdea29682fa12e1810c2a294a28807455",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.00829454899940174,
+          "convergence_warnings": [],
+          "iterations": []
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.0,
+        "recall_instability": 0.0,
+        "f1_instability": 0.0,
+        "precision_no_instability": 0.9044585987261147,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 0.9498327759197325,
+        "f1_macro": 0.47491638795986624,
+        "average_precision": 0.09554140127388536,
+        "pr_auc_trapezoid": 0.5477707006369427,
+        "roc_auc": 0.5,
+        "balanced_accuracy": 0.5,
+        "tn": 284,
+        "fp": 0,
+        "fn": 30,
+        "tp": 0
+      }
+    },
+    {
+      "group": "e_activity",
+      "family": "logistic",
+      "setting": {
+        "family": "logistic",
+        "C": 1.0,
+        "weighted": false,
+        "setting_id": "logistic_02"
+      },
+      "threshold": 0.3440225633470694,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/e_activity__logistic.joblib",
+      "model_sha256": "aaeccadb40ca1fa34081d75a85f3bdea5c08ae2b647336e61f218e0fb5b9dd2d",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.011267876001511468,
+          "convergence_warnings": [],
+          "iterations": [
+            33
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    },
+    {
+      "group": "e_activity",
+      "family": "svm",
+      "setting": {
+        "family": "svm",
+        "C": 100.0,
+        "gamma": "scale",
+        "weighted": false,
+        "setting_id": "svm_24"
+      },
+      "threshold": -0.7148344752988014,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88
+      ],
+      "model_file": "models/e_activity__svm.joblib",
+      "model_sha256": "364a6c083516c7b9e55fbdc7c6374ef66959a13950bd9fc8797e8e6c8fc3bce5",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 0.016725692999898456,
+          "convergence_warnings": [],
+          "iterations": [
+            1673
+          ]
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 0.9666666666666667,
+        "recall_instability": 0.9666666666666667,
+        "f1_instability": 0.9666666666666667,
+        "precision_no_instability": 0.9964788732394366,
+        "recall_no_instability": 0.9964788732394366,
+        "f1_no_instability": 0.9964788732394366,
+        "f1_macro": 0.9815727699530516,
+        "average_precision": 0.9893650793650793,
+        "pr_auc_trapezoid": 0.9892297782583737,
+        "roc_auc": 0.998474178403756,
+        "balanced_accuracy": 0.9815727699530516,
+        "tn": 283,
+        "fp": 1,
+        "fn": 1,
+        "tp": 29
+      }
+    },
+    {
+      "group": "e_activity",
+      "family": "mlp",
+      "setting": {
+        "family": "mlp",
+        "layers": [
+          128,
+          64
+        ],
+        "alpha": 0.1,
+        "weighted": false,
+        "setting_id": "mlp_40"
+      },
+      "threshold": 0.4561449563736704,
+      "columns": [
+        "x_water",
+        "x_methanol",
+        "x_acetone",
+        "x_acetonitrile",
+        "ln_gamma_water",
+        "ln_gamma_methanol",
+        "ln_gamma_acetone",
+        "ln_gamma_acetonitrile",
+        "ln_gamma_benzene"
+      ],
+      "seeds": [
+        88,
+        2026,
+        31415
+      ],
+      "model_file": "models/e_activity__mlp.joblib",
+      "model_sha256": "451e43bbed422cbda36279b67387df3d039f0d3a28af15fe652e28ba1a69d07c",
+      "fit_diagnostics": [
+        {
+          "fit_seconds": 3.182090643000265,
+          "convergence_warnings": [],
+          "iterations": 414
+        },
+        {
+          "fit_seconds": 2.3786945209976693,
+          "convergence_warnings": [],
+          "iterations": 318
+        },
+        {
+          "fit_seconds": 2.8627309520015842,
+          "convergence_warnings": [],
+          "iterations": 378
+        }
+      ],
+      "validation_metrics": {
+        "recipes": 314,
+        "positives": 30,
+        "prevalence": 0.09554140127388536,
+        "precision_instability": 1.0,
+        "recall_instability": 1.0,
+        "f1_instability": 1.0,
+        "precision_no_instability": 1.0,
+        "recall_no_instability": 1.0,
+        "f1_no_instability": 1.0,
+        "f1_macro": 1.0,
+        "average_precision": 0.9999999999999999,
+        "pr_auc_trapezoid": 0.9999999999999999,
+        "roc_auc": 1.0,
+        "balanced_accuracy": 1.0,
+        "tn": 284,
+        "fp": 0,
+        "fn": 0,
+        "tp": 30
+      }
+    }
+  ],
+  "preferred_by_validation": {
+    "group": "a_composition",
+    "family": "mlp"
+  },
+  "frozen_utc": "2026-10-05T09:44:03.900790+00:00"
+}

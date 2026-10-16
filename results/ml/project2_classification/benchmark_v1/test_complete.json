@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-10-05T09:47:39.090142+00:00",
+  "selections_sha256": "4a2516df67b129f641c9d60be53ebfb78fb557c7085992312bc40f425b011b61",
+  "preferred_by_validation": {
+    "group": "a_composition",
+    "family": "mlp"
+  },
+  "test_used_for_selection": false
+}

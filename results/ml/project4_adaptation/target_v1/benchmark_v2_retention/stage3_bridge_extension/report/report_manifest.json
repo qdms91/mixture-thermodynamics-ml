@@ -1,0 +1,22 @@
+{
+  "protocol_sha256": "5d4f712be1289bd13f6c2cc252527de81f4462548596a7d2264a36a987f6199d",
+  "exploratory_after_stage3_test_inspection": true,
+  "extension_entries": 60,
+  "baseline_entries_reused": 252,
+  "predictions_scope": "Extension policies only; historical predictions remain in original Stage 3 report.",
+  "files_sha256": {
+    "memory_overlap.csv": "0dba11350e78a0ac9ea254309285de79d4abde515175d226bbfaa4bf3812290b",
+    "extension_test_predictions.csv.gz": "11c5edeb2351ddb9c8a260b1f03a39cf13f08d574fcc7d0e863936a4124ac85e",
+    "frozen_thresholds.json": "6e989e5dd74771fdcf28455aef509b13d0c08a56c73683dbd9497f8f12d63349",
+    "availability.csv": "9d6294b28ba445e52f34b11c3f1c626bfe57db8eed42a3b301d36914785dfa5b",
+    "memory_summary.csv": "847a4400311b39f228d72e6bce094679cfccace5b8f219907abca126298c20ee",
+    "costs.csv": "1ad12e12f3f9e9871b72390a8a08cc5511dcd5d71c1613d62b57f0d423c7c536",
+    "frozen_source_metrics.csv": "a714dc730a0d0900a418dd93bb9d56ee516ba9bf6f99092faed0e548bf2f190e",
+    "metrics.csv": "bce974204dab33021ace5cbdd72572c1baf65fb152a630a0a5d0896cba229b2b",
+    "summary.csv": "270f4ed654b12b3dafeff46b48964f56549811a30fbb8cae5ef6caa91fd599ae",
+    "paired_comparisons.csv": "1126fb79488305370c50b9635c95e871d435ca3290a72aa6d679636c19646dc9",
+    "source_retention_changes.csv": "03ca913e212a0eb57cb9040d6fa63bfb9198b7a7845ba12164d3c5394d9636f8",
+    "bridge_extension_AP.png": "ad2fbaa0f8f97c4792e564dc68354a0259a8d4b01db1fda588bd58e8a43b2be7",
+    "paired_summary.csv": "0e963b93dac2a51daed86835dc8cc9ec477e654a77ae10ea8ee33565adca138b"
+  }
+}
