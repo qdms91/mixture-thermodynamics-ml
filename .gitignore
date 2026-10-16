@@ -1,0 +1,88 @@
+# cosmo_rs_1: preserve the working layout and scientific inputs.
+# These rules do not delete local files. Stage reviewed files explicitly.
+# There is deliberately no blanket data/, calculations/, results/, *.json,
+# *.csv, *.joblib, *.orcacosmo, *.inp, *.xyz, or *.out exclusion.
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local editor settings, backups, and private runtime configuration
+/.vscode/
+.DS_Store
+*~
+*.swp
+*.swo
+.~lock.*#
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Superseded root scripts and local project inventories
+/*_OLD.py
+/*_old.md
+/directory_structure*.txt
+/terminal_history*.txt
+/history.txt
+/data_root*.zip
+/files_reproducibility_methods_repository*.zip
+/Mixture_Thermodynamics_Manuscript_Bundle.zip
+/cosmo_rs_1_git_preparation.zip
+/cosmo_rs_1_git_preparation/
+
+
+
+# ORCA scratch/intermediate binaries and local rerun archives.
+# Final solute surfaces, XYZ inputs, input decks, citation files, and outputs
+# remain eligible for a later, reviewed scientific-input commit.
+/calculations/**/*.gbw
+/calculations/**/*.densities
+/calculations/**/*.densitiesinfo
+/calculations/**/*.cpcm
+/calculations/**/*.cpcm_corr
+/calculations/archive/
+/calculations/mpi_test/
+
+# Downloaded reference collection: retain eligibility of the five entries
+# explicitly used by project_config.py. Review attribution/licensing before
+# adding these third-party files; the rest can be obtained from its source.
+/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/*
+!/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/H2O_c000.orcacosmo
+!/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/methanol_c000.orcacosmo
+!/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/acetone_c000.orcacosmo
+!/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/acetonitrile_CnfS1_c000.orcacosmo
+!/data/reference/openCOSMO-RS_24a_SI_data_qm_files/qm_files/benzene_CnfS1_c000.orcacosmo
+
+# Runtime locks, resumable databases, and incomplete report staging.
+# Frozen CSV/JSON datasets, recipes, labels, configurations, and manifests
+# stay eligible. SQLite state can be archived separately if later needed.
+/results/**/*.lock
+/results/**/checkpoint.sqlite
+/results/**/checkpoint.sqlite-*
+/results/**/report_in_progress/
+/results/**/report_stage12_in_progress/
+/results/**/.retention_prepare_*/
+/results/**/.energy_prepare_*/
+/results/**/.bridge_prepare_*/
+/results/**/*.zip
+
+# Large fitted-model collections: planned downloadable release assets.
+# Keep per-fit JSON records and the source_models/ and ridge/ inputs eligible.
+/results/ml/project4_adaptation/target_v1/benchmark_v2_retention/**/fits/**/model.joblib
+
+# Intermediate target-adaptation checkpoints: planned release assets.
+# Keep the reported 60/150/300 checkpoints and full-pool model eligible.
+/results/ml/project4_adaptation/target_v1/benchmark_v1/seed_*/*/model_*.joblib
+!/results/ml/project4_adaptation/target_v1/benchmark_v1/seed_*/*/model_0060.joblib
+!/results/ml/project4_adaptation/target_v1/benchmark_v1/seed_*/*/model_0150.joblib
+!/results/ml/project4_adaptation/target_v1/benchmark_v1/seed_*/*/model_0300.joblib
+
+# The 41 MiB detailed prediction export is a planned release asset.
+# Summary metrics, timings, manifests, and other prediction files stay eligible.
+/results/ml/project4_adaptation/target_v1/benchmark_v2_retention/report_stage12/test_predictions.csv
