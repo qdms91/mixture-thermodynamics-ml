@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-07T16:58:34.779386+00:00",
+  "sample_seed": 20261008,
+  "source": "p3",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "temperature_K": 298.15,
+  "role": "New target block split; design informed by the inspected 337-recipe challenge.",
+  "prior_challenge": "results/ml/project4_frozen_ood/pilot_v1",
+  "source_validation_labels": 314,
+  "prior_recipes_sha256": "90de02b8f771ff8c038b7782e22ddc45e73e2b89f19a6ac95fa0db9daa575cd9",
+  "code_sha256": {
+    "project4_adaptation.py": "d283508216ff4ec2877776c5f0fd7a5317afce3d69b8d4f9681ebec6928492c3",
+    "project2_common.py": "9caa69835175d1bd0329d8d467169aab92fcc7c26f74a5f4511d646f2c9b6b01",
+    "project3_common.py": "9a21c7e0d52bfd371490d877be6d5d2eaba5f5e0a73b93a790c55ca8c3362910",
+    "project4_learning.py": "eb9a72802301a92d2687086c41fa1d7220f930098b1636823e66582aaf952b33",
+    "stress_test_stability.py": "8d799bb1111225e02c59a72e127b1adc40fd6d1876ceb5626ed4eeda7dd46158"
+  },
+  "sklearn_version": "1.8.0",
+  "files_sha256": {
+    "recipes.csv": "2ead5b395146f4ec4af9272d1edd03bf4c2b0807caa02110e50074e6c2580d9e",
+    "frozen_predictions.csv": "962d97f10f2d75efe3e4859603ba88ac8cc2a3f73ce603363942cfa1d09e38c4",
+    "sources.json": "3558e3f4bc14c57b04a976a877e7fff93fdd6fbe7b945f1d5d3d852eb61700b3",
+    "source_retention.csv": "4dba04e7f446751da2bf74eb6837318cd48a3a10e2c259c2cf36a126d28f43ae",
+    "source_retention_frozen.csv": "4c721eae26e7c632bdef51dbd5fd105221adae77002c6b48c1017b93889d86b0",
+    "composition_distances.csv": "c96d022a420050c6851544aac991114ee082f322be7aeed49fbccace700e7f22"
+  }
+}

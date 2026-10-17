@@ -1,0 +1,50 @@
+{
+  "campaign": "project2_stability_extension",
+  "total": 2000,
+  "source_directory": "results/ml/stability_seed88_starts40",
+  "source_rows": 600,
+  "source_dataset_sha256": "89b8f0d9c1869e66ab5ef21bb5a4f5c9d2f1d56e208c23f1a0cbc3572c3fe794",
+  "extension_script_sha256": "82100ad726286e7879f6cf9be8f5ba81185712daf512ffb6c76c5c62939379c8",
+  "manifest_sha256": "f9bd7c23e93b1b965877e24365e9048b71de677d958157f72f69d011f4ebee20",
+  "sample_seed": 2026,
+  "calculation_metadata": {
+    "campaign": "stability",
+    "seed": 88,
+    "starts": 40,
+    "temperature_K": 298.15,
+    "molecule_order": [
+      "water",
+      "methanol",
+      "acetone",
+      "acetonitrile",
+      "benzene"
+    ],
+    "source": "calculated",
+    "versions": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "pandas": "3.0.6",
+      "opencosmorspy": "0.0.1"
+    },
+    "temperature_steps_K": [
+      1.0,
+      2.0
+    ],
+    "cosmospace_convergence": 1e-10,
+    "cosmospace_max_iter": 3000,
+    "tpd_tolerance": 1e-06,
+    "mole_fraction_floor": 1e-10,
+    "sha256": {
+      "surface:water": "ff3531888cfd6ed086f93f0a058852dfb56d5b34a43ce9bfa244d5c0192fd2b3",
+      "surface:methanol": "5b48d948ebbff7ea137ceaecc3f845a63ee3c8bec2f2c073ca3bfe86c193e1ca",
+      "surface:acetone": "9915a41605cd97fbeca230fc747030a9eab277c012cc3083c6b2ee81892036c1",
+      "surface:acetonitrile": "b3a33520d2f85c775ae9fdad4790a6dce421256c848b470bc62b565a4b924fee",
+      "surface:benzene": "9f0db1f90c97c98779a852c9c157fe2028f78c3216869c262776d9e8e7e00ab0",
+      "mixture_thermodynamics.py": "58bee706ca714146b9b5d25be0fc85301fd350d1c83ff477a69738e043928189",
+      "phase_stability.py": "af1bb478467c37e58e522beac2c048e693ef3cab80ad02ef0904f97e814a2892",
+      "project_config.py": "d530b9d05e83474c4bbd21a0e7e800cb3a51e0145cee802a44e3c96090ae9561",
+      "collect_ml_data.py": "4aee61131ddf6869a36f48bd8f7df33d239591dc90f3f9e53ef4d2ca518a4b35"
+    }
+  },
+  "split_policy": "Pending Project 2 split: aim 60/15/25 train/validation/test, stratified by label with composition blocks kept together; no classifier fitted yet"
+}

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-07T12:07:24.729423+00:00",
+  "temperature_K": 298.15,
+  "sample_seed": 20261006,
+  "per_group": 40,
+  "binary_grid": "pilot",
+  "role": "Exploratory frozen challenge; do not recycle these labels into a claimed independent final test.",
+  "source_selection": "Project 2 composition families plus molecular MLP; Project 3 active committees at declared budgets, all available seeds. Budget 200 was highlighted after source-test inspection.",
+  "inputs_sha256": {
+    "results/ml/project2_classification/benchmark_v1/selections.json": "4a2516df67b129f641c9d60be53ebfb78fb557c7085992312bc40f425b011b61",
+    "results/ml/project3_active_learning/benchmark_v1/report/frozen_thresholds.json": "d7bc84fdcac3bc95c224c900151b64b5dee2a8bb41354baf751fbc2bebf3dcf1",
+    "project4_input_recipes.csv": "9fb0611c695b988ab568bd88c5aed68a488367cf55a97716845a92863f61cc7b",
+    "results/ml/project2_classification/prepared_seed2026/preparation.json": "d8381631db7de9186d1d97ee0fbe469ff05f77be4c460c9817c7a55e20465089"
+  },
+  "script_sha256": "8d799bb1111225e02c59a72e127b1adc40fd6d1876ceb5626ed4eeda7dd46158",
+  "common_sha256": "9caa69835175d1bd0329d8d467169aab92fcc7c26f74a5f4511d646f2c9b6b01",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.6.0"
+  },
+  "frozen_sha256": {
+    "recipes.csv": "90de02b8f771ff8c038b7782e22ddc45e73e2b89f19a6ac95fa0db9daa575cd9",
+    "frozen_predictions.csv": "38f12f9cbdd6960ae140946968f61ce44c453ed1cda5033e02add34c4b3b87fe",
+    "models.json": "cab12add55438225407ee9bf6a3c9072802c8e0577d1150a4c55fcd436c597be"
+  }
+}

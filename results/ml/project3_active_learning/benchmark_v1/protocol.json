@@ -1,0 +1,71 @@
+{
+  "prepared_directory": "results/ml/project2_classification/prepared_seed2026",
+  "preparation_sha256": "d8381631db7de9186d1d97ee0fbe469ff05f77be4c460c9817c7a55e20465089",
+  "config": {
+    "initial": 100,
+    "batch": 25,
+    "committee": 3,
+    "layers": [
+      128,
+      64
+    ],
+    "alpha": 0.01,
+    "max_epochs": 1200,
+    "target_ap": 0.98,
+    "target_recall": 0.9,
+    "budgets": [
+      100,
+      200,
+      400,
+      800
+    ]
+  },
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "strategies": [
+    "random",
+    "space_filling",
+    "uncertainty_diversity"
+  ],
+  "columns": [
+    "x_water",
+    "x_methanol",
+    "x_acetone",
+    "x_acetonitrile"
+  ],
+  "acquisition_distance_columns": [
+    "x_water",
+    "x_methanol",
+    "x_acetone",
+    "x_acetonitrile",
+    "x_benzene"
+  ],
+  "split_counts": {
+    "train": 1191,
+    "test": 495,
+    "validation": 314
+  },
+  "code_sha256": {
+    "run_active_learning.py": "e925420df606c765647257e7900f6ba57a237b25a5179b72455483cc050881a1",
+    "project3_common.py": "9a21c7e0d52bfd371490d877be6d5d2eaba5f5e0a73b93a790c55ca8c3362910",
+    "evaluate_active_learning.py": "9fc3e8d9061766fde43e9cd193982025394eee1f861491e44ad5ccf7f0b853a4",
+    "project2_common.py": "9caa69835175d1bd0329d8d467169aab92fcc7c26f74a5f4511d646f2c9b6b01"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "learner": "Fresh balanced MLP committee; fixed settings, no hyperparameter search or pretrained weights. One training-only continuation at twice the iteration cap if needed.",
+  "acquisition": "Jensen-Shannon disagreement + .25 predictive entropy; top 5*informed shortlist; farthest-first; 20% random exploration.",
+  "heldout_policy": "Validation labels used only for final thresholds; test labels only for final reporting.",
+  "interpretation": "Retrospective follow-up after Project 2; existing test has already been inspected."
+}

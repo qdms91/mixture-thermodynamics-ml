@@ -1,0 +1,326 @@
+{
+  "description": "Portable publication copies of original metadata. Only the project-root prefix and references to changed metadata hashes were updated. Scientific data, model weights, code, settings, selections, and numerical results are unchanged.",
+  "base_commit": "d3f3516f72edbfe923cc29409708029fbc701548",
+  "path_base": "Repository root; run the documented commands from that directory.",
+  "original_records": "Original byte hashes are retained below and in RUN_SETTINGS.json. Public files have the published_sha256 values below.",
+  "files": [
+    {
+      "path": "results/ml/project1_extrapolation/run_20261004_153338_888728/run_metadata.json",
+      "original_sha256": "79af805d4fb3444a56dc90823044e7b1c07de565125745715d0f96c31eb7a32c",
+      "published_sha256": "23ff9fa20a66e3fa8655a42ba9dcd8609312e74a63884edc9547e45c50ecd81c",
+      "path_fields_changed": [
+        "$.model_run"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project1_regression/run_20261004_134348_552708/run_metadata.json",
+      "original_sha256": "24b272033a05476599fb1837130f768e4b972c82be1cd5d6840b57e1caa5ce81",
+      "published_sha256": "0f46f07ceba15c31c8cdf1dfa5e24b09d934f6f868b3b8c002d9e88fbb3056b0",
+      "path_fields_changed": [
+        "$.data_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project2_classification/benchmark_v1/run_metadata.json",
+      "original_sha256": "0ba69764143a34d6051379aeb661a4f07fc6a31c3dd7722222ec7a8f37f37218",
+      "published_sha256": "7feea4c8e2fe427ffa58758b7ec1741e11a92cce25ab9d8bb2e35705e0a3aa23",
+      "path_fields_changed": [
+        "$.prepared_directory"
+      ],
+      "hash_fields_updated": [
+        "$.preparation_sha256"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project2_classification/prepared_seed2026/preparation.json",
+      "original_sha256": "d341876ce6a6ce9ce8d13c856b4cc13f851368f24397f6f745bbc57b8ed88888",
+      "published_sha256": "d8381631db7de9186d1d97ee0fbe469ff05f77be4c460c9817c7a55e20465089",
+      "path_fields_changed": [
+        "$.source_metadata.source_directory"
+      ],
+      "hash_fields_updated": [
+        "$.source_sha256.metadata.json"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project2_stability/total2000_sample2026_search88_starts40/metadata.json",
+      "original_sha256": "0452b6812d730be6e89d7d637f8777d365d70fe3260b9373dda90f8073dc42bd",
+      "published_sha256": "181295fb888270b7aba16ce7506178bcb2b28d68a21c3478255c6d5a51d1f7ed",
+      "path_fields_changed": [
+        "$.source_directory"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project3_active_learning/benchmark_v1/learning_complete.json",
+      "original_sha256": "f616c235a807e7b210a5604cbcc5c09049d0c195c05e1e4c68bc4b56e5c52d39",
+      "published_sha256": "8b4de798248417e2a3db2bfc17da43ba2e3863999aa1d3b28c4fbffe4e6270fe",
+      "path_fields_changed": [],
+      "hash_fields_updated": [
+        "$.protocol_sha256"
+      ],
+      "previously_withheld": false
+    },
+    {
+      "path": "results/ml/project3_active_learning/benchmark_v1/protocol.json",
+      "original_sha256": "8ef3cfe748c9545f716241254f9ef6e912c5b1457f0f0f69393059c2981f1466",
+      "published_sha256": "2c60daa5dca9f3a127ffba6d3ae0718713ecdaa3c033984f3aab423a519358f4",
+      "path_fields_changed": [
+        "$.prepared_directory"
+      ],
+      "hash_fields_updated": [
+        "$.preparation_sha256"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project3_active_learning/benchmark_v1/report/evaluation_complete.json",
+      "original_sha256": "ffa9e67bc480c3264eda7ae87385c8624e31e1c1997dbfc9d9d04b824d69be30",
+      "published_sha256": "45642d56473b89166b37e9f387c55fc470c42404b8481005459f82eab90969e7",
+      "path_fields_changed": [],
+      "hash_fields_updated": [
+        "$.protocol_sha256"
+      ],
+      "previously_withheld": false
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/input_audit.json",
+      "original_sha256": "593522adfd6817150bd6599c52d3fc7c1e6e036235f2a2a4de9e7c076204db37",
+      "published_sha256": "d9795aa2149d0c7d8e9960853ea0096fb404eb235686204a60c5904d97778b5a",
+      "path_fields_changed": [
+        "$.source_models.p3_active200__s11.original_file",
+        "$.source_models.p3_active200__s22.original_file",
+        "$.source_models.p3_active200__s33.original_file",
+        "$.source_models.p3_active200__s44.original_file",
+        "$.source_models.p3_active200__s55.original_file",
+        "$.source_models.p2_composition__s11.original_file",
+        "$.source_models.p2_composition__s22.original_file",
+        "$.source_models.p2_composition__s33.original_file",
+        "$.source_models.p2_composition__s44.original_file",
+        "$.source_models.p2_composition__s55.original_file",
+        "$.source_models.p2_molecular__s11.original_file",
+        "$.source_models.p2_molecular__s22.original_file",
+        "$.source_models.p2_molecular__s33.original_file",
+        "$.source_models.p2_molecular__s44.original_file",
+        "$.source_models.p2_molecular__s55.original_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/inputs/sources.json",
+      "original_sha256": "6b77b61d56d8ad3204339bfcc0fecfc1eb31a834865a0b6ea80c1d76b3a4b963",
+      "published_sha256": "6ca2a8ec95cd181a97375bdbbb8693360441e668403d7314aac1dd82f240528b",
+      "path_fields_changed": [
+        "$.p3_active200__s11.original_file",
+        "$.p3_active200__s22.original_file",
+        "$.p3_active200__s33.original_file",
+        "$.p3_active200__s44.original_file",
+        "$.p3_active200__s55.original_file",
+        "$.p2_composition__s11.original_file",
+        "$.p2_composition__s22.original_file",
+        "$.p2_composition__s33.original_file",
+        "$.p2_composition__s44.original_file",
+        "$.p2_composition__s55.original_file",
+        "$.p2_molecular__s11.original_file",
+        "$.p2_molecular__s22.original_file",
+        "$.p2_molecular__s33.original_file",
+        "$.p2_molecular__s44.original_file",
+        "$.p2_molecular__s55.original_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/protocol.json",
+      "original_sha256": "8466822cdb92ef06e57a01933ebe4b9ff8bd428b66d5876e27f33ee71127c300",
+      "published_sha256": "f01c95c159dedada539f9a60355c849d98023b28af578118bbac1bc72e0f1105",
+      "path_fields_changed": [
+        "$.previous_experiment",
+        "$.provenance.prepared",
+        "$.provenance.p2_run"
+      ],
+      "hash_fields_updated": [
+        "$.files_sha256.inputs/sources.json",
+        "$.files_sha256.input_audit.json",
+        "$.provenance.prepared_metadata_sha256"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/report_stage12/report_manifest.json",
+      "original_sha256": "eb83a08e2961f9181e257cfcc0ec14cf718c8b094dee13da2fe0fe1d9e3b9542",
+      "published_sha256": "b2b1509f49809887c62118f1488d450f9a78b0a2a2aebef922fb09c27004d39f",
+      "path_fields_changed": [],
+      "hash_fields_updated": [
+        "$.protocol_sha256"
+      ],
+      "previously_withheld": false
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_bridge_extension/inputs/sources.json",
+      "original_sha256": "42a0d2bc3cb99d321457d2edc7934d2f130cb79f31df6e058012e1d841f48f8f",
+      "published_sha256": "8342ea2b544e1f1f1a7db32bbe376314ef508d3470bc9a93096ce02d2c6d5d9b",
+      "path_fields_changed": [
+        "$.p3_active200__s11.original_file",
+        "$.p3_active200__s22.original_file",
+        "$.p3_active200__s33.original_file",
+        "$.p3_active200__s44.original_file",
+        "$.p3_active200__s55.original_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_bridge_extension/protocol.json",
+      "original_sha256": "5d4f712be1289bd13f6c2cc252527de81f4462548596a7d2264a36a987f6199d",
+      "published_sha256": "22448c5cde236c6908553a528cf4f7b64961a58c31994583548e891904e821eb",
+      "path_fields_changed": [
+        "$.parent_run"
+      ],
+      "hash_fields_updated": [
+        "$.files_sha256.inputs/sources.json",
+        "$.parent_protocol_sha256",
+        "$.parent_report_sha256"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_bridge_extension/report/report_manifest.json",
+      "original_sha256": "5dbab4613fba3806ae0f376d74123ff7d3cfc0368fc153834efaea67300521ec",
+      "published_sha256": "f156916afc39f3e6ba28eaed7da4af575640e8c00588b66c7ebbedfd01618fb8",
+      "path_fields_changed": [],
+      "hash_fields_updated": [
+        "$.protocol_sha256"
+      ],
+      "previously_withheld": false
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_energy/inputs/sources.json",
+      "original_sha256": "e6afe10e77e1cec638f65780f1af3cbb19b3a0a93c3b0c4278d013a9f70a47f2",
+      "published_sha256": "806fabe4bfde6bec5e6193f62bbb5b55d8b2515b65199e5c3692b120a7c53e94",
+      "path_fields_changed": [
+        "$.p3_active200__s11.original_file",
+        "$.p3_active200__s22.original_file",
+        "$.p3_active200__s33.original_file",
+        "$.p3_active200__s44.original_file",
+        "$.p3_active200__s55.original_file",
+        "$.p2_molecular__s11.original_file",
+        "$.p2_molecular__s22.original_file",
+        "$.p2_molecular__s33.original_file",
+        "$.p2_molecular__s44.original_file",
+        "$.p2_molecular__s55.original_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_energy/protocol.json",
+      "original_sha256": "ed85a45aabb94c623e43e246f1bbc8ab3a10ff71554e52b6ed5dd9e8297f6c10",
+      "published_sha256": "c6d6d33730417160cb0b1dd03c2852859b2c687973adfcf74b1c1e93ec801233",
+      "path_fields_changed": [
+        "$.parent_run",
+        "$.ridge_run"
+      ],
+      "hash_fields_updated": [
+        "$.files_sha256.inputs/sources.json",
+        "$.files_sha256.ridge/run_metadata.json",
+        "$.parent_protocol_sha256"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_energy/report/report_manifest.json",
+      "original_sha256": "768465632db6ed22431ca0d698386efce65c830b8e046707024ddbc7457a85c3",
+      "published_sha256": "3c3e144acc12f7263acabfd0b39af2a708a6b876dba5a9381d3adf5bc706b9b4",
+      "path_fields_changed": [],
+      "hash_fields_updated": [
+        "$.protocol_sha256"
+      ],
+      "previously_withheld": false
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/benchmark_v2_retention/stage3_energy/ridge/run_metadata.json",
+      "original_sha256": "24b272033a05476599fb1837130f768e4b972c82be1cd5d6840b57e1caa5ce81",
+      "published_sha256": "0f46f07ceba15c31c8cdf1dfa5e24b09d934f6f868b3b8c002d9e88fbb3056b0",
+      "path_fields_changed": [
+        "$.data_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/protocol.json",
+      "original_sha256": "a7a7ff4620998432f25740351c47cf74ed432c3e5eada2f816544c53cc77c0cb",
+      "published_sha256": "55efc887f5c3c605ca9a42486b6d89fd27bb9105c7191a922b86b1c17f060fff",
+      "path_fields_changed": [
+        "$.prior_challenge"
+      ],
+      "hash_fields_updated": [
+        "$.files_sha256.sources.json"
+      ],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_adaptation/target_v1/sources.json",
+      "original_sha256": "c3d1cdb018c599217feec4b854456cbc6669f65a78ce63850e6cd1f5741262a3",
+      "published_sha256": "3558e3f4bc14c57b04a976a877e7fff93fdd6fbe7b945f1d5d3d852eb61700b3",
+      "path_fields_changed": [
+        "$[0].model_file",
+        "$[1].model_file",
+        "$[2].model_file",
+        "$[3].model_file",
+        "$[4].model_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_frozen_ood/pilot_v1/models.json",
+      "original_sha256": "fb91fd1589c30c4aafcebee2881ce0de9d4372cca047669e35ccf7490f426023",
+      "published_sha256": "cab12add55438225407ee9bf6a3c9072802c8e0577d1150a4c55fcd436c597be",
+      "path_fields_changed": [
+        "$[0].model_file",
+        "$[1].model_file",
+        "$[2].model_file",
+        "$[3].model_file",
+        "$[4].model_file",
+        "$[5].model_file",
+        "$[6].model_file",
+        "$[7].model_file",
+        "$[8].model_file",
+        "$[9].model_file",
+        "$[10].model_file",
+        "$[11].model_file",
+        "$[12].model_file",
+        "$[13].model_file",
+        "$[14].model_file"
+      ],
+      "hash_fields_updated": [],
+      "previously_withheld": true
+    },
+    {
+      "path": "results/ml/project4_frozen_ood/pilot_v1/protocol.json",
+      "original_sha256": "4419bfa947934a3a64538f922db7eaf36fd0e1b6d584bb4f5a8c5e06d640f1ea",
+      "published_sha256": "317c822811b40e385d955590d19084c563031bb7e6a7405abf39007d5e893420",
+      "path_fields_changed": [
+        "$.inputs_sha256.<key>",
+        "$.inputs_sha256.<key>",
+        "$.inputs_sha256.<key>",
+        "$.inputs_sha256.<key>"
+      ],
+      "hash_fields_updated": [
+        "$.inputs_sha256.results/ml/project2_classification/prepared_seed2026/preparation.json",
+        "$.frozen_sha256.models.json"
+      ],
+      "previously_withheld": true
+    }
+  ]
+}

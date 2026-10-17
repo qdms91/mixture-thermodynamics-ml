@@ -1,0 +1,82 @@
+[
+  {
+    "model_id": "p3_active_n200_seed11",
+    "source_project": 3,
+    "family": "mlp",
+    "columns": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "source_training_labels": 200,
+    "source_seed": 11,
+    "threshold": 0.4825638399043388,
+    "model_file": "results/ml/project3_active_learning/benchmark_v1/seed_11/uncertainty_diversity/model_0200.joblib",
+    "model_sha256": "c2a153d0d2ea15dd90f6314828e2411d04c6da7b24ec1030abf1e2b2e28b4007"
+  },
+  {
+    "model_id": "p3_active_n200_seed22",
+    "source_project": 3,
+    "family": "mlp",
+    "columns": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "source_training_labels": 200,
+    "source_seed": 22,
+    "threshold": 0.8495419886234833,
+    "model_file": "results/ml/project3_active_learning/benchmark_v1/seed_22/uncertainty_diversity/model_0200.joblib",
+    "model_sha256": "4c27f924a2ce69bff7d6786b73db2dfd578cef40c9bfa0c6931edde89d99ae4e"
+  },
+  {
+    "model_id": "p3_active_n200_seed33",
+    "source_project": 3,
+    "family": "mlp",
+    "columns": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "source_training_labels": 200,
+    "source_seed": 33,
+    "threshold": 0.397070545132484,
+    "model_file": "results/ml/project3_active_learning/benchmark_v1/seed_33/uncertainty_diversity/model_0200.joblib",
+    "model_sha256": "008c8448eb4681c7d2fbb26d9556f05a7088503cb419e79cfb76ef44acd6fdcc"
+  },
+  {
+    "model_id": "p3_active_n200_seed44",
+    "source_project": 3,
+    "family": "mlp",
+    "columns": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "source_training_labels": 200,
+    "source_seed": 44,
+    "threshold": 0.6718494204479984,
+    "model_file": "results/ml/project3_active_learning/benchmark_v1/seed_44/uncertainty_diversity/model_0200.joblib",
+    "model_sha256": "1b4b12b99e55ea48bbe88bd64b37e6708f504f7c903f588b522c8f97557675c2"
+  },
+  {
+    "model_id": "p3_active_n200_seed55",
+    "source_project": 3,
+    "family": "mlp",
+    "columns": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "source_training_labels": 200,
+    "source_seed": 55,
+    "threshold": 0.3343532354700403,
+    "model_file": "results/ml/project3_active_learning/benchmark_v1/seed_55/uncertainty_diversity/model_0200.joblib",
+    "model_sha256": "0c6a8a7b08af3ee1f538d7f42d82f2ba975f068922e0f623fdfecf14aea72641"
+  }
+]

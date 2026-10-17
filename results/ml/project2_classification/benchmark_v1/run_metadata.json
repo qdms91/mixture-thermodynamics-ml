@@ -1,0 +1,496 @@
+{
+  "preparation_sha256": "d8381631db7de9186d1d97ee0fbe469ff05f77be4c460c9817c7a55e20465089",
+  "prepared_directory": "results/ml/project2_classification/prepared_seed2026",
+  "code_sha256": {
+    "train_stability_classifiers.py": "dfeca1916b2a20be6d23515bcb2fd5064e99e98418d666a152f2f0c3e4bb614c",
+    "project2_common.py": "9caa69835175d1bd0329d8d467169aab92fcc7c26f74a5f4511d646f2c9b6b01"
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0"
+  },
+  "settings": [
+    {
+      "family": "logistic",
+      "C": 0.1,
+      "weighted": false,
+      "setting_id": "logistic_00"
+    },
+    {
+      "family": "logistic",
+      "C": 0.1,
+      "weighted": true,
+      "setting_id": "logistic_01"
+    },
+    {
+      "family": "logistic",
+      "C": 1.0,
+      "weighted": false,
+      "setting_id": "logistic_02"
+    },
+    {
+      "family": "logistic",
+      "C": 1.0,
+      "weighted": true,
+      "setting_id": "logistic_03"
+    },
+    {
+      "family": "logistic",
+      "C": 10.0,
+      "weighted": false,
+      "setting_id": "logistic_04"
+    },
+    {
+      "family": "logistic",
+      "C": 10.0,
+      "weighted": true,
+      "setting_id": "logistic_05"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": "scale",
+      "weighted": false,
+      "setting_id": "svm_06"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": "scale",
+      "weighted": true,
+      "setting_id": "svm_07"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": 0.1,
+      "weighted": false,
+      "setting_id": "svm_08"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": 0.1,
+      "weighted": true,
+      "setting_id": "svm_09"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": 1.0,
+      "weighted": false,
+      "setting_id": "svm_10"
+    },
+    {
+      "family": "svm",
+      "C": 0.1,
+      "gamma": 1.0,
+      "weighted": true,
+      "setting_id": "svm_11"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "weighted": false,
+      "setting_id": "svm_12"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": "scale",
+      "weighted": true,
+      "setting_id": "svm_13"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": 0.1,
+      "weighted": false,
+      "setting_id": "svm_14"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": 0.1,
+      "weighted": true,
+      "setting_id": "svm_15"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": 1.0,
+      "weighted": false,
+      "setting_id": "svm_16"
+    },
+    {
+      "family": "svm",
+      "C": 1.0,
+      "gamma": 1.0,
+      "weighted": true,
+      "setting_id": "svm_17"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "weighted": false,
+      "setting_id": "svm_18"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": "scale",
+      "weighted": true,
+      "setting_id": "svm_19"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": 0.1,
+      "weighted": false,
+      "setting_id": "svm_20"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": 0.1,
+      "weighted": true,
+      "setting_id": "svm_21"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": 1.0,
+      "weighted": false,
+      "setting_id": "svm_22"
+    },
+    {
+      "family": "svm",
+      "C": 10.0,
+      "gamma": 1.0,
+      "weighted": true,
+      "setting_id": "svm_23"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": "scale",
+      "weighted": false,
+      "setting_id": "svm_24"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": "scale",
+      "weighted": true,
+      "setting_id": "svm_25"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": 0.1,
+      "weighted": false,
+      "setting_id": "svm_26"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": 0.1,
+      "weighted": true,
+      "setting_id": "svm_27"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": 1.0,
+      "weighted": false,
+      "setting_id": "svm_28"
+    },
+    {
+      "family": "svm",
+      "C": 100.0,
+      "gamma": 1.0,
+      "weighted": true,
+      "setting_id": "svm_29"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "weighted": false,
+      "setting_id": "mlp_30"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "weighted": true,
+      "setting_id": "mlp_31"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "weighted": false,
+      "setting_id": "mlp_32"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.01,
+      "weighted": true,
+      "setting_id": "mlp_33"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.1,
+      "weighted": false,
+      "setting_id": "mlp_34"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        64,
+        32
+      ],
+      "alpha": 0.1,
+      "weighted": true,
+      "setting_id": "mlp_35"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "weighted": false,
+      "setting_id": "mlp_36"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "weighted": true,
+      "setting_id": "mlp_37"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "weighted": false,
+      "setting_id": "mlp_38"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "weighted": true,
+      "setting_id": "mlp_39"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.1,
+      "weighted": false,
+      "setting_id": "mlp_40"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        128,
+        64
+      ],
+      "alpha": 0.1,
+      "weighted": true,
+      "setting_id": "mlp_41"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "weighted": false,
+      "setting_id": "mlp_42"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.0001,
+      "weighted": true,
+      "setting_id": "mlp_43"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "weighted": false,
+      "setting_id": "mlp_44"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.01,
+      "weighted": true,
+      "setting_id": "mlp_45"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.1,
+      "weighted": false,
+      "setting_id": "mlp_46"
+    },
+    {
+      "family": "mlp",
+      "layers": [
+        256,
+        128,
+        64
+      ],
+      "alpha": 0.1,
+      "weighted": true,
+      "setting_id": "mlp_47"
+    }
+  ],
+  "feature_groups": {
+    "a_composition": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile"
+    ],
+    "b_molecular": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile",
+      "mean_molar_mass_g_mol",
+      "mean_atom_count",
+      "atom_moles_H_per_mol_mixture",
+      "atom_moles_C_per_mol_mixture",
+      "atom_moles_N_per_mol_mixture",
+      "atom_moles_O_per_mol_mixture",
+      "atom_moles_from_water_per_mol_mixture",
+      "atom_moles_from_methanol_per_mol_mixture",
+      "atom_moles_from_acetone_per_mol_mixture",
+      "atom_moles_from_acetonitrile_per_mol_mixture",
+      "atom_moles_from_benzene_per_mol_mixture",
+      "volume_additive_molar_volume_mL_mol",
+      "volume_additive_density_g_mL"
+    ],
+    "c_all": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile",
+      "mean_molar_mass_g_mol",
+      "mean_atom_count",
+      "atom_moles_H_per_mol_mixture",
+      "atom_moles_C_per_mol_mixture",
+      "atom_moles_N_per_mol_mixture",
+      "atom_moles_O_per_mol_mixture",
+      "atom_moles_from_water_per_mol_mixture",
+      "atom_moles_from_methanol_per_mol_mixture",
+      "atom_moles_from_acetone_per_mol_mixture",
+      "atom_moles_from_acetonitrile_per_mol_mixture",
+      "atom_moles_from_benzene_per_mol_mixture",
+      "volume_additive_molar_volume_mL_mol",
+      "volume_additive_density_g_mL",
+      "g_excess_kJ_mol",
+      "h_mix_kJ_mol",
+      "s_mix_J_mol_K",
+      "ln_gamma_water",
+      "ln_gamma_methanol",
+      "ln_gamma_acetone",
+      "ln_gamma_acetonitrile",
+      "ln_gamma_benzene"
+    ],
+    "d_thermodynamics": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile",
+      "g_excess_kJ_mol",
+      "h_mix_kJ_mol",
+      "s_mix_J_mol_K"
+    ],
+    "e_activity": [
+      "x_water",
+      "x_methanol",
+      "x_acetone",
+      "x_acetonitrile",
+      "ln_gamma_water",
+      "ln_gamma_methanol",
+      "ln_gamma_acetone",
+      "ln_gamma_acetonitrile",
+      "ln_gamma_benzene"
+    ]
+  },
+  "bootstrap": 1000,
+  "mlp_cv_seeds": [
+    88,
+    2026
+  ],
+  "mlp_final_seeds": [
+    88,
+    2026,
+    31415
+  ],
+  "hyperparameter_metric": "mean grouped training-CV average precision",
+  "threshold_metric": "validation instability F1; ties prefer recall then lower threshold",
+  "final_fit": "training only; validation is not absorbed after choosing thresholds"
+}

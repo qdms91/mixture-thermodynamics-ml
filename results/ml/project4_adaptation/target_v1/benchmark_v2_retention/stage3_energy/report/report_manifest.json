@@ -1,5 +1,5 @@
 {
-  "protocol_sha256": "ed85a45aabb94c623e43e246f1bbc8ab3a10ff71554e52b6ed5dd9e8297f6c10",
+  "protocol_sha256": "c6d6d33730417160cb0b1dd03c2852859b2c687973adfcf74b1c1e93ec801233",
   "evaluated_fits": 552,
   "files_sha256": {
     "memory_overlap.csv": "e8d30957ac2a443fb875ec3a4594dfa01f5445c5587edfbd0c26b5093ab4db14",

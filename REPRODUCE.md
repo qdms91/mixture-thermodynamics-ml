@@ -162,7 +162,7 @@ P2_PREPARED=results/ml/project2_classification/prepared_seed2026
 P2_RUN=results/ml/project2_classification/reproduction_v1
 ```
 
-The prepared directory includes the feature table, feature definitions, descriptor constants, frozen split, and `preparation.json`. Its train/validation/test sizes are **1,191/314/495**. All seven prepared files are required to load the original dataset. If an archived metadata file contains an absolute path from the original computing environment, update that path to the corresponding location in the local checkout.
+The prepared directory includes the feature table, feature definitions, descriptor constants, frozen split, and `preparation.json`. Its train/validation/test sizes are **1,191/314/495**. All seven prepared files are supplied and required to load the original dataset. Published metadata paths are relative to the repository root, so run these commands from that directory. No local path editing is needed.
 
 Alternatively, prepare a new split from the collected 2,000-recipe source using the same preparation implementation:
 
@@ -386,3 +386,7 @@ python -m unittest -v \
 ```
 
 Output directories are created by the scripts. For fresh experiments, choose unused `reproduction_v1` directories or another run name. For archived experiments, preserve their frozen datasets, configurations, and integrity checks. Extract accompanying data or model archives into the documented root-relative paths so the scripts can locate the required files.
+
+The metadata portability update restores 18 original records using repository-relative paths and updates the five linked completion/report manifests. `metadata_portability.json` records the original and public file hashes; `RUN_SETTINGS.json` retains its original provenance hashes. Scientific settings, scripts, datasets, model weights, and numerical results are unchanged. Metadata files with hash references must be kept together at the same revision. The v1.0.0 supplementary archives remain compatible with these metadata updates.
+
+The cloned repository contains the files needed to load the P2 prepared data, validate the P3/P4 protocols, and start fresh ML runs from the published datasets. Importing cached target labels with `--reuse-labels` also requires the target reference JSON files from `reference_searches.zip`. Re-evaluating every historical P3 checkpoint or replay fit requires the additional models archive. Incomplete-run resumption retains the scripts' original strict checks on paths, code, and software; use fresh run directories for new training on another machine.
