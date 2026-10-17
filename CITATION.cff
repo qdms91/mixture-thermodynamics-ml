@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or its scientific datasets, please cite this repository."
+type: software
+title: "Learning mixture thermodynamics with efficient screening, adaptation, and thermodynamically guided replay"
+authors:
+  - family-names: "Morales Salazar"
+    given-names: "Daniel"
+version: "v1.0.1"
+repository-code: "https://github.com/qdms91/mixture-thermodynamics-ml"
+url: "https://github.com/qdms91/mixture-thermodynamics-ml/releases/tag/v1.0.1"
